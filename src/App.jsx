@@ -11,6 +11,7 @@ function App() {
     diputados: { partido: null, preferencial: ['', ''] },
     parlamenAndino: { partido: null, preferencial: ['', ''] },
   });
+  const [regionSeleccionada, setRegionSeleccionada] = useState('lima');
   const [mostrarResumenMobile, setMostrarResumenMobile] = useState(false);
   const handleVotoCompleto = (nuevosVotos) => setVotos(nuevosVotos);
 
@@ -36,15 +37,15 @@ function App() {
 
       <div className="flex gap-4 max-w-[1600px] mx-auto">
         <div className="flex-1">
-          <CedulaSufragio onVotoCompleto={handleVotoCompleto} />
+          <CedulaSufragio onVotoCompleto={handleVotoCompleto} regionSeleccionada={regionSeleccionada} />
         </div>
 
         <div className="hidden lg:block w-80 shrink-0">
-          <ResumenVoto votos={votos} onReset={handleReset} />
+          <ResumenVoto votos={votos} onReset={handleReset} regionSeleccionada={regionSeleccionada} />
         </div>
       </div>
 
-      <GuiaBicameralidad />
+      <GuiaBicameralidad onRegionSeleccionada={setRegionSeleccionada} regionActual={regionSeleccionada} />
 
       <footer className="text-center mt-6 mb-16 lg:mb-6 text-xs text-gray-500">
         <p>Simulador educativo • Datos: <a href="https://votoinformado.jne.gob.pe" target="_blank" rel="noopener" className="text-blue-600 hover:underline">JNE Voto Informado</a></p>
@@ -69,7 +70,7 @@ function App() {
               <button onClick={() => setMostrarResumenMobile(false)} className="text-slate-500 hover:text-slate-700 text-2xl">&times;</button>
             </div>
             <div className="p-3">
-              <ResumenVoto votos={votos} onReset={() => { handleReset(); setMostrarResumenMobile(false); }} />
+              <ResumenVoto votos={votos} onReset={() => { handleReset(); setMostrarResumenMobile(false); }} regionSeleccionada={regionSeleccionada} />
             </div>
           </div>
         </div>

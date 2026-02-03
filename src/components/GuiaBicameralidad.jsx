@@ -1,7 +1,49 @@
 import { useState } from 'react';
 
-export default function GuiaBicameralidad() {
+const REGIONES = [
+  { id: 'amazonas', nombre: 'Amazonas' },
+  { id: 'ancash', nombre: 'Áncash' },
+  { id: 'apurimac', nombre: 'Apurímac' },
+  { id: 'arequipa', nombre: 'Arequipa' },
+  { id: 'ayacucho', nombre: 'Ayacucho' },
+  { id: 'cajamarca', nombre: 'Cajamarca' },
+  { id: 'callao', nombre: 'Callao' },
+  { id: 'cusco', nombre: 'Cusco' },
+  { id: 'huancavelica', nombre: 'Huancavelica' },
+  { id: 'huanuco', nombre: 'Huánuco' },
+  { id: 'ica', nombre: 'Ica' },
+  { id: 'junin', nombre: 'Junín' },
+  { id: 'la-libertad', nombre: 'La Libertad' },
+  { id: 'lambayeque', nombre: 'Lambayeque' },
+  { id: 'lima', nombre: 'Lima Metropolitana' },
+  { id: 'lima-provincias', nombre: 'Lima Provincias' },
+  { id: 'loreto', nombre: 'Loreto' },
+  { id: 'madre-de-dios', nombre: 'Madre de Dios' },
+  { id: 'moquegua', nombre: 'Moquegua' },
+  { id: 'pasco', nombre: 'Pasco' },
+  { id: 'piura', nombre: 'Piura' },
+  { id: 'puno', nombre: 'Puno' },
+  { id: 'san-martin', nombre: 'San Martín' },
+  { id: 'tacna', nombre: 'Tacna' },
+  { id: 'tumbes', nombre: 'Tumbes' },
+  { id: 'ucayali', nombre: 'Ucayali' },
+  { id: 'peruanos-extranjero', nombre: 'Peruanos en el Extranjero' },
+];
+
+export default function GuiaBicameralidad({ onRegionSeleccionada, regionActual }) {
   const [abierto, setAbierto] = useState(true);
+  const [mostrarSelectorRegion, setMostrarSelectorRegion] = useState(false);
+  const [regionTemp, setRegionTemp] = useState(regionActual || 'lima');
+
+  const handleCerrarGuia = () => {
+    setAbierto(false);
+    setMostrarSelectorRegion(true);
+  };
+
+  const handleConfirmarRegion = () => {
+    onRegionSeleccionada?.(regionTemp);
+    setMostrarSelectorRegion(false);
+  };
 
   return (
     <>
@@ -12,12 +54,44 @@ export default function GuiaBicameralidad() {
         ¿Cómo votar?
       </button>
 
+      {/* Selector de región */}
+      {mostrarSelectorRegion && (
+        <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50 p-4">
+          <div className="bg-white rounded-lg max-w-md w-full shadow-2xl">
+            <div className="bg-slate-700 text-white p-4 rounded-t-lg">
+              <h2 className="text-lg font-bold">¿Dónde votarás?</h2>
+              <p className="text-sm text-slate-300">Selecciona tu región electoral</p>
+            </div>
+            <div className="p-4">
+              <select
+                value={regionTemp}
+                onChange={(e) => setRegionTemp(e.target.value)}
+                className="w-full p-3 border border-slate-300 rounded-lg text-base focus:ring-2 focus:ring-slate-500 focus:border-slate-500"
+              >
+                {REGIONES.map(r => (
+                  <option key={r.id} value={r.id}>{r.nombre}</option>
+                ))}
+              </select>
+              <p className="text-xs text-gray-500 mt-2">
+                Esto determina los candidatos a Senadores y Diputados regionales que verás.
+              </p>
+              <button
+                onClick={handleConfirmarRegion}
+                className="w-full mt-4 bg-slate-800 text-white py-3 rounded-lg font-bold hover:bg-slate-900 transition-colors"
+              >
+                Confirmar y empezar
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       {abierto && (
         <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50 p-4 overflow-y-auto">
           <div className="bg-white rounded-lg max-w-2xl w-full shadow-2xl max-h-[90vh] overflow-y-auto">
             <div className="sticky top-0 bg-slate-700 text-white p-4 rounded-t-lg flex justify-between items-center">
               <h2 className="text-lg font-bold">Guía de Votación - Elecciones 2026</h2>
-              <button onClick={() => setAbierto(false)} className="text-xl hover:opacity-70">✕</button>
+              <button onClick={handleCerrarGuia} className="text-xl hover:opacity-70">✕</button>
             </div>
 
             <div className="p-5 space-y-5">
@@ -111,7 +185,7 @@ export default function GuiaBicameralidad() {
 
               <div className="pt-2">
                 <button
-                  onClick={() => setAbierto(false)}
+                  onClick={handleCerrarGuia}
                   className="w-full bg-slate-800 text-white py-3 rounded-lg font-bold text-lg hover:bg-slate-900 transition-colors shadow-md"
                 >
                   ¡Entendido, empezar a votar!

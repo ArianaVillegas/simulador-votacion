@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { candidatosPresidenciales, partidosParlamentarios, configVotoPreferencial } from '../data/candidatos';
+import { candidatosPresidenciales, partidosParlamentarios, JNE_LOGO } from '../data/candidatos';
 import senadoresNacionalRaw from '../data/senadoresNacional.json';
 import senadoresRegional from '../data/senadoresRegional';
 
@@ -30,7 +30,7 @@ const TABS = [
   { id: 'parlamenAndino', label: 'Parl. Andino', short: 'P.AND' },
 ];
 
-export default function CedulaSufragio({ onVotoCompleto }) {
+export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'lima' }) {
   const [votos, setVotos] = useState({
     presidente: null,
     senadoresNacional: { partido: null, preferencial: ['', ''] },
@@ -123,7 +123,7 @@ export default function CedulaSufragio({ onVotoCompleto }) {
     // Obtener datos de candidatos según categoría
     const getDatosCandidatos = () => {
       if (categoria === 'senadoresNacional') return senadoresNacional;
-      if (categoria === 'senadoresRegional') return senadoresRegional['lima'] || [];
+      if (categoria === 'senadoresRegional') return senadoresRegional[regionSeleccionada] || [];
       return [];
     };
     
@@ -135,8 +135,16 @@ export default function CedulaSufragio({ onVotoCompleto }) {
           onClick={() => handleVotoPartido(categoria, partido.id)}
           className="flex items-center gap-2 cursor-pointer hover:opacity-80"
         >
+          {partido.idOrg ? (
+            <img 
+              src={`${JNE_LOGO}${partido.idOrg}`} 
+              alt={partido.siglas}
+              className="w-8 h-8 rounded object-contain shrink-0 bg-white border border-slate-200"
+              onError={(e) => { e.target.style.display = 'none'; e.target.nextSibling.style.display = 'flex'; }}
+            />
+          ) : null}
           <div 
-            className="w-8 h-8 rounded flex items-center justify-center text-white font-bold text-[10px] shrink-0"
+            className={`w-8 h-8 rounded items-center justify-center text-white font-bold text-[10px] shrink-0 ${partido.idOrg ? 'hidden' : 'flex'}`}
             style={{ backgroundColor: partido.color }}
           >
             {partido.siglas}

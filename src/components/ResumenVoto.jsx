@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { candidatosPresidenciales, partidosParlamentarios } from '../data/candidatos';
+import { candidatosPresidenciales, partidosParlamentarios, JNE_LOGO } from '../data/candidatos';
 import senadoresNacionalRaw from '../data/senadoresNacional.json';
 import senadoresRegional from '../data/senadoresRegional';
 
@@ -85,8 +85,16 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
   const ResumenItem = ({ titulo, seleccion, compact = false }) => (
     <div className={`${compact ? 'p-2' : 'p-3'} bg-white rounded-lg shadow-sm`}>
       <div className="flex items-center gap-2">
+        {seleccion.idOrg ? (
+          <img 
+            src={`${JNE_LOGO}${seleccion.idOrg}`} 
+            alt={seleccion.siglas}
+            className={`${compact ? 'w-8 h-8' : 'w-10 h-10'} rounded-full object-contain shrink-0 bg-white border border-slate-200`}
+            onError={(e) => { e.target.style.display = 'none'; e.target.nextSibling.style.display = 'flex'; }}
+          />
+        ) : null}
         <div 
-          className={`${compact ? 'w-8 h-8 text-[10px]' : 'w-10 h-10 text-xs'} rounded-full flex items-center justify-center text-white font-bold shrink-0`}
+          className={`${compact ? 'w-8 h-8 text-[10px]' : 'w-10 h-10 text-xs'} rounded-full items-center justify-center text-white font-bold shrink-0 ${seleccion.idOrg ? 'hidden' : 'flex'}`}
           style={{ backgroundColor: seleccion.color }}
         >
           {seleccion.siglas || '—'}
