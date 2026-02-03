@@ -19,14 +19,14 @@ export default function GuiaBicameralidad() {
               <h2 className="text-lg font-bold">Guía de Votación - Elecciones 2026</h2>
               <button onClick={() => setAbierto(false)} className="text-xl hover:opacity-70">✕</button>
             </div>
-            
+
             <div className="p-5 space-y-5">
               <section>
                 <h3 className="text-base font-semibold text-slate-800 mb-2 border-b border-slate-200 pb-2">
                   El Congreso será Bicameral
                 </h3>
                 <p className="text-gray-600 text-sm">
-                  Desde el 28 de julio de 2026, el Congreso de la República será <strong>Bicameral</strong>, 
+                  Desde el 28 de julio de 2026, el Congreso de la República será <strong>Bicameral</strong>,
                   lo que implica que adicionalmente a los 130 diputados, votaremos por 60 senadores.
                 </p>
               </section>
