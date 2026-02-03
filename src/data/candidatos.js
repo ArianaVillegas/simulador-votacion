@@ -20,7 +20,7 @@ export const partidosParlamentarios = [
   { id: 16, nombre: "Un Camino Diferente", siglas: "UCD", color: "#84CC16", idOrg: 2998 },
   { id: 17, nombre: "Ahora Nación", siglas: "AN", color: "#4F46E5", idOrg: 2980 },
   { id: 18, nombre: "País Para Todos", siglas: "PPT", color: "#06B6D4", idOrg: 2956 },
-  { id: 19, nombre: "Partido del Buen Gobierno", siglas: "PBG", color: "#475569", idOrg: 2968 },
+  { id: 19, nombre: "Partido del Buen Gobierno", siglas: "PBG", color: "#475569", idOrg: 2961 },
   { id: 20, nombre: "Juntos por el Perú", siglas: "JPP", color: "#EC4899", idOrg: 1264 },
   { id: 21, nombre: "Sí Creo", siglas: "SC", color: "#DB2777", idOrg: 2974 },
   { id: 22, nombre: "Libertad Popular", siglas: "LP", color: "#B91C1C", idOrg: 2933 },
