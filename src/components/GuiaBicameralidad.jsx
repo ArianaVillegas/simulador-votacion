@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 export default function GuiaBicameralidad() {
-  const [abierto, setAbierto] = useState(false);
+  const [abierto, setAbierto] = useState(true);
 
   return (
     <>
@@ -108,6 +108,15 @@ export default function GuiaBicameralidad() {
               <p className="text-xs text-gray-400 text-center">
                 Fuente: <a href="https://eg2026.onpe.gob.pe/bicameralidad/" target="_blank" rel="noopener" className="text-slate-600 hover:underline">ONPE - Elecciones Generales 2026</a>
               </p>
+
+              <div className="pt-2">
+                <button
+                  onClick={() => setAbierto(false)}
+                  className="w-full bg-slate-800 text-white py-3 rounded-lg font-bold text-lg hover:bg-slate-900 transition-colors shadow-md"
+                >
+                  ¡Entendido, empezar a votar!
+                </button>
+              </div>
             </div>
           </div>
         </div>
