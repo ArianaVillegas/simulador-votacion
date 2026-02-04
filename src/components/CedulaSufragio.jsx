@@ -48,8 +48,8 @@ const CandidatoCard = ({ candidato, selected, onClick }) => (
     onClick={onClick}
     className={`flex items-center gap-2 p-1.5 border-b border-gray-300 min-h-[50px] cursor-pointer bg-white transition-opacity hover:opacity-90 min-w-full`}
   >
-    <div className="flex-1 text-left max-w-[63px] sm:max-w-[76px]">
-      <h3 className="font-bold text-[9px] sm:text-[10px] uppercase leading-tight text-black break-words pr-1">
+    <div className="flex-1 text-left">
+      <h3 className="font-bold text-[10px] sm:text-xs uppercase leading-tight text-black break-words pr-1">
         {candidato.partido}
       </h3>
     </div>
@@ -111,10 +111,10 @@ const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial, voto,
   return (
     <div className={`flex items-center gap-2 p-1.5 border-b border-gray-300 min-h-[50px] bg-white transition-opacity hover:opacity-90 min-w-full`}>
       <div
-        className="flex-1 text-left cursor-pointer max-w-[63px] sm:max-w-[76px]"
+        className="flex-1 text-left cursor-pointer"
         onClick={() => onVotoPartido(categoria, partido.id)}
       >
-        <h3 className="font-bold text-[9px] sm:text-[10px] uppercase leading-tight text-black break-words pr-2">
+        <h3 className="font-bold text-[10px] sm:text-xs uppercase leading-tight text-black break-words pr-2">
           {partido.nombre}
         </h3>
       </div>
@@ -163,20 +163,10 @@ const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial, voto,
   );
 };
 
-const VotoBlanco = ({ categoria, valorActual, onVotoEspecial }) => (
-  <button
-    onClick={() => onVotoEspecial(categoria, 'blanco')}
-    className={`w-full py-2 px-2 text-xs rounded border transition-all mb-2 ${valorActual === 'blanco' ? 'border-slate-600 bg-slate-100 font-bold' : 'border-slate-300 hover:border-slate-400'}`}
-  >
-    VOTO EN BLANCO
-  </button>
-);
-
-const ColumnaHeader = ({ titulo, subtitulo, numPref }) => (
+const ColumnaHeader = ({ titulo, subtitulo }) => (
   <div className="bg-slate-700 text-white p-2 text-center">
     <h3 className="font-bold text-sm">{titulo}</h3>
     {subtitulo && <p className="text-[10px] opacity-90">{subtitulo}</p>}
-    {numPref && <p className="text-[9px] opacity-75 mt-1">Voto preferencial: {numPref}</p>}
   </div>
 );
 
@@ -217,31 +207,16 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
     onVotoCompleto?.(nuevosVotos);
   };
 
-  const handleVotoEspecial = (categoria, tipo) => {
-    if (categoria === 'presidente') {
-      handleVotoPresidente(tipo);
-    } else {
-      const actual = votos[categoria];
-      const nuevoPartido = actual.partido === tipo ? null : tipo;
-      const nuevosVotos = { ...votos, [categoria]: { partido: nuevoPartido, preferencial: actual.preferencial.map(() => '') } };
-      setVotos(nuevosVotos);
-      onVotoCompleto?.(nuevosVotos);
-    }
-  };
-
   const getVotoIndicator = (tabId) => {
     if (tabId === 'presidente') return votos.presidente ? '✓' : '';
     return votos[tabId]?.partido ? '✓' : '';
   };
 
-  const renderColumnaContent = (categoria, titulo, subtitulo, numPref) => {
-    const valorActual = categoria === 'presidente' ? votos.presidente : votos[categoria]?.partido;
-    return (
+  const renderColumnaContent = (categoria, titulo, subtitulo, numPref) => (
       <div className="flex flex-col h-full">
         <ColumnaHeader titulo={titulo} subtitulo={subtitulo} numPref={numPref} />
         <div className="p-2 flex-1 overflow-x-auto lg:overflow-y-auto lg:max-h-[600px]">
           <div className="flex flex-col min-w-full w-max space-y-1">
-            <VotoBlanco categoria={categoria} valorActual={valorActual} onVotoEspecial={handleVotoEspecial} />
             {categoria === 'presidente' ? (
               candidatosPresidenciales.map((c) => (
                 <CandidatoCard key={c.id} candidato={c} selected={votos.presidente === c.id} onClick={() => handleVotoPresidente(c.id)} />
@@ -254,8 +229,7 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
           </div>
         </div>
       </div>
-    );
-  };
+  );
 
   return (
     <div className="bg-white shadow-2xl rounded-lg overflow-hidden max-w-7xl mx-auto">
@@ -288,8 +262,8 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
         </div>
       </div>
 
-      {/* Desktop: Grid de 5 columnas */}
-      <div className="hidden lg:grid grid-cols-5 divide-x divide-gray-300">
+      {/* Desktop: Grid con columnas proporcionales (2 cuadros vs 3 cuadros) */}
+      <div className="hidden lg:grid grid-cols-[2fr_3fr_2fr_3fr_3fr] divide-x divide-gray-300">
         <div className="flex flex-col">
           {renderColumnaContent('presidente', 'PRESIDENTE', 'y Vicepresidentes', null)}
         </div>

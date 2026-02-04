@@ -49,7 +49,7 @@ export default function GuiaBicameralidad({ onRegionSeleccionada, regionActual }
     <>
       <button
         onClick={() => setAbierto(true)}
-        className="fixed bottom-20 lg:bottom-4 left-4 bg-slate-700 text-white px-4 py-2 rounded shadow-lg hover:bg-slate-800 transition-colors flex items-center gap-2 text-sm font-medium z-40"
+        className="fixed bottom-20 xl:bottom-4 left-4 bg-slate-700 text-white px-4 py-2 rounded shadow-lg hover:bg-slate-800 transition-colors flex items-center gap-2 text-sm font-medium z-40"
       >
         ¿Cómo votar?
       </button>

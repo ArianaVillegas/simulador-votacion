@@ -40,19 +40,19 @@ function App() {
           <CedulaSufragio onVotoCompleto={handleVotoCompleto} regionSeleccionada={regionSeleccionada} />
         </div>
 
-        <div className="hidden lg:block w-80 shrink-0">
+        <div className="hidden xl:block w-80 shrink-0">
           <ResumenVoto votos={votos} onReset={handleReset} regionSeleccionada={regionSeleccionada} />
         </div>
       </div>
 
       <GuiaBicameralidad onRegionSeleccionada={setRegionSeleccionada} regionActual={regionSeleccionada} />
 
-      <footer className="text-center mt-6 mb-16 lg:mb-6 text-xs text-gray-500">
+      <footer className="text-center mt-6 mb-16 xl:mb-6 text-xs text-gray-500">
         <p>Simulador educativo • Datos: <a href="https://votoinformado.jne.gob.pe" target="_blank" rel="noopener" className="text-blue-600 hover:underline">JNE Voto Informado</a></p>
       </footer>
 
       {/* Mobile: Botón fijo para votar */}
-      <div className="lg:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 p-3 shadow-lg">
+      <div className="xl:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 p-3 shadow-lg">
         <button
           onClick={() => setMostrarResumenMobile(true)}
           className="w-full bg-slate-700 text-white py-3 rounded-lg font-semibold hover:bg-slate-800 transition-colors"
@@ -63,7 +63,7 @@ function App() {
 
       {/* Mobile: Modal de resumen */}
       {mostrarResumenMobile && (
-        <div className="lg:hidden fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
+        <div className="xl:hidden fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
           <div className="bg-white rounded-lg max-w-md w-full max-h-[90vh] overflow-y-auto">
             <div className="sticky top-0 bg-white border-b p-3 flex justify-between items-center">
               <h2 className="font-semibold text-lg">Resumen de tu Voto</h2>

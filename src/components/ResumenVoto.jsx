@@ -45,17 +45,17 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
     const valor = votos.presidente;
     if (valor === 'blanco') return { nombre: 'VOTO EN BLANCO', color: '#9CA3AF', siglas: '—' };
     if (valor === 'nulo') return { nombre: 'VOTO NULO', color: '#EF4444', siglas: '✕' };
-    if (valor === null) return { nombre: 'Sin selección', color: '#D1D5DB', siglas: '—' };
-    return candidatosPresidenciales.find(i => i.id === valor) || { nombre: 'Sin selección', color: '#D1D5DB', siglas: '—' };
+    if (valor === null) return { nombre: 'VOTO EN BLANCO', color: '#9CA3AF', siglas: '—' };
+    return candidatosPresidenciales.find(i => i.id === valor) || { nombre: 'VOTO EN BLANCO', color: '#9CA3AF', siglas: '—' };
   };
 
   const getSeleccionPartido = (categoria) => {
     const voto = votos[categoria];
-    if (!voto) return { nombre: 'Sin selección', color: '#D1D5DB', siglas: '—', preferencial: [], candidatos: [] };
+    if (!voto) return { nombre: 'VOTO EN BLANCO', color: '#9CA3AF', siglas: '—', preferencial: [], candidatos: [] };
     const valor = voto.partido;
     if (valor === 'blanco') return { nombre: 'VOTO EN BLANCO', color: '#9CA3AF', siglas: '—', preferencial: [], candidatos: [] };
     if (valor === 'nulo') return { nombre: 'VOTO NULO', color: '#EF4444', siglas: '✕', preferencial: [], candidatos: [] };
-    if (valor === null) return { nombre: 'Sin selección', color: '#D1D5DB', siglas: '—', preferencial: [], candidatos: [] };
+    if (valor === null) return { nombre: 'VOTO EN BLANCO', color: '#9CA3AF', siglas: '—', preferencial: [], candidatos: [] };
 
     const item = partidosParlamentarios.find(i => i.id === valor);
     const prefFiltrados = voto.preferencial.filter(p => p);
@@ -72,7 +72,7 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
       return c ? { ...c, hojaVida: `https://votoinformado.jne.gob.pe/hoja-vida/${item.idOrg}/${c.dni}` } : null;
     }).filter(Boolean);
 
-    return { ...(item || { nombre: 'Sin selección', color: '#D1D5DB', siglas: '—' }), preferencial: prefFiltrados, candidatos };
+    return { ...(item || { nombre: 'VOTO EN BLANCO', color: '#9CA3AF', siglas: '—' }), preferencial: prefFiltrados, candidatos };
   };
 
   const presidente = getSeleccionPresidente();
@@ -81,6 +81,12 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
   const diputados = getSeleccionPartido('diputados');
   const parlamento = getSeleccionPartido('parlamenAndino');
 
+  const tieneAlgunVoto = votos.presidente !== null ||
+    votos.senadoresNacional?.partido !== null ||
+    votos.senadoresRegional?.partido !== null ||
+    votos.diputados?.partido !== null ||
+    votos.parlamenAndino?.partido !== null;
+  
   const votosCompletos = votos.presidente !== null &&
     votos.senadoresNacional?.partido !== null &&
     votos.senadoresRegional?.partido !== null &&
@@ -212,15 +218,17 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
           <ResumenItem titulo="Parlamento Andino" seleccion={parlamento} />
         </div>
 
-        <div className="flex gap-2 mt-4">
+        {!votosCompletos && (
+          <p className="text-xs text-amber-600 mt-3 text-center">⚠️ Las categorías sin selección se contarán como voto en blanco</p>
+        )}
+
+        <div className="flex gap-2 mt-3">
           <button onClick={onReset} className="flex-1 py-2 px-3 bg-slate-100 hover:bg-slate-200 border border-slate-300 rounded font-medium text-sm transition-colors text-slate-700">
             Reiniciar
           </button>
           <button
             onClick={handleVotar}
-            disabled={!votosCompletos}
-            className={`flex-1 py-2 px-3 rounded font-medium text-sm transition-colors ${votosCompletos ? 'bg-slate-700 hover:bg-slate-800 text-white' : 'bg-slate-200 text-slate-400 cursor-not-allowed'
-              }`}
+            className="flex-1 py-2 px-3 rounded font-medium text-sm transition-colors bg-slate-700 hover:bg-slate-800 text-white"
           >
             VOTAR
           </button>
