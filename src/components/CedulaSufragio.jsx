@@ -2,9 +2,22 @@ import { useState } from 'react';
 import { candidatosPresidenciales, partidosParlamentarios, JNE_LOGO } from '../data/candidatos';
 import senadoresNacionalRaw from '../data/senadoresNacional.json';
 import senadoresRegional from '../data/senadoresRegional';
+import diputadosData from '../data/diputados';
+import parlamenAndinoRaw from '../data/parlamenAndino.json';
 
 // Procesar datos de senadores nacionales (filtrar INSCRITO y mapear campos)
 const senadoresNacional = senadoresNacionalRaw.data
+  .filter(c => c.strEstadoCandidato === 'INSCRITO')
+  .map(c => ({
+    idOrg: c.idOrganizacionPolitica,
+    pos: c.intPosicion,
+    nombre: `${c.strNombres} ${c.strApellidoPaterno} ${c.strApellidoMaterno}`.trim(),
+    dni: c.strDocumentoIdentidad,
+    foto: c.strGuidFoto
+  }));
+
+// Procesar datos de parlamento andino
+const parlamenAndino = parlamenAndinoRaw.data
   .filter(c => c.strEstadoCandidato === 'INSCRITO')
   .map(c => ({
     idOrg: c.idOrganizacionPolitica,
@@ -82,35 +95,60 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
   const CandidatoCard = ({ candidato, selected, onClick }) => (
     <div
       onClick={onClick}
-      className={`p-2 border rounded cursor-pointer transition-all ${
-        selected ? 'border-slate-700 bg-slate-50 ring-1 ring-slate-400' : 'border-slate-200 bg-white hover:border-slate-300'
-      }`}
+      className={`flex items-center gap-2 p-1.5 border-b border-gray-300 min-h-[50px] cursor-pointer bg-white transition-opacity hover:opacity-90 min-w-full`}
     >
-      <div className="flex items-center gap-2">
-        {candidato.foto ? (
-          <img src={candidato.foto} alt={candidato.nombre} className="w-10 h-10 rounded object-cover shrink-0" onError={(e) => { e.target.style.display = 'none'; e.target.nextSibling.style.display = 'flex'; }} />
-        ) : null}
-        <div 
-          className={`w-10 h-10 rounded items-center justify-center text-white font-bold text-xs shrink-0 ${candidato.foto ? 'hidden' : 'flex'}`}
-          style={{ backgroundColor: candidato.color }}
-        >
-          {candidato.siglas}
+      {/* 1. Nombre del Partido (Izquierda) */}
+      <div className="flex-1 text-left max-w-[63px] sm:max-w-[76px]">
+        <h3 className="font-bold text-[9px] sm:text-[10px] uppercase leading-tight text-black break-words pr-1">
+          {candidato.partido}
+        </h3>
+      </div>
+
+      {/* 2. Recuadro con Logo (Centro-Derecha) */}
+      <div className="shrink-0">
+        <div className="relative w-9 h-9 sm:w-10 sm:h-10 border border-black flex items-center justify-center p-0.5 bg-white">
+          {candidato.idOrg ? (
+            <img
+              src={`${JNE_LOGO}${candidato.idOrg}`}
+              alt={candidato.siglas}
+              className="w-full h-full object-contain"
+              onError={(e) => { e.target.style.display = 'none'; }}
+            />
+          ) : (
+            <div
+              className="w-full h-full flex items-center justify-center text-white font-bold text-[8px]"
+              style={{ backgroundColor: candidato.color }}
+            >
+              {candidato.siglas}
+            </div>
+          )}
+
+          {/* Aspa de selección sobre el logo */}
+          {selected && (
+            <div className="absolute inset-0 flex items-center justify-center pointer-events-none bg-white/20">
+              <span className="text-2xl sm:text-3xl font-bold text-blue-900 leading-none" style={{ textShadow: '0 0 2px rgba(255,255,255,0.8)' }}>✕</span>
+            </div>
+          )}
         </div>
-        <div className="min-w-0 flex-1">
-          <p className="font-semibold text-xs truncate">{candidato.nombre}</p>
-          <div className="flex items-center gap-1">
-            <p className="text-[10px] text-gray-600 truncate">{candidato.partido}</p>
-            {candidato.hojaVida && (
-              <a href={candidato.hojaVida} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} className="text-blue-600 hover:text-blue-800" title="Ver hoja de vida">
-                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              </a>
-            )}
-          </div>
-        </div>
-        <div className={`w-5 h-5 rounded-full border-2 shrink-0 flex items-center justify-center ${
-          selected ? 'border-slate-700 bg-slate-700' : 'border-slate-300'
-        }`}>
-          {selected && <span className="text-white text-xs">✓</span>}
+      </div>
+
+      {/* 3. Foto del Candidato (Derecha) */}
+      <div className="shrink-0">
+        <div className="relative w-9 h-9 sm:w-10 sm:h-10 border border-black overflow-hidden flex items-center justify-center bg-gray-50">
+          {candidato.foto ? (
+            <img
+              src={candidato.foto}
+              alt={candidato.nombre}
+              className="w-full h-full object-cover grayscale-[30%]"
+              onError={(e) => { e.target.style.display = 'none'; }}
+            />
+          ) : null}
+          {/* Aspa de selección sobre la foto */}
+          {selected && (
+            <div className="absolute inset-0 flex items-center justify-center pointer-events-none bg-white/20">
+              <span className="text-2xl sm:text-3xl font-bold text-blue-900 leading-none" style={{ textShadow: '0 0 2px rgba(255,255,255,0.8)' }}>✕</span>
+            </div>
+          )}
         </div>
       </div>
     </div>
@@ -119,73 +157,76 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
   const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial }) => {
     const voto = votos[categoria];
     const selected = voto.partido === partido.id;
-    
+
     // Obtener datos de candidatos según categoría
     const getDatosCandidatos = () => {
       if (categoria === 'senadoresNacional') return senadoresNacional;
       if (categoria === 'senadoresRegional') return senadoresRegional[regionSeleccionada] || [];
+      if (categoria === 'diputados') return diputadosData[regionSeleccionada] || [];
+      if (categoria === 'parlamenAndino') return parlamenAndino;
       return [];
     };
-    
+
     return (
-      <div className={`p-2 border rounded transition-all ${
-        selected ? 'border-slate-700 bg-slate-50 ring-1 ring-slate-400' : 'border-slate-200 bg-white'
-      }`}>
-        <div 
+      <div className={`flex items-center gap-2 p-1.5 border-b border-gray-300 min-h-[50px] bg-white transition-opacity hover:opacity-90 min-w-full`}>
+        {/* 1. Nombre del Partido (Izquierda) */}
+        <div
+          className="flex-1 text-left cursor-pointer max-w-[63px] sm:max-w-[76px]"
           onClick={() => handleVotoPartido(categoria, partido.id)}
-          className="flex items-center gap-2 cursor-pointer hover:opacity-80"
         >
-          {partido.idOrg ? (
-            <img 
-              src={`${JNE_LOGO}${partido.idOrg}`} 
-              alt={partido.siglas}
-              className="w-8 h-8 rounded object-contain shrink-0 bg-white border border-slate-200"
-              onError={(e) => { e.target.style.display = 'none'; e.target.nextSibling.style.display = 'flex'; }}
-            />
-          ) : null}
-          <div 
-            className={`w-8 h-8 rounded items-center justify-center text-white font-bold text-[10px] shrink-0 ${partido.idOrg ? 'hidden' : 'flex'}`}
-            style={{ backgroundColor: partido.color }}
-          >
-            {partido.siglas}
-          </div>
-          <p className="text-xs font-medium truncate flex-1">{partido.nombre}</p>
-          <div className={`w-4 h-4 rounded-full border-2 shrink-0 flex items-center justify-center ${
-            selected ? 'border-slate-700 bg-slate-700' : 'border-slate-300'
-          }`}>
-            {selected && <span className="text-white text-[10px]">✓</span>}
+          <h3 className="font-bold text-[9px] sm:text-[10px] uppercase leading-tight text-black break-words pr-2">
+            {partido.nombre}
+          </h3>
+        </div>
+
+        {/* 2. Recuadro con Logo y Aspa (Centro) */}
+        <div className="shrink-0 cursor-pointer" onClick={() => handleVotoPartido(categoria, partido.id)}>
+          <div className="relative w-9 h-9 sm:w-10 sm:h-10 border border-black flex items-center justify-center p-0.5 bg-white">
+            {partido.idOrg ? (
+              <img
+                src={`${JNE_LOGO}${partido.idOrg}`}
+                alt={partido.siglas}
+                className="w-full h-full object-contain"
+                onError={(e) => { e.target.style.display = 'none'; }}
+              />
+            ) : (
+              <div
+                className="w-full h-full flex items-center justify-center text-white font-bold text-[8px]"
+                style={{ backgroundColor: partido.color }}
+              >
+                {partido.siglas}
+              </div>
+            )}
+            {/* Aspa de selección sobre el logo */}
+            {selected && (
+              <div className="absolute inset-0 flex items-center justify-center pointer-events-none bg-white/20">
+                <span className="text-2xl sm:text-3xl font-bold text-blue-900 leading-none" style={{ textShadow: '0 0 2px rgba(255,255,255,0.8)' }}>✕</span>
+              </div>
+            )}
           </div>
         </div>
-        {selected && (
-          <div className="mt-2 space-y-1">
-            <div className="flex gap-1 justify-end items-center">
-              <span className="text-[10px] text-gray-500">Nº Pref:</span>
-              {voto.preferencial.slice(0, numPreferencial).map((val, i) => {
-                const candidato = buscarCandidato(partido.idOrg, val, getDatosCandidatos());
-                return (
-                  <div key={i} className="flex flex-col items-center">
-                    <input
-                      type="text"
-                      value={val}
-                      onChange={(e) => handleVotoPreferencial(categoria, i, e.target.value)}
-                      placeholder={`${i + 1}`}
-                      className="w-10 h-6 text-center text-xs border border-slate-300 rounded focus:ring-1 focus:ring-slate-500 focus:border-slate-500 focus:outline-none"
-                      maxLength={3}
-                    />
-                    {candidato && (
-                      <span className="text-[8px] text-green-700 font-medium mt-0.5 max-w-[60px] truncate" title={candidato.nombre}>
-                        {candidato.nombre.split(' ').slice(0, 2).join(' ')}
-                      </span>
-                    )}
-                    {val && !candidato && getDatosCandidatos().length > 0 && (
-                      <span className="text-[8px] text-red-500 mt-0.5">No existe</span>
-                    )}
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        )}
+
+        {/* 3. Voto Preferencial (Derecha) - Inputs inline */}
+        <div className="shrink-0 flex gap-1 items-center">
+          {voto.preferencial.slice(0, numPreferencial).map((val, i) => {
+            const candidato = buscarCandidato(partido.idOrg, val, getDatosCandidatos()); // Para validación visual si se desea (opcional)
+            return (
+              <div key={i} className="relative w-9 h-9 sm:w-10 sm:h-10 border border-black bg-white flex items-center justify-center">
+                {selected ? (
+                  <input
+                    type="text"
+                    value={val}
+                    onChange={(e) => handleVotoPreferencial(categoria, i, e.target.value)}
+                    className="w-full h-full text-center text-sm font-bold border-none focus:ring-0 p-0"
+                    maxLength={3}
+                  />
+                ) : (
+                  <div className="w-full h-full bg-gray-100/50 cursor-not-allowed" />
+                )}
+              </div>
+            );
+          })}
+        </div>
       </div>
     );
   };
@@ -193,13 +234,12 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
   const VotoBlanco = ({ categoria }) => {
     const esPresidente = categoria === 'presidente';
     const valorActual = esPresidente ? votos.presidente : votos[categoria]?.partido;
-    
+
     return (
       <button
         onClick={() => handleVotoEspecial(categoria, 'blanco')}
-        className={`w-full py-2 px-2 text-xs rounded border transition-all mb-2 ${
-          valorActual === 'blanco' ? 'border-slate-600 bg-slate-100 font-bold' : 'border-slate-300 hover:border-slate-400'
-        }`}
+        className={`w-full py-2 px-2 text-xs rounded border transition-all mb-2 ${valorActual === 'blanco' ? 'border-slate-600 bg-slate-100 font-bold' : 'border-slate-300 hover:border-slate-400'
+          }`}
       >
         VOTO EN BLANCO
       </button>
@@ -222,17 +262,19 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
   const renderColumnaContent = (categoria, titulo, subtitulo, numPref) => (
     <div className="flex flex-col h-full">
       <ColumnaHeader titulo={titulo} subtitulo={subtitulo} numPref={numPref} />
-      <div className="p-2 flex-1 lg:overflow-y-auto lg:max-h-[600px] space-y-1">
-        <VotoBlanco categoria={categoria} />
-        {categoria === 'presidente' ? (
-          candidatosPresidenciales.map((c) => (
-            <CandidatoCard key={c.id} candidato={c} selected={votos.presidente === c.id} onClick={() => handleVotoPresidente(c.id)} />
-          ))
-        ) : (
-          partidosParlamentarios.map((p) => (
-            <PartidoCardConPreferencial key={p.id} partido={p} categoria={categoria} numPreferencial={numPref ? parseInt(numPref) : 2} />
-          ))
-        )}
+      <div className="p-2 flex-1 overflow-x-auto lg:overflow-y-auto lg:max-h-[600px]">
+        <div className="flex flex-col min-w-full w-max space-y-1">
+          <VotoBlanco categoria={categoria} />
+          {categoria === 'presidente' ? (
+            candidatosPresidenciales.map((c) => (
+              <CandidatoCard key={c.id} candidato={c} selected={votos.presidente === c.id} onClick={() => handleVotoPresidente(c.id)} />
+            ))
+          ) : (
+            partidosParlamentarios.map((p) => (
+              <PartidoCardConPreferencial key={p.id} partido={p} categoria={categoria} numPreferencial={numPref ? parseInt(numPref) : 2} />
+            ))
+          )}
+        </div>
       </div>
     </div>
   );
@@ -251,9 +293,8 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
-              className={`flex-1 min-w-[70px] py-2 px-1 text-[10px] font-medium transition-colors relative ${
-                activeTab === tab.id ? 'bg-white text-slate-800 border-b-2 border-slate-700' : 'text-slate-600 hover:bg-slate-200'
-              }`}
+              className={`flex-1 min-w-[70px] py-2 px-1 text-[10px] font-medium transition-colors relative ${activeTab === tab.id ? 'bg-white text-slate-800 border-b-2 border-slate-700' : 'text-slate-600 hover:bg-slate-200'
+                }`}
             >
               {tab.short}
               {getVotoIndicator(tab.id) && <span className="ml-1 text-green-600">✓</span>}

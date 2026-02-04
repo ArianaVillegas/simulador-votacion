@@ -2,11 +2,24 @@ import { useState } from 'react';
 import { candidatosPresidenciales, partidosParlamentarios, JNE_LOGO } from '../data/candidatos';
 import senadoresNacionalRaw from '../data/senadoresNacional.json';
 import senadoresRegional from '../data/senadoresRegional';
+import diputadosData from '../data/diputados';
+import parlamenAndinoRaw from '../data/parlamenAndino.json';
 
 const JNE_FOTO = "https://mpesije.jne.gob.pe/apidocs/";
 
 // Procesar senadores nacionales
 const senadoresNacional = senadoresNacionalRaw.data
+  .filter(c => c.strEstadoCandidato === 'INSCRITO')
+  .map(c => ({
+    idOrg: c.idOrganizacionPolitica,
+    pos: c.intPosicion,
+    nombre: `${c.strNombres} ${c.strApellidoPaterno} ${c.strApellidoMaterno}`.trim(),
+    dni: c.strDocumentoIdentidad,
+    foto: c.strGuidFoto
+  }));
+
+// Procesar parlamento andino
+const parlamenAndino = parlamenAndinoRaw.data
   .filter(c => c.strEstadoCandidato === 'INSCRITO')
   .map(c => ({
     idOrg: c.idOrganizacionPolitica,
@@ -43,20 +56,22 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
     if (valor === 'blanco') return { nombre: 'VOTO EN BLANCO', color: '#9CA3AF', siglas: '—', preferencial: [], candidatos: [] };
     if (valor === 'nulo') return { nombre: 'VOTO NULO', color: '#EF4444', siglas: '✕', preferencial: [], candidatos: [] };
     if (valor === null) return { nombre: 'Sin selección', color: '#D1D5DB', siglas: '—', preferencial: [], candidatos: [] };
-    
+
     const item = partidosParlamentarios.find(i => i.id === valor);
     const prefFiltrados = voto.preferencial.filter(p => p);
-    
+
     // Buscar candidatos por número preferencial
     let datos = [];
     if (categoria === 'senadoresNacional') datos = senadoresNacional;
     else if (categoria === 'senadoresRegional') datos = senadoresRegional[regionSeleccionada] || [];
-    
+    else if (categoria === 'diputados') datos = diputadosData[regionSeleccionada] || [];
+    else if (categoria === 'parlamenAndino') datos = parlamenAndino;
+
     const candidatos = prefFiltrados.map(num => {
       const c = buscarCandidato(item?.idOrg, num, datos);
       return c ? { ...c, hojaVida: `https://votoinformado.jne.gob.pe/hoja-vida/${item.idOrg}/${c.dni}` } : null;
     }).filter(Boolean);
-    
+
     return { ...(item || { nombre: 'Sin selección', color: '#D1D5DB', siglas: '—' }), preferencial: prefFiltrados, candidatos };
   };
 
@@ -66,7 +81,7 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
   const diputados = getSeleccionPartido('diputados');
   const parlamento = getSeleccionPartido('parlamenAndino');
 
-  const votosCompletos = votos.presidente !== null && 
+  const votosCompletos = votos.presidente !== null &&
     votos.senadoresNacional?.partido !== null &&
     votos.senadoresRegional?.partido !== null &&
     votos.diputados?.partido !== null &&
@@ -86,14 +101,14 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
     <div className={`${compact ? 'p-2' : 'p-3'} bg-white rounded-lg shadow-sm`}>
       <div className="flex items-center gap-2">
         {seleccion.idOrg ? (
-          <img 
-            src={`${JNE_LOGO}${seleccion.idOrg}`} 
+          <img
+            src={`${JNE_LOGO}${seleccion.idOrg}`}
             alt={seleccion.siglas}
             className={`${compact ? 'w-8 h-8' : 'w-10 h-10'} rounded-full object-contain shrink-0 bg-white border border-slate-200`}
             onError={(e) => { e.target.style.display = 'none'; e.target.nextSibling.style.display = 'flex'; }}
           />
         ) : null}
-        <div 
+        <div
           className={`${compact ? 'w-8 h-8 text-[10px]' : 'w-10 h-10 text-xs'} rounded-full items-center justify-center text-white font-bold shrink-0 ${seleccion.idOrg ? 'hidden' : 'flex'}`}
           style={{ backgroundColor: seleccion.color }}
         >
@@ -101,24 +116,50 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
         </div>
         <div className="flex-1 min-w-0">
           <p className={`${compact ? 'text-[10px]' : 'text-xs'} text-gray-500`}>{titulo}</p>
-          <p className={`font-semibold ${compact ? 'text-xs' : 'text-sm'} truncate`}>{seleccion.nombre || seleccion.partido}</p>
+          <p className={`font-semibold ${compact ? 'text-xs' : 'text-sm'} truncate`}>{seleccion.partido || seleccion.nombre}</p>
         </div>
       </div>
+
+      {/* Mostrar Candidato Presidencial (si tiene foto definida en el objeto principal) */}
+      {seleccion.foto && (
+        <div className="mt-2 space-y-1 pl-2 border-l-2 border-slate-200 ml-4">
+          <div className="flex items-center gap-2">
+            <img
+              src={seleccion.foto}
+              alt={seleccion.nombre}
+              className="w-6 h-6 rounded-full object-cover shrink-0"
+              onError={(e) => { e.target.style.display = 'none'; }}
+            />
+            <div className="flex-1 min-w-0">
+              <p className="text-[10px] font-medium truncate">{seleccion.nombre}</p>
+              <a
+                href={seleccion.hojaVida}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[9px] text-blue-600 hover:underline"
+              >
+                Ver hoja de vida
+              </a>
+            </div>
+          </div>
+        </div>
+      )}
+
       {seleccion.candidatos?.length > 0 && (
         <div className="mt-2 space-y-1 pl-2 border-l-2 border-slate-200 ml-4">
           {seleccion.candidatos.map((c, i) => (
             <div key={i} className="flex items-center gap-2">
-              <img 
-                src={`${JNE_FOTO}${c.foto}.jpg`} 
-                alt={c.nombre} 
+              <img
+                src={`${JNE_FOTO}${c.foto}.jpg`}
+                alt={c.nombre}
                 className="w-6 h-6 rounded-full object-cover shrink-0"
                 onError={(e) => { e.target.style.display = 'none'; }}
               />
               <div className="flex-1 min-w-0">
                 <p className="text-[10px] font-medium truncate">{c.nombre}</p>
-                <a 
-                  href={c.hojaVida} 
-                  target="_blank" 
+                <a
+                  href={c.hojaVida}
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-[9px] text-blue-600 hover:underline"
                 >
@@ -162,7 +203,7 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
           Resumen de tu Voto
           {votosCompletos && <span className="text-green-600 text-xs font-normal">✓ Completo</span>}
         </h3>
-        
+
         <div className="space-y-2">
           <ResumenItem titulo="Presidente" seleccion={presidente} />
           <ResumenItem titulo="Senadores Nacional" seleccion={senadoresNac} />
@@ -178,9 +219,8 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
           <button
             onClick={handleVotar}
             disabled={!votosCompletos}
-            className={`flex-1 py-2 px-3 rounded font-medium text-sm transition-colors ${
-              votosCompletos ? 'bg-slate-700 hover:bg-slate-800 text-white' : 'bg-slate-200 text-slate-400 cursor-not-allowed'
-            }`}
+            className={`flex-1 py-2 px-3 rounded font-medium text-sm transition-colors ${votosCompletos ? 'bg-slate-700 hover:bg-slate-800 text-white' : 'bg-slate-200 text-slate-400 cursor-not-allowed'
+              }`}
           >
             VOTAR
           </button>

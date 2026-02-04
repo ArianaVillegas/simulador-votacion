@@ -34,7 +34,7 @@ export const partidosParlamentarios = [
   { id: 30, nombre: "PRIN", siglas: "PRIN", color: "#7C2D12", idOrg: 2921 },
   { id: 31, nombre: "Integridad Democrática", siglas: "ID", color: "#7C3AED", idOrg: 2985 },
   { id: 32, nombre: "Perú Acción", siglas: "PA", color: "#EA580C", idOrg: 2932 },
-  { id: 33, nombre: "Partido Demócrata Verde", siglas: "PDV", color: "#22C55E", idOrg: 2966 },
+  { id: 33, nombre: "Partido Demócrata Verde", siglas: "PDV", color: "#22C55E", idOrg: 2895 },
   { id: 34, nombre: "Alianza Venceremos", siglas: "AV", color: "#991B1B", idOrg: 3022 },
   { id: 35, nombre: "PTE-Perú", siglas: "PTE", color: "#CA8A04", idOrg: 2939 },
   { id: 36, nombre: "Partido Democrático Federal", siglas: "PDF", color: "#6366F1", idOrg: 2964 },
