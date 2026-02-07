@@ -1,0 +1,1201 @@
+{
+  "fetchedAt": "2026-02-07T04:11:10.555Z",
+  "idProcesoElectoral": 124,
+  "count": 36,
+  "data": [
+    {
+      "dni": "10001088",
+      "idHojaVida": 245741,
+      "idOrg": 1366,
+      "nombre": "KEIKO SOFIA FUJIMORI HIGUCHI",
+      "partido": "FUERZA POPULAR",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/251cd1c0-acc7-4338-bd8a-439ccb9238d0.jpeg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "25/05/1975",
+      "lugarNacimiento": "JESUS MARIA, LIMA",
+      "flags": {
+        "exCongresista": true,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [
+          "CONGRESISTA DE LA REPÚBLICA (2006-2011)"
+        ],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "TÍTULO DE MÁSTER EN ADMINISTRACIÓN DE EMPRESAS (GRADO DE MAESTRO)",
+        "institucion": "COLUMBIA UNIVERSITY",
+        "ingresos2024": 271853.45,
+        "experienciaActual": "Presidenta"
+      }
+    },
+    {
+      "dni": "17903382",
+      "idHojaVida": 245682,
+      "idOrg": 1257,
+      "nombre": "CESAR ACUÑA PERALTA",
+      "partido": "ALIANZA PARA EL PROGRESO",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/d6fe3cac-7061-474b-8551-0aa686a54bad.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "11/08/1952",
+      "lugarNacimiento": "TACABAMBA, CHOTA",
+      "flags": {
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": true,
+        "exMinistro": false,
+        "cargosAnteriores": [
+          "GOBERNADOR REGIONAL (2015-2018)",
+          "GOBERNADOR REGIONAL (2022-2026)"
+        ],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": true,
+        "sentenciaObligaDetalle": [
+          {
+            "idHvSentenciaObliga": 138090,
+            "tengoSentenciaObliga": "SI",
+            "nuItemSentenciaObliga": 1,
+            "idParamMateriaSentencia": 16,
+            "txMateriaSentencia": "FAMILIA / ALIMENTARIA",
+            "txExpedienteObliga": "02974-2023-0-1801-JR-FC-17",
+            "txOrganoJuridicialObliga": "17° JUZGADO FAMILIA",
+            "txFalloObliga": "RES Nº 11 - CONFIRMA la sentencia expedida mediante resolución VEINTIOCHO  de fecha 23 de noviembre de 2022, que declara: FUNDADA en parte la demanda de  alimentos y ORDENA que la parte demandada CESAR ACUÑA PERALTA preste en  forma mensual y adelantada.",
+            "idEstado": 1,
+            "idHojaVida": 245682,
+            "txComentario": null
+          }
+        ]
+      },
+      "resumen": {
+        "educacionMax": "MAESTRO EN ADMINISTRACION DE LA EDUCACION",
+        "institucion": "Universidad de Lima",
+        "ingresos2024": 9836766,
+        "experienciaActual": "ASESOR"
+      }
+    },
+    {
+      "dni": "07845838",
+      "idHojaVida": 245620,
+      "idOrg": 22,
+      "nombre": "RAFAEL BERNARDO LÓPEZ ALIAGA CAZORLA",
+      "partido": "RENOVACION POPULAR",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/b2e00ae2-1e50-4ad3-a103-71fc7e4e8255.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "11/02/1961",
+      "lugarNacimiento": "LIMA, LIMA",
+      "flags": {
+        "exCongresista": false,
+        "exAlcalde": true,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [
+          "REGIDOR PROVINCIAL (2007-2010)",
+          "ALCALDE PROVINCIAL (2022-HASTA LA ACTUALIDAD)"
+        ],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "MAGISTER EN ADMINISTRACION",
+        "institucion": "Universidad del Pacífico",
+        "ingresos2024": 1897374,
+        "experienciaActual": "ALCALDE"
+      }
+    },
+    {
+      "dni": "41265978",
+      "idHojaVida": 250363,
+      "idOrg": 14,
+      "nombre": "GEORGE PATRICK FORSYTH SOMMER",
+      "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/b1d60238-c797-4cba-936e-f13de6a34cc7.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "20/06/1982",
+      "lugarNacimiento": "null, null",
+      "flags": {
+        "exCongresista": false,
+        "exAlcalde": true,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [
+          "REGIDOR DISTRITAL (2011-2014)",
+          "ALCALDE DISTRITAL (2019-2022)"
+        ],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "MAGÍSTER EN ADMINISTRACIÓN",
+        "institucion": "Universidad del Pacífico",
+        "ingresos2024": 244000,
+        "experienciaActual": "GERENTE GENERAL"
+      }
+    },
+    {
+      "dni": "06466585",
+      "idHojaVida": 244668,
+      "idOrg": 2218,
+      "nombre": "VLADIMIR ROY CERRON ROJAS",
+      "partido": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/82ee0ff2-2336-4aba-9590-e576f7564315.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "16/12/1970",
+      "lugarNacimiento": "CHUPACA, CHUPACA",
+      "flags": {
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": true,
+        "exMinistro": false,
+        "cargosAnteriores": [
+          "GOBERNADOR REGIONAL (2011-2014)",
+          "GOBERNADOR REGIONAL (2019-2022)"
+        ],
+        "sentenciaPenal": true,
+        "sentenciaPenalDetalle": [
+          {
+            "idHvSentenciaPenal": 136244,
+            "tengoSentenciaPenal": "SI",
+            "nuItemSentenciaPenal": 1,
+            "txExpedientePenal": "01122-2018-27-1501-JR-PE-05",
+            "feSentenciaPenal": "18/10/2019",
+            "txOrganoJudiPenal": "SALA PENAL DE APELACIONES TRANSITORIA - SEDE CENTRAL",
+            "txDelitoPenal": "NEGOCIACIÓN INCOMPATIBLE",
+            "txFalloPenal": "4 AÑOS DE PENA PRIVATIVA",
+            "idParamModalidad": 11,
+            "txModalidad": "SUSPENDIDA",
+            "txOtraModalidad": null,
+            "idParamCumpleFallo": 20,
+            "txCumpleFallo": "PENA CUMPLIDA",
+            "idEstado": 1,
+            "idHojaVida": 244668,
+            "txComentario": "SENTENCIA ANULADA POR EL TRIBUNAL CONSTITUCIONAL, PLENO. SENTENCIA 90/20205 del 3 de diciembre de 2024. EXPEDIENTE Nº 01513-2024-PHC/TC"
+          },
+          {
+            "idHvSentenciaPenal": 136245,
+            "tengoSentenciaPenal": "SI",
+            "nuItemSentenciaPenal": 2,
+            "txExpedientePenal": "01978-2016-63-1501-JR-PE-01",
+            "feSentenciaPenal": "06/10/2023",
+            "txOrganoJudiPenal": "SALA PENAL DE APELACIÓN TRANSITORIA ESPECIALIZADA",
+            "txDelitoPenal": "COLUSIÓN",
+            "txFalloPenal": "3 AÑOS 6 MESES DE PENA PRIVATIVA",
+            "idParamModalidad": 10,
+            "txModalidad": "EFECTIVA",
+            "txOtraModalidad": null,
+            "idParamCumpleFallo": 20,
+            "txCumpleFallo": "PENA CUMPLIDA",
+            "idEstado": 1,
+            "idHojaVida": 244668,
+            "txComentario": "ABSUELTO DE SENTENCIA PENAL POR RECURSO DE CASACIÓN Nº 3280-2023/JUNÍN DE LA SALA PENAL PERMANENTE DE LA CORTE SUPREMA DE JUSTICIA DE FECHA 26 DE MARZO DE 2025, QUE A LA VEZ IMPUSO UNA REPARACIÓN CIVIL."
+          }
+        ],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "DOCTOR EN MEDICINA",
+        "institucion": "Universidad Nacional Mayor de San Marcos",
+        "ingresos2024": 0,
+        "experienciaActual": "SECRETARIO GENERAL NACIONAL"
+      }
+    },
+    {
+      "dni": "01211014",
+      "idHojaVida": 245572,
+      "idOrg": 2995,
+      "nombre": "YONHY LESCANO ANCIETA",
+      "partido": "PARTIDO POLITICO COOPERACION POPULAR",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/b9db2b5c-02ff-4265-ae51-db9b1001ad70.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "15/02/1959",
+      "lugarNacimiento": "PUNO, PUNO",
+      "flags": {
+        "exCongresista": true,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [
+          "CONGRESISTA DE LA REPÚBLICA (2016-2021)",
+          "CONGRESISTA DE LA REPÚBLICA (2011-2016)"
+        ],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "GRADO DE MAGÍSTER EN DERECHO (GRADO DE MAESTRO)",
+        "institucion": "UNIVERSIDAD DE CHILE",
+        "ingresos2024": 120000,
+        "experienciaActual": "PROFESOR PRINCIPAL"
+      }
+    },
+    {
+      "dni": "07246887",
+      "idHojaVida": 247865,
+      "idOrg": 2731,
+      "nombre": "JOSE LEON LUNA GALVEZ",
+      "partido": "PODEMOS PERU",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/a669a883-bf8a-417c-9296-c14b943c3943.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "17/07/1955",
+      "lugarNacimiento": "LIMA, LIMA",
+      "flags": {
+        "exCongresista": true,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [
+          "CONGRESISTA DE LA REPÚBLICA (2011-2016)",
+          "CONGRESISTA DE LA REPÚBLICA (2021-2025)"
+        ],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "DOCTOR EN EDUCACION",
+        "institucion": "Universidad de San Martín de Porres",
+        "ingresos2024": 11409038.64,
+        "experienciaActual": "CONGRESISTA"
+      }
+    },
+    {
+      "dni": "06280714",
+      "idHojaVida": 252450,
+      "idOrg": 2857,
+      "nombre": "LUIS FERNANDO OLIVERA VEGA",
+      "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/3e2312e1-af79-4954-abfa-a36669c1a9e9.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "26/07/1958",
+      "lugarNacimiento": "LIMA, LIMA",
+      "flags": {
+        "exCongresista": true,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [
+          "CONGRESISTA CONSTITUYENTE (null-null)",
+          "CONGRESISTA DE LA REPÚBLICA (2000-2001)"
+        ],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "BACHILLER EN CIENCIAS CON MENCION EN ADMINISTRACION",
+        "institucion": "Universidad del Pacífico",
+        "ingresos2024": 0,
+        "experienciaActual": "DIRECTOR DE ECONOMIA Y COOPERACION INTERNACIONAL"
+      }
+    },
+    {
+      "dni": "09177250",
+      "idHojaVida": 251773,
+      "idOrg": 2941,
+      "nombre": "RICARDO PABLO BELMONT CASSINELLI",
+      "partido": "PARTIDO CIVICO OBRAS",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/78647f15-d5d1-4ed6-8ac6-d599e83eeea3.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "29/08/1945",
+      "lugarNacimiento": "LIMA, LIMA",
+      "flags": {
+        "exCongresista": true,
+        "exAlcalde": true,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [
+          "ALCALDE PROVINCIAL (1990-1995)",
+          "CONGRESISTA DE LA REPÚBLICA (2009-2011)"
+        ],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "BACHIYER ADMINISTRADOR DE EMPRESAS",
+        "institucion": "UNIVERSIDAD DE LIMA",
+        "ingresos2024": 301514,
+        "experienciaActual": "EMPRESARIO"
+      }
+    },
+    {
+      "dni": "43287528",
+      "idHojaVida": 251479,
+      "idOrg": 2173,
+      "nombre": "JOSE DANIEL WILLIAMS ZAPATA",
+      "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/b60c471f-a6bb-4b42-a4b2-02ea38acbb0d.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "09/11/1951",
+      "lugarNacimiento": "LIMA, LIMA",
+      "flags": {
+        "exCongresista": true,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [
+          "CONGRESISTA DE LA REPÚBLICA (2021-2025)"
+        ],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "MAGISTER EN DESARROLLO Y DEFENSA NACIONAL",
+        "institucion": "Centro de Altos Estudios Nacionales - CAEN",
+        "ingresos2024": 351600,
+        "experienciaActual": "CONGRESISTA"
+      }
+    },
+    {
+      "dni": "09871134",
+      "idHojaVida": 246025,
+      "idOrg": 2840,
+      "nombre": "MESIAS ANTONIO GUEVARA AMASIFUEN",
+      "partido": "PARTIDO MORADO",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/1b861ca7-3a5e-48b4-9024-08a92371e33b.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "13/06/1963",
+      "lugarNacimiento": "ETEN, CHICLAYO",
+      "flags": {
+        "exCongresista": true,
+        "exAlcalde": false,
+        "exGobernador": true,
+        "exMinistro": false,
+        "cargosAnteriores": [
+          "CONGRESISTA DE LA REPÚBLICA (2011-2016)",
+          "GOBERNADOR REGIONAL (2019-2022)"
+        ],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "MAGISTER EN ADMINISTRACION DE EMPRESAS",
+        "institucion": "Universidad Peruana de Ciencias Aplicadas S.A.C.",
+        "ingresos2024": 154941,
+        "experienciaActual": "CONGRESISTA"
+      }
+    },
+    {
+      "dni": "40728264",
+      "idHojaVida": 252200,
+      "idOrg": 3023,
+      "nombre": "ROBERTO ENRIQUE CHIABRA LEON",
+      "partido": "UNIDAD NACIONAL",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/5c703ce9-ba1e-4490-90bf-61006740166f.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "15/07/1949",
+      "lugarNacimiento": "BELLAVISTA, CALLAO",
+      "flags": {
+        "exCongresista": true,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [
+          "CONGRESISTA DE LA REPÚBLICA (2021-2025)"
+        ],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "BACHILLER EN CIENCIAS MILITARES",
+        "institucion": "Escuela Militar de Chorrillos “Coronel Francisco Bolognesi”",
+        "ingresos2024": 320676,
+        "experienciaActual": "CONGRESISTA"
+      }
+    },
+    {
+      "dni": "41904418",
+      "idHojaVida": 250367,
+      "idOrg": 2898,
+      "nombre": "ALVARO GONZALO PAZ DE LA BARRA FREIGEIRO",
+      "partido": "FE EN EL PERU",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/5032fa7f-eff1-4181-bf51-e32f2dfde304.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "26/07/1983",
+      "lugarNacimiento": "MIRAFLORES, LIMA",
+      "flags": {
+        "exCongresista": false,
+        "exAlcalde": true,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [
+          "ALCALDE DISTRITAL (2019-2022)"
+        ],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "Magister en Gestión Pública",
+        "institucion": "EUCIM BUSINESS SCHOOL",
+        "ingresos2024": 341465,
+        "experienciaActual": "Gerente Municipal"
+      }
+    },
+    {
+      "dni": "07867789",
+      "idHojaVida": 253820,
+      "idOrg": 2931,
+      "nombre": "MARIA SOLEDAD PEREZ TELLO DE RODRIGUEZ",
+      "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/073703ca-c427-44f0-94b1-a782223a5e10.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "11/04/1969",
+      "lugarNacimiento": "ILABAYA, JORGE BASADRE",
+      "flags": {
+        "exCongresista": true,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [
+          "CONGRESISTA DE LA REPÚBLICA (2011-2016)"
+        ],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "MAESTRIA EN DERECHO CONSTITUCIONAL",
+        "institucion": "PONTIFICIA UNIVERSIDAD CATOLICA DEL PERU",
+        "ingresos2024": 4500000,
+        "experienciaActual": "NOTARIA"
+      }
+    },
+    {
+      "dni": "25681995",
+      "idHojaVida": 253520,
+      "idOrg": 3024,
+      "nombre": "FIORELLA GIANNINA MOLINELLI ARISTONDO",
+      "partido": "FUERZA Y LIBERTAD",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/1de656b5-7593-4c60-ab7a-83d618a3d80d.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "20/03/1974",
+      "lugarNacimiento": "SAN ISIDRO, LIMA",
+      "flags": {
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "DOCTORA EN GOBIERNO Y POLITICA PUBLICA",
+        "institucion": "Universidad de San Martín de Porres",
+        "ingresos2024": 123865.13,
+        "experienciaActual": "Docente"
+      }
+    },
+    {
+      "dni": "18141156",
+      "idHojaVida": 252493,
+      "idOrg": 2998,
+      "nombre": "ROSARIO DEL PILAR FERNANDEZ BAZAN",
+      "partido": "UN CAMINO DIFERENTE",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/ac0b0a59-ead5-4ef1-8ef8-8967e322d6ca.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "19/01/1975",
+      "lugarNacimiento": "TRUJILLO, TRUJILLO",
+      "flags": {
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "BACHILLER EN EDUCACION",
+        "institucion": "Universidad Privada César Vallejo",
+        "ingresos2024": 36520,
+        "experienciaActual": "docente"
+      }
+    },
+    {
+      "dni": "25331980",
+      "idHojaVida": 248006,
+      "idOrg": 2980,
+      "nombre": "PABLO ALFONSO LOPEZ CHAU NAVA",
+      "partido": "AHORA NACION - AN",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/ddfa74eb-cae3-401c-a34c-35543ae83c57.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "17/07/1950",
+      "lugarNacimiento": "LIMA, LIMA",
+      "flags": {
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "GRADO DE DOCTOR EN ECONOMÍA",
+        "institucion": "UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO",
+        "ingresos2024": 350000,
+        "experienciaActual": "Rector"
+      }
+    },
+    {
+      "dni": "06002034",
+      "idHojaVida": 247143,
+      "idOrg": 2956,
+      "nombre": "CARLOS GONSALO ALVAREZ LOAYZA",
+      "partido": "PARTIDO PAIS PARA TODOS",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/2bd18177-d665-413d-9694-747d729d3e39.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "07/01/1964",
+      "lugarNacimiento": "LIMA, LIMA",
+      "flags": {
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": null,
+        "institucion": null,
+        "ingresos2024": 207543,
+        "experienciaActual": "COMEDIANTE"
+      }
+    },
+    {
+      "dni": "06506278",
+      "idHojaVida": 247704,
+      "idOrg": 2961,
+      "nombre": "JORGE NIETO MONTESINOS",
+      "partido": "PARTIDO DEL BUEN GOBIERNO",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/9ae56ed5-3d0f-49ff-8bb9-0390bad71816.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "29/10/1951",
+      "lugarNacimiento": "AREQUIPA, AREQUIPA",
+      "flags": {
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "MAESTRÍA EN CIENCIAS SOCIALES CON MENCIÓN EN SOCIOLOGIA.",
+        "institucion": "FACULTAD LATINOAMERICANA DE CIENCIAS SOCIALES",
+        "ingresos2024": 180000,
+        "experienciaActual": "Ministro"
+      }
+    },
+    {
+      "dni": "16002918",
+      "idHojaVida": 246281,
+      "idOrg": 1264,
+      "nombre": "ROBERTO HELBERT SANCHEZ PALOMINO",
+      "partido": "JUNTOS POR EL PERU",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/bb7c7465-9c6e-44eb-ac7d-e6cc7f872a1a.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "03/02/1969",
+      "lugarNacimiento": "HUARAL, HUARAL",
+      "flags": {
+        "exCongresista": true,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [
+          "CONGRESISTA DE LA REPÚBLICA (2021-2025)"
+        ],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "MAESTRIA DE POLITICAS SOCILAES",
+        "institucion": "PONTIFICIA UNIVERSIDAD CATOLICA DEL PERÚ - PUCP",
+        "ingresos2024": 224945.83,
+        "experienciaActual": "Congresista"
+      }
+    },
+    {
+      "dni": "10266270",
+      "idHojaVida": 247389,
+      "idOrg": 2935,
+      "nombre": "ALFONSO CARLOS ESPA Y GARCES-ALVEAR",
+      "partido": "PARTIDO SICREO",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/85935f77-6c46-4eab-8c7e-2494ffbcece0.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "01/09/1960",
+      "lugarNacimiento": "MIRAFLORES, LIMA",
+      "flags": {
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "BACHILLER EN DERECHO",
+        "institucion": "Pontificia Universidad Católica del Perú",
+        "ingresos2024": 105103,
+        "experienciaActual": "DIRECTOR DE COMUNICACIONES"
+      }
+    },
+    {
+      "dni": "10219647",
+      "idHojaVida": 244462,
+      "idOrg": 2933,
+      "nombre": "RAFAEL JORGE BELAUNDE LLOSA",
+      "partido": "LIBERTAD POPULAR",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/3302e45b-55c8-4979-a60b-2b11097abf1d.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "26/12/1974",
+      "lugarNacimiento": "MIRAFLORES, LIMA",
+      "flags": {
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "BACHILLER EN ECONOMIA",
+        "institucion": "Universidad de Lima",
+        "ingresos2024": 2134800,
+        "experienciaActual": "GERENTE GENERAL"
+      }
+    },
+    {
+      "dni": "43632186",
+      "idHojaVida": 251216,
+      "idOrg": 2930,
+      "nombre": "PITTER ENRIQUE VALDERRAMA PEÑA",
+      "partido": "PARTIDO APRISTA PERUANO",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/d72c4b29-e173-42b8-b40d-bdb6d01a526a.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "14/04/1986",
+      "lugarNacimiento": "LIMA, LIMA",
+      "flags": {
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "Maestría",
+        "institucion": "Universidad de la Rioja",
+        "ingresos2024": 33600,
+        "experienciaActual": "ANALISTA LEGAL"
+      }
+    },
+    {
+      "dni": "04411300",
+      "idHojaVida": 245614,
+      "idOrg": 2925,
+      "nombre": "MARIO ENRIQUE VIZCARRA CORNEJO",
+      "partido": "PARTIDO POLITICO PERU PRIMERO",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/ee7a080e-bc81-4c81-9e5e-9fd95ff459ab.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "12/07/1954",
+      "lugarNacimiento": "MOQUEGUA, MARISCAL NIETO",
+      "flags": {
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": true,
+        "sentenciaPenalDetalle": [
+          {
+            "idHvSentenciaPenal": 136335,
+            "tengoSentenciaPenal": "SI",
+            "nuItemSentenciaPenal": 1,
+            "txExpedientePenal": "015-05",
+            "feSentenciaPenal": "04/10/2005",
+            "txOrganoJudiPenal": "SALA MIXTA DE MOQUEGUA",
+            "txDelitoPenal": "PECULADO",
+            "txFalloPenal": "PENA PRIVATIVA DE LA LIBERTAD",
+            "idParamModalidad": 11,
+            "txModalidad": "SUSPENDIDA",
+            "txOtraModalidad": null,
+            "idParamCumpleFallo": 20,
+            "txCumpleFallo": "PENA CUMPLIDA",
+            "idEstado": 1,
+            "idHojaVida": 245614,
+            "txComentario": "ME ENCUENTRO REHABILITADO"
+          }
+        ],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "MAGISTER EN ADMINISTRACION",
+        "institucion": "Universidad ESAN",
+        "ingresos2024": 117684,
+        "experienciaActual": "GERENTE ADMINISTRATIVO"
+      }
+    },
+    {
+      "dni": "43409673",
+      "idHojaVida": 251964,
+      "idOrg": 2869,
+      "nombre": "HERBERT CALLER GUTIERREZ",
+      "partido": "PARTIDO PATRIOTICO DEL PERU",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/6ad6c5ff-0411-4ddd-9cf7-b0623f373fcf.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "19/09/1978",
+      "lugarNacimiento": "CUSCO, CUSCO",
+      "flags": {
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "POST GRADO",
+        "institucion": "INSTITUTO NACIONAL DE INVESTIGACION Y CAPACITACION DE TELECOMUNICACIONES - INICTEL",
+        "ingresos2024": 186259.32,
+        "experienciaActual": "EMPRESARIO"
+      }
+    },
+    {
+      "dni": "06529088",
+      "idHojaVida": 251564,
+      "idOrg": 2924,
+      "nombre": "CARLOS ERNESTO JAICO CARRANZA",
+      "partido": "PERU MODERNO",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/7d91e14f-4417-4d61-89ba-3e686dafaa95.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "28/04/1967",
+      "lugarNacimiento": "CHIMBOTE, SANTA",
+      "flags": {
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "GRADO DE LICENCIADO EN DERECHO (MÁSTER EN DERECHO) (GRADO DE MAESTRO)",
+        "institucion": "UNIVERSITY OF FRIBOURG",
+        "ingresos2024": 47158,
+        "experienciaActual": "GERENTE GENERAL"
+      }
+    },
+    {
+      "dni": "40799023",
+      "idHojaVida": 252874,
+      "idOrg": 2867,
+      "nombre": "CHARLIE CARRASCO SALAZAR",
+      "partido": "PARTIDO DEMOCRATA UNIDO PERU",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/12fa17db-f28f-4330-9123-88549539b538.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "02/06/1980",
+      "lugarNacimiento": "HUANCARAMA, ANDAHUAYLAS",
+      "flags": {
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "MAESTRO EN DERECHO CONSTITUCIONAL",
+        "institucion": "Universidad Nacional Federico Villarreal",
+        "ingresos2024": 74118,
+        "experienciaActual": "Catedratico"
+      }
+    },
+    {
+      "dni": "40139245",
+      "idHojaVida": 244717,
+      "idOrg": 2967,
+      "nombre": "PAUL DAVIS JAIMES BLANCO",
+      "partido": "PROGRESEMOS",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/929e1a63-335d-4f3a-ba26-f3c7ff136213.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "02/02/1979",
+      "lugarNacimiento": "JESUS MARIA, LIMA",
+      "flags": {
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "GOBIERNO Y GESTIÓN PUBLICA",
+        "institucion": "INSTITUTO DE GOBIERNO Y GESTIÓN PUBLICA UNIVERSIDAD SAN MARTIN DE PORRES",
+        "ingresos2024": 263500,
+        "experienciaActual": "ASESOR I"
+      }
+    },
+    {
+      "dni": "08587486",
+      "idHojaVida": 248309,
+      "idOrg": 2927,
+      "nombre": "ANTONIO ORTIZ VILLANO",
+      "partido": "SALVEMOS AL PERU",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/8e6b9124-2883-4143-8768-105f2ce780eb.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "10/05/1955",
+      "lugarNacimiento": "TALAVERA, ANDAHUAYLAS",
+      "flags": {
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": null,
+        "institucion": null,
+        "ingresos2024": 221634,
+        "experienciaActual": "GERENTE GENERAL"
+      }
+    },
+    {
+      "dni": "18870364",
+      "idHojaVida": 247615,
+      "idOrg": 2921,
+      "nombre": "WALTER GILMER CHIRINOS PURIZAGA",
+      "partido": "PARTIDO POLITICO PRIN",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/a2d0f631-fe47-4c41-92ba-7ed9f4095520.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "27/06/1968",
+      "lugarNacimiento": "PAIJAN, ASCOPE",
+      "flags": {
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "MAESTRIA EN GESTION PUBLICA",
+        "institucion": "UNIVERSIDAD NACIONAL ENRIQUE GUZMAN Y VALLE",
+        "ingresos2024": 24000,
+        "experienciaActual": "DIRECTOR GENERAL DE GOBIERNO DEL INTERIOR"
+      }
+    },
+    {
+      "dni": "07260881",
+      "idHojaVida": 243593,
+      "idOrg": 2985,
+      "nombre": "WOLFGANG MARIO GROZO COSTA",
+      "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/064360d1-ce49-4abe-939c-f4de8b0130a2.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "21/09/1967",
+      "lugarNacimiento": "JESUS MARIA, LIMA",
+      "flags": {
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "MAESTRO EN DESARROLLO Y DEFENSA NACIONAL",
+        "institucion": "Centro de Altos Estudios Nacionales - CAEN",
+        "ingresos2024": 277827000,
+        "experienciaActual": "PROFESOR EN GERENCIA"
+      }
+    },
+    {
+      "dni": "08263758",
+      "idHojaVida": 250338,
+      "idOrg": 2932,
+      "nombre": "FRANCISCO ERNESTO DIEZ-CANSECO TÁVARA",
+      "partido": "PARTIDO POLITICO PERU ACCION",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/2d1bf7f2-6e88-4ea9-8ed2-975c1ae5fb92.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "18/04/1946",
+      "lugarNacimiento": "SAN ISIDRO, LIMA",
+      "flags": {
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [
+          "DIPUTADO (1985-1990)"
+        ],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "Abogado",
+        "institucion": "Universidad Nacional Mayor de San Marcos",
+        "ingresos2024": 45000,
+        "experienciaActual": "Abogado"
+      }
+    },
+    {
+      "dni": "09307547",
+      "idHojaVida": 252943,
+      "idOrg": 2895,
+      "nombre": "ALEX GONZALES CASTILLO",
+      "partido": "PARTIDO DEMOCRATA VERDE",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/c0ae56bf-21c1-4810-890a-b25c8465bdd9.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "24/11/1961",
+      "lugarNacimiento": "LIMA, LIMA",
+      "flags": {
+        "exCongresista": false,
+        "exAlcalde": true,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [
+          "ALCALDE DISTRITAL (2019-2022)"
+        ],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "ADMINISTRACION",
+        "institucion": "UNIVERSIDAD INCA GARCILASO DE LA VEGA",
+        "ingresos2024": 36000,
+        "experienciaActual": "PRESIDENTE"
+      }
+    },
+    {
+      "dni": "41373494",
+      "idHojaVida": 246962,
+      "idOrg": 3025,
+      "nombre": "RONALD DARWIN ATENCIO SOTOMAYOR",
+      "partido": "ALIANZA ELECTORAL VENCEREMOS",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/bac0288d-3b21-45ac-8849-39f9177fb020.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "30/09/1981",
+      "lugarNacimiento": "HUANUCO, HUANUCO",
+      "flags": {
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "MAESTRO EN DERECHO PENAL",
+        "institucion": "Pontificia Universidad Católica del Perú",
+        "ingresos2024": 290119.82,
+        "experienciaActual": "ASESOR 1"
+      }
+    },
+    {
+      "dni": "08058852",
+      "idHojaVida": 252572,
+      "idOrg": 2939,
+      "nombre": "NAPOLEON BECERRA GARCIA",
+      "partido": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERU",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/bab206cb-b2d5-41ec-bde8-ef8cf3e0a2df.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "11/04/1964",
+      "lugarNacimiento": "CAJAMARCA, CAJAMARCA",
+      "flags": {
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "LICENCIADO EN ADMINISTRACION",
+        "institucion": "Universidad Inca Garcilaso de la Vega Asociación Civil",
+        "ingresos2024": 72000,
+        "experienciaActual": "EMPLEADO"
+      }
+    },
+    {
+      "dni": "08255194",
+      "idHojaVida": 244662,
+      "idOrg": 2986,
+      "nombre": "ARMANDO JOAQUIN MASSE FERNANDEZ",
+      "partido": "PARTIDO DEMOCRATICO FEDERAL",
+      "cargo": "PRESIDENTE DE LA REPÚBLICA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/cb1adeb7-7d2f-430c-ae87-519137d8edfa.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "13/06/1959",
+      "lugarNacimiento": "LIMA, LIMA",
+      "flags": {
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": true,
+        "sentenciaPenalDetalle": [
+          {
+            "idHvSentenciaPenal": 136054,
+            "tengoSentenciaPenal": "SI",
+            "nuItemSentenciaPenal": 1,
+            "txExpedientePenal": "610-2003",
+            "feSentenciaPenal": "10/10/2006",
+            "txOrganoJudiPenal": "TREINTAISIETEAVO JUZGADO PENAL DE LIMA",
+            "txDelitoPenal": "CONTRA EL PATRIMONIO",
+            "txFalloPenal": "SOBRESEIDA",
+            "idParamModalidad": 13,
+            "txModalidad": "OTRO",
+            "txOtraModalidad": "SOBRESEIDA",
+            "idParamCumpleFallo": 20,
+            "txCumpleFallo": "PENA CUMPLIDA",
+            "idEstado": 1,
+            "idHojaVida": 244662,
+            "txComentario": null
+          },
+          {
+            "idHvSentenciaPenal": 136055,
+            "tengoSentenciaPenal": "SI",
+            "nuItemSentenciaPenal": 2,
+            "txExpedientePenal": "12424-2015",
+            "feSentenciaPenal": "02/10/2019",
+            "txOrganoJudiPenal": "DECIMO SEGUNDO JUZGADO PENAL DE LIMA",
+            "txDelitoPenal": "FRAUDE EN LA ADM. DE LAS PERSONAS JURIDICAS",
+            "txFalloPenal": "ABSUELTO",
+            "idParamModalidad": 13,
+            "txModalidad": "OTRO",
+            "txOtraModalidad": "ABSUELTO ARCHIVADO",
+            "idParamCumpleFallo": 20,
+            "txCumpleFallo": "PENA CUMPLIDA",
+            "idEstado": 1,
+            "idHojaVida": 244662,
+            "txComentario": null
+          }
+        ],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "MAGISTER EN ADMINISTRACION ESTRATEGICA DE EMPRESAS",
+        "institucion": "Pontificia Universidad Católica del Perú",
+        "ingresos2024": 682626,
+        "experienciaActual": "Medico"
+      }
+    }
+  ]
+}
