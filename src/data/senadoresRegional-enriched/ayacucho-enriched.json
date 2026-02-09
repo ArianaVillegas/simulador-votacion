@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-02-07T19:51:08.163Z",
+  "fetchedAt": "2026-02-09T21:12:08.889Z",
   "idProcesoElectoral": 124,
-  "count": 49,
+  "count": 60,
   "data": [
     {
       "dni": "28315971",
@@ -94,6 +94,90 @@
             "totalIngresos": 18000
           }
         ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "09549742",
+      "idHojaVida": 255554,
+      "idOrg": 2921,
+      "nombre": "CARLOS ALBERTO PACHECO ESPICHAN",
+      "partido": "PARTIDO POLITICO PRIN",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/940e0dd6-8b7f-4929-8bcb-f3964394d63e.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "14/02/1972",
+      "lugarNacimiento": "EL AGUSTINO, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": null,
+        "institucion": null,
+        "ingresos2024": 0,
+        "experienciaActual": "GERENTE GENERAL"
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 242351,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 255554,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 275294,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "INDEPENDIENTE",
+          "ocupacionProfesion": "GERENTE GENERAL",
+          "rucTrabajo": "20556756865",
+          "direccionTrabajo": "JR FRANCISCO TORRES 515 URB TUNGASUCA",
+          "anioTrabajoDesde": "2014",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "140105",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "CARABAYLLO",
+          "idHojaVida": 255554,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [],
         "bienInmueble": [],
         "bienMueble": [],
         "otroMueble": [],
@@ -1151,6 +1235,59 @@
             "totalIngresos": 26000
           }
         ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "10551882",
+      "idHojaVida": 251649,
+      "idOrg": 2173,
+      "nombre": "JULIA YESENIA DIAZ ROJAS",
+      "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/ce2d3b8f-afff-4fca-97aa-8d6d3906d5e8.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "07/10/1976",
+      "lugarNacimiento": "IQUITOS, MAYNAS",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": null,
+        "institucion": null,
+        "ingresos2024": 0,
+        "experienciaActual": null
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": null,
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
         "bienInmueble": [],
         "bienMueble": [],
         "otroMueble": [],
@@ -2364,6 +2501,139 @@
       "resoluciones": []
     },
     {
+      "dni": "23263066",
+      "idHojaVida": 246712,
+      "idOrg": 2932,
+      "nombre": "JUSTA ESPINOZA QUISPE",
+      "partido": "PARTIDO POLITICO PERU ACCION",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/7b062250-925a-407d-8908-e25314825767.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "19/12/1971",
+      "lugarNacimiento": "YAULI, HUANCAVELICA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": null,
+        "institucion": null,
+        "ingresos2024": 0,
+        "experienciaActual": null
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241276,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 246712,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "28292079",
+      "idHojaVida": 248681,
+      "idOrg": 2932,
+      "nombre": "EDWIN ACOSTA ZEA",
+      "partido": "PARTIDO POLITICO PERU ACCION",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/b734ee5c-5e03-499b-8653-990398c49409.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "10/01/1972",
+      "lugarNacimiento": "AYACUCHO, HUAMANGA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": null,
+        "institucion": null,
+        "ingresos2024": 0,
+        "experienciaActual": null
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": null,
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 215823,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "MG62755",
+            "valor": 60000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "PROPIA",
+            "comentario": null,
+            "idHojaVida": 248681,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
       "dni": "28283655",
       "idHojaVida": 252389,
       "idOrg": 2925,
@@ -3180,6 +3450,69 @@
       "resoluciones": []
     },
     {
+      "dni": "03465931",
+      "idHojaVida": 246582,
+      "idOrg": 2927,
+      "nombre": "ROSA ESTHERFILIA MACHADO DE HERRERA",
+      "partido": "SALVEMOS AL PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/042eb58d-19c6-4793-80a4-f2dd1c0b59c5.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "20/01/1950",
+      "lugarNacimiento": "PIURA, PIURA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": null,
+        "institucion": null,
+        "ingresos2024": 0,
+        "experienciaActual": null
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241964,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 246582,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
       "dni": "28317106",
       "idHojaVida": 253807,
       "idOrg": 2901,
@@ -3694,6 +4027,247 @@
         "bienMueble": [],
         "otroMueble": [],
         "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "28227308",
+      "idHojaVida": 252769,
+      "idOrg": 2895,
+      "nombre": "HECTOR DANILO VELARDE VALER",
+      "partido": "PARTIDO DEMOCRATA VERDE",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/0fbf3d5c-77bb-48b2-9e9c-b26e39a9f639.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "13/12/1964",
+      "lugarNacimiento": "AYACUCHO, HUAMANGA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "BACHILLER EN OBSTETRICIA",
+        "institucion": "Universidad Nacional de San Cristóbal de Huamanga",
+        "ingresos2024": 86000,
+        "experienciaActual": "OBSTETRA"
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 233080,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 252769,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 192748,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional de San Cristóbal de Huamanga",
+            "carreraUni": "BACHILLER EN OBSTETRICIA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "1991",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 192749,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional de San Cristóbal de Huamanga",
+            "carreraUni": "OBSTETRA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "1992",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 259793,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "UNSCH",
+          "ocupacionProfesion": "OBSTETRA",
+          "rucTrabajo": null,
+          "direccionTrabajo": "AV. INDEPENDENCIA S/N",
+          "anioTrabajoDesde": "1996",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "050101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "AYACUCHO",
+          "trabajoProvincia": "HUAMANGA",
+          "trabajoDistrito": "AYACUCHO",
+          "idHojaVida": 252769,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 207677,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 80000,
+            "remuBrutaPrivado": 6000,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 252769,
+            "idEstado": 1,
+            "totalIngresos": 86000
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 252256,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "HUAMANGA-AYACUCHO- MZ O LOTE 31    ZONA ZONA B - PROGRAMA DE VIVIENDA CONJUNTO HABITACIONAL DEL FONA",
+            "comentario": "Desconoce el valor del autovaluo.",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P11024467",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 252769,
+            "idEstado": 1,
+            "flValor": "800000"
+          },
+          {
+            "idHvBienInmueble": 252257,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "HUANTA-IGUAIN- MZ O LOTE 10 - CENTRO POBLADO QUISPICANCHA",
+            "comentario": "La municipalidad de Iguain no ha generado hasta la fecha el valor de autovaluo del bien.",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P25005130",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 252769,
+            "idEstado": 1,
+            "flValor": "50000"
+          },
+          {
+            "idHvBienInmueble": 252258,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 3,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "HUANTA-IGUAIN- MZ U LOTE 2 - CENTRO POBLADO QUISPICANCHA",
+            "comentario": "La municipalidad de Iguain no ha generado hasta la fecha el valor de autovaluo del bien.",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P25005178",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 252769,
+            "idEstado": 1,
+            "flValor": "80000"
+          },
+          {
+            "idHvBienInmueble": 252259,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 4,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "HUANTA-IGUAIN- MZ T LOTE 6 - CENTRO POBLADO QUISPICANCHA",
+            "comentario": "La municipalidad de Iguain no ha generado hasta la fecha el valor de autovaluo del bien.",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P25005172",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 252769,
+            "idEstado": 1,
+            "flValor": "50000"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": [
+          {
+            "idHVTitularidad": 8080,
+            "tengoTitularidad": "SI",
+            "nuItemTitularidad": 1,
+            "txPersonaJuridica": "CLINICA DE LA MUJER LOS JAZMINES S.A.C.",
+            "idParamTipoTitularidad": 87,
+            "txTipoTitularidad": "ACCIONES",
+            "flCantidad": 6000,
+            "flValor": 1,
+            "idHojaVida": 252769,
+            "idEstado": 1,
+            "txUsuario": "46100112",
+            "txFechaRegistro": null,
+            "txComentario": null,
+            "txRegistroManual": null
+          }
+        ]
       },
       "sentenciaPenal": [],
       "sentenciaObliga": [],
@@ -6116,6 +6690,102 @@
       "resoluciones": []
     },
     {
+      "dni": "28851544",
+      "idHojaVida": 247150,
+      "idOrg": 2986,
+      "nombre": "DORA MARCA RIVERA",
+      "partido": "PARTIDO DEMOCRATICO FEDERAL",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/e0db2bff-e1b3-44c5-a9ba-cd21c14611b2.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "22/01/1976",
+      "lugarNacimiento": "PUQUIO, LUCANAS",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": null,
+        "institucion": null,
+        "ingresos2024": 5000,
+        "experienciaActual": null
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 240365,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 247150,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 213509,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 5000,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 247150,
+            "idEstado": 1,
+            "totalIngresos": 5000
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 214421,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "50645Y ",
+            "valor": 3000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "MOTO MARCA BAJAJ, COLOR VERDE , AÑO 2018",
+            "comentario": null,
+            "idHojaVida": 247150,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
       "dni": "07733619",
       "idHojaVida": 250526,
       "idOrg": 2956,
@@ -6339,6 +7009,76 @@
           }
         ],
         "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "40566377",
+      "idHojaVida": 248216,
+      "idOrg": 2956,
+      "nombre": "MARIA ELENA HUAMAN CUNTO",
+      "partido": "PARTIDO PAIS PARA TODOS",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/674f30c1-a113-4a7d-bfd6-f910154b64d5.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "02/10/1979",
+      "lugarNacimiento": "HUANTA, HUANTA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": null,
+        "institucion": null,
+        "ingresos2024": 0,
+        "experienciaActual": null
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": null,
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 214817,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "87978D ",
+            "valor": 0,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "0",
+            "comentario": null,
+            "idHojaVida": 248216,
+            "idEstado": 1
+          }
+        ],
         "otroMueble": [],
         "titularidad": []
       },
@@ -7122,6 +7862,195 @@
             "idHojaVida": 253590,
             "idEstado": 1,
             "flValor": "100000"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "28687969",
+      "idHojaVida": 253249,
+      "idOrg": 3023,
+      "nombre": "BACELIZA ESPINO MEDINA",
+      "partido": "UNIDAD NACIONAL",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/142e40c1-4dff-4cf4-ab56-8c5688750f5d.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "18/11/1973",
+      "lugarNacimiento": "ANCO, LA MAR",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": null,
+        "institucion": null,
+        "ingresos2024": 0,
+        "experienciaActual": null
+      },
+      "trayectoria": {
+        "cargoPartidario": [
+          {
+            "idHvCargoPartidario": 147075,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 1,
+            "idOrgPolCargoPartidario": 2990,
+            "orgPolCargoPartidario": "PARTIDO POLÍTICO PARTIDO POLITICO PERUANOS UNIDOS : ¡SOMOS LIBRES!",
+            "cargoPartidario": "SECRETARIA DE ORGANIZACION PROVINCIAL DE LA MAR",
+            "anioCargoPartiDesde": "2024",
+            "anioCargoPartiHasta": "HASTA LA ACTUALIDAD",
+            "idHojaVida": 253249,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241629,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 253249,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 266053,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "SECCION ESPECIAL DE PREDIOS RURALES",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "UBICACION RURAL SECTOR HUALLHUA/GUILLENWAYQO PARCELA 8_6258550_165066 AREA Ha. 7.8778 U.C. 165066/HH.CC. 8_6258550 ANCO - LA MAR - AYACUCHO",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11009732",
+            "fichaTomoSunarp": null,
+            "autovaluo": 365000,
+            "idHojaVida": 253249,
+            "idEstado": 1,
+            "flValor": "365000"
+          },
+          {
+            "idHvBienInmueble": 266054,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "SECCION ESPECIAL DE PREDIOS RURALES",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "UBICACION RURAL SECTOR HUALLHUA/CHANCHANCHAYOQ PARCELA 8_6258550_165083 AREA Ha. 1.1062 U.C. 165083/HH.CC. 8_6258550_3_1 ANCO - LA MAR - AYACUCHO",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11009744",
+            "fichaTomoSunarp": null,
+            "autovaluo": 50000,
+            "idHojaVida": 253249,
+            "idEstado": 1,
+            "flValor": "50000"
+          },
+          {
+            "idHvBienInmueble": 266055,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 3,
+            "tipoBienInmueble": "SECCION ESPECIAL DE PREDIOS RURALES",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "UBICACION RURAL SECTOR HUALLHUA/PALAQTE PARCELA 8_6258550_165018 AREA Ha. 0.3051 U.C. 165018/HH.CC. 8_6258550_4_3 ANCO - LA MAR - AYACUCHO",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11009692",
+            "fichaTomoSunarp": null,
+            "autovaluo": 18000,
+            "idHojaVida": 253249,
+            "idEstado": 1,
+            "flValor": "18000"
+          },
+          {
+            "idHvBienInmueble": 266056,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 4,
+            "tipoBienInmueble": "SECCION ESPECIAL DE PREDIOS RURALES",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "ZONA: ZONA REGISTRAL XIV - SEDE AYACUCHO; OFICINA: AYACUCHO",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11007605",
+            "fichaTomoSunarp": null,
+            "autovaluo": 70000,
+            "idHojaVida": 253249,
+            "idEstado": 1,
+            "flValor": "70000"
+          },
+          {
+            "idHvBienInmueble": 266057,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 5,
+            "tipoBienInmueble": "SECCION ESPECIAL DE PREDIOS RURALES",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "ZONA: ZONA REGISTRAL XIV - SEDE AYACUCHO; OFICINA: AYACUCHO",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11007591",
+            "fichaTomoSunarp": null,
+            "autovaluo": 70000,
+            "idHojaVida": 253249,
+            "idEstado": 1,
+            "flValor": "70000"
           }
         ],
         "bienMueble": [],
@@ -8767,6 +9696,229 @@
       "resoluciones": []
     },
     {
+      "dni": "40555436",
+      "idHojaVida": 253868,
+      "idOrg": 2933,
+      "nombre": "SOLEDAD YOVANA GUTIERREZ MITMA",
+      "partido": "LIBERTAD POPULAR",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/a1ca38e1-6208-47b1-af2a-a3d74354d6a6.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "13/05/1980",
+      "lugarNacimiento": "AYACUCHO, HUAMANGA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "ECONOMIA CON MENCION EN GESTION DE POLITICAS PUBLICAS",
+        "institucion": "UNIVERSIDAD NACIONAL MAYOR DE SAN MARCOS",
+        "ingresos2024": 34400,
+        "experienciaActual": "ASESORA"
+      },
+      "trayectoria": {
+        "cargoPartidario": [
+          {
+            "idHvCargoPartidario": 144681,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 1,
+            "idOrgPolCargoPartidario": 2861,
+            "orgPolCargoPartidario": "MOVIMIENTO REGIONAL AGUA",
+            "cargoPartidario": "SECRETARIA DEL COMITÉ ELECTORAL REGIONAL",
+            "anioCargoPartiDesde": "2022",
+            "anioCargoPartiHasta": "2024",
+            "idHojaVida": 253868,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvCargoPartidario": 144682,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 2,
+            "idOrgPolCargoPartidario": 2861,
+            "orgPolCargoPartidario": "MOVIMIENTO REGIONAL AGUA",
+            "cargoPartidario": "FUNDADOR",
+            "anioCargoPartiDesde": "2020",
+            "anioCargoPartiHasta": "2024",
+            "idHojaVida": 253868,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 234471,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 253868,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 194642,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional de San Cristóbal de Huamanga",
+            "carreraUni": "BACHILLER EN CIENCIA SOCIAL",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2013",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 194643,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional de San Cristóbal de Huamanga",
+            "carreraUni": "TÍTULO PROFESIONAL DE LICENCIADA EN ANTROPOLOGÍA SOCIAL",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2022",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 143858,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "UNIVERSIDAD NACIONAL MAYOR DE SAN MARCOS",
+            "txEspecialidadPosgrado": "ECONOMIA CON MENCION EN GESTION DE POLITICAS PUBLICAS",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "SI",
+            "esDoctor": null,
+            "txAnioPosgrado": "2021",
+            "idHojaVida": 253868,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 262863,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "GOBIERNO REGIONAL DE AYACUCHO",
+          "ocupacionProfesion": "ASESORA",
+          "rucTrabajo": null,
+          "direccionTrabajo": "JR CALLAO N°122",
+          "anioTrabajoDesde": "2024",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "050101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "AYACUCHO",
+          "trabajoProvincia": "HUAMANGA",
+          "trabajoDistrito": "AYACUCHO",
+          "idHojaVida": 253868,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 208815,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 34400,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 253868,
+            "idEstado": 1,
+            "totalIngresos": 34400
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 255037,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "HUAMANGA-SAN JUAN BAUTISTA- MZ G LOTE 9 - ASOCIACION DE VIVIENDA SAN LUIS - TINAJERAS",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P11124580",
+            "fichaTomoSunarp": null,
+            "autovaluo": 500,
+            "idHojaVida": 253868,
+            "idEstado": 1,
+            "flValor": "200000"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 208962,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "F7P757 ",
+            "valor": 84250,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "VOLKSWAGEN",
+            "comentario": null,
+            "idHojaVida": 253868,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
       "dni": "19986965",
       "idHojaVida": 255137,
       "idOrg": 2731,
@@ -9877,6 +11029,82 @@
       "declaracionJurada": {
         "ingreso": [],
         "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "10339803",
+      "idHojaVida": 255508,
+      "idOrg": 2173,
+      "nombre": "CARMEN LUZ SALAS JIMENEZ",
+      "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/f8d722d8-a672-46e0-9064-7171f9000691.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "14/06/1974",
+      "lugarNacimiento": "JESUS MARIA, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": null,
+        "institucion": null,
+        "ingresos2024": 0,
+        "experienciaActual": null
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": null,
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 266957,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "DERECHOS MINEROS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "ZONA: ZONA REGISTRAL IX - SEDE LIMA; OFICINA: LIMA",
+            "comentario": "NO TENGO EL VALOR ACTUAL",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "02016166",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 255508,
+            "idEstado": 1,
+            "flValor": "0"
+          }
+        ],
         "bienMueble": [],
         "otroMueble": [],
         "titularidad": []

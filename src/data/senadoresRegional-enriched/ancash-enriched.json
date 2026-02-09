@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-02-07T19:44:43.490Z",
+  "fetchedAt": "2026-02-09T21:02:54.455Z",
   "idProcesoElectoral": 124,
-  "count": 64,
+  "count": 70,
   "data": [
     {
       "dni": "08661405",
@@ -2886,6 +2886,167 @@
       "resoluciones": []
     },
     {
+      "dni": "08831462",
+      "idHojaVida": 246405,
+      "idOrg": 2840,
+      "nombre": "JUANA INGRID VELASQUEZ ARTETA",
+      "partido": "PARTIDO MORADO",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/7fabe6bb-ad58-4496-a773-099599ad00eb.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "26/08/1961",
+      "lugarNacimiento": "CHIMBOTE, SANTA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": null,
+        "institucion": null,
+        "ingresos2024": 0,
+        "experienciaActual": "POLICIA MUNICIPAL"
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241570,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": null,
+          "eduSecundaria": "NO",
+          "concluidoEduSecundaria": null,
+          "idHojaVida": 246405,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 274621,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "MUNICIPALIDAD DISTRITAL DE NUEVO CHIMBOTE",
+          "ocupacionProfesion": "POLICIA MUNICIPAL",
+          "rucTrabajo": null,
+          "direccionTrabajo": "CENTRO CIVICO DE NUEVO CHIMBOTE",
+          "anioTrabajoDesde": "2025",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "021309",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "ANCASH",
+          "trabajoProvincia": "SANTA",
+          "trabajoDistrito": "NUEVO CHIMBOTE",
+          "idHojaVida": 246405,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 274622,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 2,
+          "centroTrabajo": "MUNICIPALIDAD DISTRITAL DE NUEVO CHIMBOTE",
+          "ocupacionProfesion": "POLICIA MUNICIPAL",
+          "rucTrabajo": null,
+          "direccionTrabajo": "CENTRO CIVICO DE NUEVO CHIMBOTE",
+          "anioTrabajoDesde": "2024",
+          "anioTrabajoHasta": "2024",
+          "ubigeoTrabajo": "021309",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "ANCASH",
+          "trabajoProvincia": "SANTA",
+          "trabajoDistrito": "NUEVO CHIMBOTE",
+          "idHojaVida": 246405,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 274625,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 3,
+          "centroTrabajo": "MUNICIPALIDAD DISTRITAL DE NUEVO CHIMBOTE",
+          "ocupacionProfesion": "POLICIA MUNICIPAL",
+          "rucTrabajo": null,
+          "direccionTrabajo": "CENTRO CIVICO DE NUEVO CHIMBOTE S/N",
+          "anioTrabajoDesde": "2021",
+          "anioTrabajoHasta": "2021",
+          "ubigeoTrabajo": "021309",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "ANCASH",
+          "trabajoProvincia": "SANTA",
+          "trabajoDistrito": "NUEVO CHIMBOTE",
+          "idHojaVida": 246405,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 274626,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 4,
+          "centroTrabajo": "MUNICIPALIDAD DISTRITAL DE NUEVO CHIMBOTE",
+          "ocupacionProfesion": "POLICIA MUNICIPAL",
+          "rucTrabajo": null,
+          "direccionTrabajo": "CENTRO CIVICO DE NUEVO CHIMBOTE S/N",
+          "anioTrabajoDesde": "2012",
+          "anioTrabajoHasta": "2012",
+          "ubigeoTrabajo": "021309",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "ANCASH",
+          "trabajoProvincia": "SANTA",
+          "trabajoDistrito": "NUEVO CHIMBOTE",
+          "idHojaVida": 246405,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 215460,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "8530DA ",
+            "valor": 0,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "RONCO NEGRO VERDE 2019",
+            "comentario": null,
+            "idHojaVida": 246405,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
       "dni": "32920260",
       "idHojaVida": 245090,
       "idOrg": 2840,
@@ -3761,6 +3922,136 @@
             "idHojaVida": 246842,
             "idEstado": 1,
             "flValor": "133000"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "32293021",
+      "idHojaVida": 243923,
+      "idOrg": 2939,
+      "nombre": "JULIA ZENAIDA PADILLA DE ORTIZ",
+      "partido": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/56ef07fd-68ed-45db-8268-57ab01968090.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "10/10/1950",
+      "lugarNacimiento": "HUANCHAY, HUARAZ",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": null,
+        "institucion": null,
+        "ingresos2024": 0,
+        "experienciaActual": null
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241597,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 243923,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 266006,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "AVENIDA UNIVERSITARIA MZ B LOTE 9 URB LUCYANA CARABAYLLO - LIMA - LIMA",
+            "comentario": "NO HAY REGISTRO",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "43691929",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 243923,
+            "idEstado": 1,
+            "flValor": "0"
+          },
+          {
+            "idHvBienInmueble": 266007,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "HUARI-UCO- MZ L1 LOTE 1 - CENTRO POBLADO UCO",
+            "comentario": "NO HAY REGISTRO",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P37023314",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 243923,
+            "idEstado": 1,
+            "flValor": "0"
+          },
+          {
+            "idHvBienInmueble": 266008,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 3,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "HUARI-UCO- MZ L1 LOTE 2 - CENTRO POBLADO UCO",
+            "comentario": "NO HAY REGISTRO",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P37023315",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 243923,
+            "idEstado": 1,
+            "flValor": "0"
           }
         ],
         "bienMueble": [],
@@ -6110,6 +6401,59 @@
       "resoluciones": []
     },
     {
+      "dni": "32849488",
+      "idHojaVida": 246942,
+      "idOrg": 2867,
+      "nombre": "ANDRES SIMON AVALOS USQUIANO",
+      "partido": "PARTIDO DEMOCRATA UNIDO PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/84a60964-672d-4335-9627-0539b4cb34c2.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "20/10/1966",
+      "lugarNacimiento": "CHIMBOTE, SANTA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": null,
+        "institucion": null,
+        "ingresos2024": 0,
+        "experienciaActual": null
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": null,
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
       "dni": "32984919",
       "idHojaVida": 247563,
       "idOrg": 2867,
@@ -6564,6 +6908,118 @@
           "txComentario": null
         }
       ],
+      "resoluciones": []
+    },
+    {
+      "dni": "32644202",
+      "idHojaVida": 247744,
+      "idOrg": 2895,
+      "nombre": "LUCIA DORIS DEXTRE ARNAO",
+      "partido": "PARTIDO DEMOCRATA VERDE",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/0b7c8358-8f55-450b-a471-5a3347e22250.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "03/12/1971",
+      "lugarNacimiento": "RECUAY, RECUAY",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": null,
+        "institucion": null,
+        "ingresos2024": 12000,
+        "experienciaActual": "AREAS VERDES"
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 233127,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 247744,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [
+          {
+            "idHvEduTecnico": 159620,
+            "tengoEduTecnico": "SI",
+            "cenEstudioTecnico": "INSTITUTO SUPERIOR TECNOLOGICO RECUAY",
+            "carreraTecnico": "EMFERMERIA TECNICA",
+            "concluidoEduTecnico": "1",
+            "idHojaVida": 247744,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 259914,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "MUNICIPALIDAD PROVINCIAL DE RECUAY",
+          "ocupacionProfesion": "AREAS VERDES",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Plaza de Armas N° 170",
+          "anioTrabajoDesde": "2017",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "021201",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "ANCASH",
+          "trabajoProvincia": "RECUAY",
+          "trabajoDistrito": "RECUAY",
+          "idHojaVida": 247744,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 207708,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 12000,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 247744,
+            "idEstado": 1,
+            "totalIngresos": 12000
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
       "resoluciones": []
     },
     {
@@ -10428,6 +10884,158 @@
       "resoluciones": []
     },
     {
+      "dni": "40202451",
+      "idHojaVida": 253534,
+      "idOrg": 3024,
+      "nombre": "JANY LETICIA CHIHUAN VELARDE",
+      "partido": "FUERZA Y LIBERTAD",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/45257851-4795-4d6d-b079-dc619215f1d5.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "05/05/1979",
+      "lugarNacimiento": "PUERTO BERMUDEZ, OXAPAMPA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": null,
+        "institucion": null,
+        "ingresos2024": 20000,
+        "experienciaActual": "TECNICA EN ENFERMERIA"
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 233302,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 253534,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [
+          {
+            "idHvEduTecnico": 159665,
+            "tengoEduTecnico": "SI",
+            "cenEstudioTecnico": "INSTITUTO SUPERIOR TECNOLOGICO LA MERCED",
+            "carreraTecnico": "TECNICA EN ENFERMERIA",
+            "concluidoEduTecnico": "2",
+            "idHojaVida": 253534,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": "HASTA EL 8 CICLO"
+          }
+        ],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 260419,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "RED DE SALUD CHANCHAMAYO",
+          "ocupacionProfesion": "TECNICA EN ENFERMERIA",
+          "rucTrabajo": "20188446133",
+          "direccionTrabajo": "Jirón Tarma N° 140",
+          "anioTrabajoDesde": "2015",
+          "anioTrabajoHasta": "2018",
+          "ubigeoTrabajo": "110801",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "JUNIN",
+          "trabajoProvincia": "CHANCHAMAYO",
+          "trabajoDistrito": "CHANCHAMAYO",
+          "idHojaVida": 253534,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "Hospital Regional Docente de Medicina Tropical \"Julio Cesar Demarini caro\""
+        },
+        {
+          "idHvExpeLaboral": 260424,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 2,
+          "centroTrabajo": "MUNICIPALIDAD PROVINCIAL DE CHANCHAMAYO",
+          "ocupacionProfesion": "NOTIFICADORA DE COACTIVO",
+          "rucTrabajo": "20146663461",
+          "direccionTrabajo": "Calle Callao N° 245",
+          "anioTrabajoDesde": "2019",
+          "anioTrabajoHasta": "2021",
+          "ubigeoTrabajo": "110801",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "JUNIN",
+          "trabajoProvincia": "CHANCHAMAYO",
+          "trabajoDistrito": "CHANCHAMAYO",
+          "idHojaVida": 253534,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 260427,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 3,
+          "centroTrabajo": "RED DE SALUD CHANCHAMAYO",
+          "ocupacionProfesion": "TECNICA EN ENFERMERIA",
+          "rucTrabajo": "20188446133",
+          "direccionTrabajo": "Jirón Tarma N° 140",
+          "anioTrabajoDesde": "2023",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "110801",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "JUNIN",
+          "trabajoProvincia": "CHANCHAMAYO",
+          "trabajoDistrito": "CHANCHAMAYO",
+          "idHojaVida": 253534,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "TECNICA EN ENFERMERIA EN CADENA DE FRIO"
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 207840,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 20000,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 253534,
+            "idEstado": 1,
+            "totalIngresos": 20000
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
       "dni": "41596714",
       "idHojaVida": 253586,
       "idOrg": 3024,
@@ -11085,6 +11693,240 @@
         ],
         "bienInmueble": [],
         "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "32797350",
+      "idHojaVida": 255094,
+      "idOrg": 2939,
+      "nombre": "LUIS ALBERTO RUIZ GARCIA",
+      "partido": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/3fdaefd1-c83d-4c6c-a4ce-777ee846c675.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "18/11/1951",
+      "lugarNacimiento": "CACHICADAN, SANTIAGO DE CHUCO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "ABOGADO",
+        "institucion": "Universidad los Ángeles de Chimbote",
+        "ingresos2024": 10200,
+        "experienciaActual": "ECONOMISTA"
+      },
+      "trayectoria": {
+        "cargoPartidario": [
+          {
+            "idHvCargoPartidario": 146832,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 1,
+            "idOrgPolCargoPartidario": 2999,
+            "orgPolCargoPartidario": "UP UNIDAD POPULAR",
+            "cargoPartidario": "TRIBUNAL NACIONAL DE ÉTICA Y DISCIPLINA - PRESIDENTE",
+            "anioCargoPartiDesde": "2024",
+            "anioCargoPartiHasta": "HASTA LA ACTUALIDAD",
+            "idHojaVida": 255094,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 240876,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 255094,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 202147,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad los Ángeles de Chimbote",
+            "carreraUni": "ABOGADO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2001",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 202148,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad los Ángeles de Chimbote",
+            "carreraUni": "BACHILLER EN DERECHO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2000",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 273377,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "UNIVERSIDAD NACIONAL DEL SANTA",
+          "ocupacionProfesion": "ECONOMISTA",
+          "rucTrabajo": null,
+          "direccionTrabajo": "AV.PACIFICO 508 NVO CHIMBOTE",
+          "anioTrabajoDesde": "1987",
+          "anioTrabajoHasta": "2021",
+          "ubigeoTrabajo": "021309",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "ANCASH",
+          "trabajoProvincia": "SANTA",
+          "trabajoDistrito": "NUEVO CHIMBOTE",
+          "idHojaVida": 255094,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "JUBILADO LEY 19990"
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 213966,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 10200,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 255094,
+            "idEstado": 1,
+            "totalIngresos": 10200
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 264888,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "AVENIDA LA MARINA MZ K2 LOTE 14 URB LAS CASUARINAS PARCELA 4 SECTOR 72 NUEVO CHIMBOTE - SANTA - ANCASH",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "02001989",
+            "fichaTomoSunarp": null,
+            "autovaluo": 215808.94,
+            "idHojaVida": 255094,
+            "idEstado": 1,
+            "flValor": "0"
+          },
+          {
+            "idHvBienInmueble": 264889,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "MZ B LOTE 19 - PUEBLO JOVEN REPUBLICA FEDERAL ALEMANA - DPTO: LIMA PROV: LIMA DIST: SAN JUAN DE MIRAFLORES",
+            "comentario": "NO REGISTRA",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P03131823",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 255094,
+            "idEstado": 1,
+            "flValor": "0"
+          },
+          {
+            "idHvBienInmueble": 264890,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 3,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "MZ A14 LOTE 24    SECTOR 1 - ASENTAMIENTO HUMANO BOCANEGRA - DPTO: LIMA PROV: CALLAO DIST: CALLAO",
+            "comentario": "NO REGISTRO",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P01106826",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 255094,
+            "idEstado": 1,
+            "flValor": "0"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 214855,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "H1L527 ",
+            "valor": 30000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "AÑO FABRICACION 2013",
+            "comentario": null,
+            "idHojaVida": 255094,
+            "idEstado": 1
+          }
+        ],
         "otroMueble": [],
         "titularidad": []
       },
