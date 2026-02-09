@@ -1,32 +1,85 @@
 import { useState } from 'react';
 import { candidatosPresidenciales, partidosParlamentarios, JNE_LOGO } from '../data/candidatos';
 import senadoresNacionalRaw from '../data/senadoresNacional.json';
-import senadoresRegional from '../data/senadoresRegional';
-import diputadosData from '../data/diputados';
+import senadoresNacionalEnrich from '../data/senadoresNacional-enriched.json';
+import senadoresRegionalRawData from '../data/senadoresRegional/rawIndex';
+import senadoresRegionalEnrichData from '../data/senadoresRegional-enriched';
+import diputadosRawData from '../data/diputados/rawIndex';
+import diputadosEnrichData from '../data/diputados-enriched';
 import parlamenAndinoRaw from '../data/parlamenAndino.json';
+import parlamenAndinoEnrich from '../data/parlamenAndino-enriched.json';
+import presidencialesEnriched from '../data/candidatosPresidenciales-enriched.json';
+import JudicialAlert from './JudicialAlert';
 
 const JNE_FOTO = "https://mpesije.jne.gob.pe/apidocs/";
 
-// Procesar senadores nacionales
-const senadoresNacional = senadoresNacionalRaw.data
-  .filter(c => c.strEstadoCandidato === 'INSCRITO')
-  .map(c => ({
-    idOrg: c.idOrganizacionPolitica,
-    pos: c.intPosicion,
-    nombre: `${c.strNombres} ${c.strApellidoPaterno} ${c.strApellidoMaterno}`.trim(),
-    dni: c.strDocumentoIdentidad,
-    foto: c.strGuidFoto
-  }));
+// Helper para normalizar nombres (Mayúsculas a Título)
+const normalizeName = (str) => {
+  if (!str) return '';
+  // Si es muy corto (siglas) no lo tocamos
+  if (str.length <= 4 && str === str.toUpperCase()) return str;
+  // Solo normalizamos si viene todo en mayúsculas (como los datos del JNE)
+  if (str !== str.toUpperCase()) return str;
 
-// Procesar parlamento andino
-const parlamenAndino = parlamenAndinoRaw.data
-  .filter(c => c.strEstadoCandidato === 'INSCRITO')
+  return str.toLowerCase().replace(/\b\w/g, s => s.toUpperCase());
+};
+
+// Helper para fusionar datos originales con enriquecidos
+const fusionarDatos = (raw, enrich) => {
+  const data = raw.data || raw;
+  const enrichList = enrich.data || enrich;
+  const enrichedMap = new Map((Array.isArray(enrichList) ? enrichList : []).map(e => [e.dni, e.flags]));
+
+  return (Array.isArray(data) ? data : [])
+    .filter(c => c.strEstadoCandidato === 'INSCRITO')
+    .map(c => ({
+      idOrg: c.idOrganizacionPolitica,
+      pos: c.intPosicion,
+      nombre: `${c.strNombres} ${c.strApellidoPaterno} ${c.strApellidoMaterno}`.trim(),
+      dni: c.strDocumentoIdentidad,
+      foto: c.strGuidFoto,
+      sexo: c.strSexo,
+      flags: enrichedMap.get(c.strDocumentoIdentidad) || {
+        sentenciaPenal: false,
+        sentenciaPenalDetalle: [],
+        sentenciaObliga: false,
+        sentenciaObligaDetalle: []
+      }
+    }));
+};
+
+// Procesar senadores nacionales (Híbrido)
+const senadoresNacional = fusionarDatos(senadoresNacionalRaw, senadoresNacionalEnrich);
+
+// Procesar parlamento andino (Híbrido)
+const parlamenAndino = fusionarDatos(parlamenAndinoRaw, parlamenAndinoEnrich);
+
+// Procesar senadores regionales (Híbrido)
+const senadoresRegional = Object.fromEntries(
+  Object.keys(senadoresRegionalRawData).map(region => [
+    region,
+    fusionarDatos(senadoresRegionalRawData[region], senadoresRegionalEnrichData[region] || [])
+  ])
+);
+
+// Procesar diputados (Híbrido)
+const diputadosData = Object.fromEntries(
+  Object.keys(diputadosRawData).map(region => [
+    region,
+    fusionarDatos(diputadosRawData[region], diputadosEnrichData[region] || [])
+  ])
+);
+
+// Procesar presidenciales enriquecidos para obtener flags
+const presidencialesList = (presidencialesEnriched.data || presidencialesEnriched || [])
   .map(c => ({
-    idOrg: c.idOrganizacionPolitica,
-    pos: c.intPosicion,
-    nombre: `${c.strNombres} ${c.strApellidoPaterno} ${c.strApellidoMaterno}`.trim(),
-    dni: c.strDocumentoIdentidad,
-    foto: c.strGuidFoto
+    idOrg: c.idOrg || c.idOrganizacionPolitica,
+    flags: c.flags || {
+      sentenciaPenal: false,
+      sentenciaPenalDetalle: [],
+      sentenciaObliga: false,
+      sentenciaObligaDetalle: []
+    }
   }));
 
 // Buscar candidato por partido y posición
@@ -46,7 +99,18 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
     if (valor === 'blanco') return { nombre: 'VOTO EN BLANCO', color: '#9CA3AF', siglas: '—' };
     if (valor === 'nulo') return { nombre: 'VOTO NULO', color: '#EF4444', siglas: '✕' };
     if (valor === null) return { nombre: 'VOTO EN BLANCO', color: '#9CA3AF', siglas: '—' };
-    return candidatosPresidenciales.find(i => i.id === valor) || { nombre: 'VOTO EN BLANCO', color: '#9CA3AF', siglas: '—' };
+
+    const base = candidatosPresidenciales.find(i => i.id === valor);
+    const enriched = presidencialesList.find(c => c.idOrg === base?.idOrg);
+
+    // Detección simple de género para presidenciales basándose en nombres comunes o Keiko
+    const esFemenino = base?.nombre?.includes('KEIKO') || base?.nombre?.includes('BEATRIZ') || base?.nombre?.includes('VERONIKA') || base?.nombre?.includes('MARIA');
+
+    return {
+      ...(base || { nombre: 'VOTO EN BLANCO', color: '#9CA3AF', siglas: '—' }),
+      sexo: esFemenino ? 'FEMENINO' : 'MASCULINO',
+      flags: enriched?.flags || { sentenciaPenal: false, sentenciaObliga: false }
+    };
   };
 
   const getSeleccionPartido = (categoria) => {
@@ -63,8 +127,12 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
     // Buscar candidatos por número preferencial
     let datos = [];
     if (categoria === 'senadoresNacional') datos = senadoresNacional;
-    else if (categoria === 'senadoresRegional') datos = senadoresRegional[regionSeleccionada] || [];
-    else if (categoria === 'diputados') datos = diputadosData[regionSeleccionada] || [];
+    else if (categoria === 'senadoresRegional') {
+      datos = senadoresRegional[regionSeleccionada] || [];
+    }
+    else if (categoria === 'diputados') {
+      datos = diputadosData[regionSeleccionada] || [];
+    }
     else if (categoria === 'parlamenAndino') datos = parlamenAndino;
 
     const candidatos = prefFiltrados.map(num => {
@@ -86,7 +154,7 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
     votos.senadoresRegional?.partido !== null ||
     votos.diputados?.partido !== null ||
     votos.parlamenAndino?.partido !== null;
-  
+
   const votosCompletos = votos.presidente !== null &&
     votos.senadoresNacional?.partido !== null &&
     votos.senadoresRegional?.partido !== null &&
@@ -104,7 +172,7 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
   };
 
   const ResumenItem = ({ titulo, seleccion, compact = false }) => (
-    <div className={`${compact ? 'p-2' : 'p-3'} bg-white rounded-lg shadow-sm`}>
+    <div className={`${compact ? 'p-2' : 'p-3'} bg-white rounded-lg shadow-sm border border-slate-100`}>
       <div className="flex items-center gap-2">
         {seleccion.idOrg ? (
           <img
@@ -122,49 +190,29 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
         </div>
         <div className="flex-1 min-w-0">
           <p className={`${compact ? 'text-[10px]' : 'text-xs'} text-gray-500`}>{titulo}</p>
-          <p className={`font-semibold ${compact ? 'text-xs' : 'text-sm'} truncate`}>{seleccion.partido || seleccion.nombre}</p>
+          <p className={`font-semibold ${compact ? 'text-xs' : 'text-sm'} truncate`}>
+            {normalizeName(seleccion.partido || seleccion.nombre)}
+          </p>
         </div>
       </div>
 
-      {/* Mostrar Candidato Presidencial (si tiene foto definida en el objeto principal) */}
-      {seleccion.foto && (
-        <div className="mt-2 space-y-1 pl-2 border-l-2 border-slate-200 ml-4">
-          <div className="flex items-center gap-2">
-            <img
-              src={seleccion.foto}
-              alt={seleccion.nombre}
-              className="w-6 h-6 rounded-full object-cover shrink-0"
-              onError={(e) => { e.target.style.display = 'none'; }}
-            />
-            <div className="flex-1 min-w-0">
-              <p className="text-[10px] font-medium truncate">{seleccion.nombre}</p>
-              <a
-                href={seleccion.hojaVida}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[9px] text-blue-600 hover:underline"
-              >
-                Ver hoja de vida
-              </a>
-            </div>
-          </div>
-        </div>
-      )}
+      {/* Las alertas se muestran ahora a nivel de candidato individual para mayor coherencia */}
 
-      {seleccion.candidatos?.length > 0 && (
-        <div className="mt-2 space-y-1 pl-2 border-l-2 border-slate-200 ml-4">
-          {seleccion.candidatos.map((c, i) => (
-            <div key={i} className="flex items-center gap-2">
+      {/* Mostrar Candidato Presidencial */}
+      {seleccion.foto && (
+        <div className="mt-2 space-y-2 pl-2 border-l-2 border-slate-200 ml-4">
+          <div className="flex flex-col gap-1">
+            <div className="flex items-center gap-2">
               <img
-                src={`${JNE_FOTO}${c.foto}.jpg`}
-                alt={c.nombre}
+                src={seleccion.foto}
+                alt={seleccion.nombre}
                 className="w-6 h-6 rounded-full object-cover shrink-0"
                 onError={(e) => { e.target.style.display = 'none'; }}
               />
               <div className="flex-1 min-w-0">
-                <p className="text-[10px] font-medium truncate">{c.nombre}</p>
+                <p className="text-[10px] font-medium truncate">{normalizeName(seleccion.nombre)}</p>
                 <a
-                  href={c.hojaVida}
+                  href={seleccion.hojaVida}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[9px] text-blue-600 hover:underline"
@@ -172,6 +220,44 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
                   Ver hoja de vida
                 </a>
               </div>
+            </div>
+            <JudicialAlert
+              sentenciaPenal={seleccion.flags?.sentenciaPenal}
+              sentenciaPenalDetalle={seleccion.flags?.sentenciaPenalDetalle}
+              sexo={seleccion.sexo}
+            />
+          </div>
+        </div>
+      )}
+
+      {seleccion.candidatos?.length > 0 && (
+        <div className="mt-2 space-y-2 pl-2 border-l-2 border-slate-200 ml-4">
+          {seleccion.candidatos.map((c, i) => (
+            <div key={i} className="flex flex-col gap-1">
+              <div className="flex items-center gap-2">
+                <img
+                  src={c.foto?.startsWith('http') ? c.foto : `${JNE_FOTO}${c.foto}.jpg`}
+                  alt={c.nombre}
+                  className="w-6 h-6 rounded-full object-cover shrink-0"
+                  onError={(e) => { e.target.style.display = 'none'; }}
+                />
+                <div className="flex-1 min-w-0">
+                  <p className="text-[10px] font-medium truncate">{normalizeName(c.nombre)}</p>
+                  <a
+                    href={c.hojaVida}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[9px] text-blue-600 hover:underline"
+                  >
+                    Ver hoja de vida
+                  </a>
+                </div>
+              </div>
+              <JudicialAlert
+                sentenciaPenal={c.flags?.sentenciaPenal}
+                sentenciaPenalDetalle={c.flags?.sentenciaPenalDetalle}
+                sexo={c.sexo}
+              />
             </div>
           ))}
         </div>
@@ -188,7 +274,7 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
         <div className="w-12 h-12 bg-slate-700 rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-3">✓</div>
         <h3 className="text-lg font-semibold text-slate-800 mb-1">Voto Registrado</h3>
         <p className="text-gray-500 text-sm mb-4">Tu voto simulado ha sido registrado.</p>
-        <div className="space-y-2 text-left mb-4">
+        <div className="space-y-3 text-left mb-4 overflow-y-auto max-h-[400px] pr-1">
           <ResumenItem titulo="Presidente" seleccion={presidente} compact />
           <ResumenItem titulo="Senadores Nac." seleccion={senadoresNac} compact />
           <ResumenItem titulo="Senadores Reg." seleccion={senadoresReg} compact />
@@ -210,12 +296,12 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
           {votosCompletos && <span className="text-green-600 text-xs font-normal">✓ Completo</span>}
         </h3>
 
-        <div className="space-y-2">
-          <ResumenItem titulo="Presidente" seleccion={presidente} />
-          <ResumenItem titulo="Senadores Nacional" seleccion={senadoresNac} />
-          <ResumenItem titulo="Senadores Regional" seleccion={senadoresReg} />
-          <ResumenItem titulo="Diputados" seleccion={diputados} />
-          <ResumenItem titulo="Parlamento Andino" seleccion={parlamento} />
+        <div className="space-y-2 overflow-y-auto max-h-[500px] pr-1">
+          <ResumenItem titulo="Presidente" seleccion={presidente} compact />
+          <ResumenItem titulo="Senadores Nacional" seleccion={senadoresNac} compact />
+          <ResumenItem titulo="Senadores Regional" seleccion={senadoresReg} compact />
+          <ResumenItem titulo="Diputados" seleccion={diputados} compact />
+          <ResumenItem titulo="Parlamento Andino" seleccion={parlamento} compact />
         </div>
 
         {!votosCompletos && (
@@ -239,7 +325,7 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
           <div className="bg-white rounded-lg p-5 max-w-md w-full shadow-2xl">
             <h3 className="text-lg font-semibold text-slate-800 mb-4 text-center border-b border-slate-100 pb-3">Confirmar tu voto</h3>
-            <div className="space-y-2 mb-5">
+            <div className="space-y-3 mb-5 max-h-[400px] overflow-y-auto pr-1">
               <ResumenItem titulo="Presidente" seleccion={presidente} compact />
               <ResumenItem titulo="Senadores Nac." seleccion={senadoresNac} compact />
               <ResumenItem titulo="Senadores Reg." seleccion={senadoresReg} compact />
