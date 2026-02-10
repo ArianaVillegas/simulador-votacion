@@ -144,11 +144,13 @@ const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial, voto,
       <div className="shrink-0 flex gap-[10px] items-center">
         {voto.preferencial.slice(0, numPreferencial).map((val, i) => {
           const candidato = selected && val ? buscarCandidato(partido.idOrg, val, getDatosCandidatos()) : null;
+          const noExiste = selected && val && !candidato;
           const esValido = candidato && ESTADOS_VALIDOS.includes(candidato.estado);
           const enProceso = candidato && ['ADMITIDO', 'EN PROCESO DE TACHAS', 'PUBLICADO PARA TACHAS'].includes(candidato.estado);
           const esRechazado = candidato && !esValido && !enProceso;
           const getBorderClass = () => {
             if (!selected) return 'border-black';
+            if (noExiste) return 'border-red-500 border-2';
             if (enProceso) return 'border-amber-500 border-2';
             if (esRechazado) return 'border-red-500 border-2';
             return 'border-black';

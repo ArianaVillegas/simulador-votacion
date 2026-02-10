@@ -6,6 +6,9 @@ const path = require('path');
 const JNE_FOTO = "https://mpesije.jne.gob.pe/apidocs/";
 const ID_PROCESO_ELECTORAL = 124;
 const DATA_DIR = path.join(__dirname, '..', 'src', 'data');
+const DELAY_MS = 1500; // Delay between requests to avoid rate limiting
+
+const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 function curlGet(url) {
   try {
@@ -129,6 +132,7 @@ async function processFile(inputFile, outputFile, dniField = 'strDocumentoIdenti
     process.stdout.write(`\r  [${i + 1}/${candidates.length}] Fetching ${dni}...`);
     const data = enrichCandidato(dni, pos);
     if (data) enriched.push(data);
+    await sleep(DELAY_MS);
   }
   
   const output = { fetchedAt: new Date().toISOString(), idProcesoElectoral: ID_PROCESO_ELECTORAL, count: enriched.length, data: enriched };
@@ -164,6 +168,7 @@ async function main() {
       process.stdout.write(`\r  [${i + 1}/${dnis.length}] Fetching ${dnis[i]}...`);
       const data = enrichCandidato(dnis[i]);
       if (data) enriched.push(data);
+      await sleep(DELAY_MS);
     }
     const output = { fetchedAt: new Date().toISOString(), idProcesoElectoral: ID_PROCESO_ELECTORAL, count: enriched.length, data: enriched };
     fs.writeFileSync(path.join(DATA_DIR, 'candidatosPresidenciales-enriched.json'), JSON.stringify(output, null, 2));

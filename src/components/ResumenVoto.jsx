@@ -239,6 +239,15 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
         <div className="mt-2 space-y-2 pl-2 border-l-2 border-slate-200 ml-4">
           {seleccion.candidatos.map((c, i) => (
             <div key={i} className="flex flex-col gap-1">
+              {c.noExiste ? (
+                <div className="bg-red-50 border-l-4 border-red-600 p-2 rounded-r-md shadow-sm">
+                  <div className="flex items-center gap-2">
+                    <span className="text-red-600 text-xs">⚠</span>
+                    <span className="text-[10px] font-semibold text-red-800 uppercase">NÚMERO NO EXISTE</span>
+                  </div>
+                  <p className="text-[10px] text-gray-700 mt-1 ml-5">El número {c.numPref} no corresponde a ningún candidato. Tu voto preferencial no será contado.</p>
+                </div>
+              ) : (
               <div className="flex items-center gap-2">
                 <img
                   src={c.foto?.startsWith('http') ? c.foto : `${JNE_FOTO}${c.foto}`}
@@ -258,6 +267,7 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
                   </a>
                 </div>
               </div>
+              )}
               {c.estado && c.estado !== 'INSCRITO' && (() => {
                 const enProceso = ESTADOS_EN_PROCESO.includes(c.estado);
                 const esRechazado = !ESTADOS_VALIDOS.includes(c.estado) && !enProceso;
