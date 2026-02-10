@@ -19,7 +19,10 @@ function curlPost(url, body) {
     fs.writeFileSync('/tmp/jne-body.json', JSON.stringify(body));
     const result = execSync('curl -sk -X POST "' + url + '" -H "Content-Type: application/json" -H "Accept: application/json" -d @/tmp/jne-body.json', { encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 });
     return JSON.parse(result);
-  } catch (e) { return null; }
+  } catch (e) {
+    console.error(` [CURL ERROR] ${e.message}`);
+    return null;
+  }
 }
 
 function buscarCandidato(dni) {
@@ -72,7 +75,10 @@ function extractResumen(hoja) {
 function enrichCandidato(dni, pos = null) {
   try {
     const candidato = buscarCandidato(dni);
-    if (!candidato) return null;
+    if (!candidato) {
+      console.error(` [SKIP] No candidate found for DNI ${dni}`);
+      return null;
+    }
     
     const hoja = fetchHojaVida(candidato.idHojaVida);
     if (!hoja?.datoGeneral) return null;
