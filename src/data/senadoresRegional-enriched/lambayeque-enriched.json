@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-02-07T20:11:51.889Z",
+  "fetchedAt": "2026-02-14T01:01:03.897Z",
   "idProcesoElectoral": 124,
-  "count": 61,
+  "count": 72,
   "data": [
     {
       "dni": "17536614",
@@ -16871,6 +16871,1732 @@
       },
       "sentenciaPenal": [],
       "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "16422881",
+      "idHojaVida": 244926,
+      "idOrg": 2932,
+      "nombre": "MARLENE CANDELARIA MEREJILDO DE DE MARZO",
+      "partido": "PARTIDO POLITICO PERU ACCION",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/a20fe899-387b-4269-b1f8-15fc4ed6eb95.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "22/12/1960",
+      "lugarNacimiento": "TACNA, TACNA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241908,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 244926,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "16784207",
+      "idHojaVida": 245532,
+      "idOrg": 2867,
+      "nombre": "JOSE TRINIDAD TUÑOQUE BALDERA",
+      "partido": "PARTIDO DEMOCRATA UNIDO PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/e7c5889e-a36b-461d-953c-f4080f6aafd0.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "05/01/1961",
+      "lugarNacimiento": "MORROPE, LAMBAYEQUE",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": null,
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "17620833",
+      "idHojaVida": 246483,
+      "idOrg": 2927,
+      "nombre": "ELITA VIOLETA TUÑOQUE VIDAURRE",
+      "partido": "SALVEMOS AL PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/95f1d67a-be28-4efb-a62f-485880638bab.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "26/09/1973",
+      "lugarNacimiento": "MORROPE, LAMBAYEQUE",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 242483,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": null,
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": null,
+          "idHojaVida": 246483,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "16733221",
+      "idHojaVida": 246986,
+      "idOrg": 2985,
+      "nombre": "JENNY VERA JIMENEZ",
+      "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/6dc08a32-a640-4d56-ae37-f6c02ad9d725.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "24/10/1973",
+      "lugarNacimiento": "HUICUNGO, MARISCAL CACERES",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 235374,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 246986,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [
+          {
+            "idHvEduTecnico": 160194,
+            "tengoEduTecnico": "SI",
+            "cenEstudioTecnico": "CIBERNET",
+            "carreraTecnico": "COMPUTACION E INFORMATICA",
+            "concluidoEduTecnico": "1",
+            "idHojaVida": 246986,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 195799,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Católica de Trujillo Benedicto XVI",
+            "carreraUni": "BACHILLER EN DERECHO Y CIENCIA POLÍTICA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2021",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 195800,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Católica de Trujillo Benedicto XVI",
+            "carreraUni": "ABOGADA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2022",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 145065,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "UNIVERSIDAD CATOLICA DE TRUJILLOO",
+            "txEspecialidadPosgrado": "MAESTRIA VIOLENCIA CONTRA LA MUJER",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "NO",
+            "esDoctor": "NO",
+            "txAnioPosgrado": null,
+            "idHojaVida": 246986,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 268192,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "MINISTERIO DE LA MUJER Y PB",
+          "ocupacionProfesion": "ABOGADA",
+          "rucTrabajo": null,
+          "direccionTrabajo": "CENTRO COMERCIAL CUTERVO",
+          "anioTrabajoDesde": "2025",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "060101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "CAJAMARCA",
+          "trabajoProvincia": "CAJAMARCA",
+          "trabajoDistrito": "CAJAMARCA",
+          "idHojaVida": 246986,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 211389,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 26000,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 246986,
+            "idEstado": 1,
+            "totalIngresos": 26000
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "16614638",
+      "idHojaVida": 247010,
+      "idOrg": 3025,
+      "nombre": "JUSTINA EMERITA LOPEZ DE CORONADO",
+      "partido": "ALIANZA ELECTORAL VENCEREMOS",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/cdf1242f-bb5f-4040-97d4-a65f89b66f40.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "06/09/1959",
+      "lugarNacimiento": "TUCUME, LAMBAYEQUE",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 236979,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 247010,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 210632,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 24000,
+            "idHojaVida": 247010,
+            "idEstado": 1,
+            "totalIngresos": 24000
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 258549,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "CHICLAYO-LA VICTORIA- MZ 3 LOTE 25    SECTOR 4 - ASENTAMIENTO HUMANO LA VICTORIA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P10010739",
+            "fichaTomoSunarp": null,
+            "autovaluo": 380000,
+            "idHojaVida": 247010,
+            "idEstado": 1,
+            "flValor": "380000"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 211128,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "M1X003 ",
+            "valor": 10000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "AUTOMÓVIL GEELY MK 2012",
+            "comentario": "GRIS",
+            "idHojaVida": 247010,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 211129,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 2,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "M6U773 ",
+            "valor": 100000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "TOYOTA HILUX 2021",
+            "comentario": "PLATA METÁLICO",
+            "idHojaVida": 247010,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "16797540",
+      "idHojaVida": 247789,
+      "idOrg": 2933,
+      "nombre": "GLADYS BURGA RAMIREZ",
+      "partido": "LIBERTAD POPULAR",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/c997e196-f5ab-4a3c-96e3-002e4ce784aa.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "24/04/1978",
+      "lugarNacimiento": "JOSE LEONARDO ORTIZ, CHICLAYO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 232726,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 247789,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 192301,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Pedro Ruiz Gallo",
+            "carreraUni": "BACHILLER EN BIOLOGIA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2003",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 192302,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Pedro Ruiz Gallo",
+            "carreraUni": "LICENCIADA EN BIOLOGIA - MICROBIOLOGIA - PARASITOLOGIA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2004",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 192303,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "3",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Pedro Ruiz Gallo",
+            "carreraUni": "LICENCIADA EN BIOLOGIA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2004",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 143081,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "Universidad Nacional de Piura",
+            "txEspecialidadPosgrado": "MAESTRO/MAGISTER EN INGENIERIA AMBIENTAL Y SEGURIDAD INDUSTRIAL",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "SI",
+            "esDoctor": null,
+            "txAnioPosgrado": "2018",
+            "idHojaVida": 247789,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 2,
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 259777,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "AUTORIDAD NACIONAL DEL AGUA",
+          "ocupacionProfesion": "BIOLOGA",
+          "rucTrabajo": null,
+          "direccionTrabajo": "LOS PETIRROJOS 355",
+          "anioTrabajoDesde": "2023",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "140124",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "SAN ISIDRO",
+          "idHojaVida": 247789,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 207674,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 12000,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 12000,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 247789,
+            "idEstado": 1,
+            "totalIngresos": 24000
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 252246,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "  MZ E LOTE 13 SECTOR LA FLORIDA PARCONA - ICA - ICA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11085280",
+            "fichaTomoSunarp": null,
+            "autovaluo": 34000,
+            "idHojaVida": 247789,
+            "idEstado": 1,
+            "flValor": "113000"
+          },
+          {
+            "idHvBienInmueble": 252247,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "CHICLAYO-JOSE LEONARDO ORTIZ- MZ J SUB LOTE 9-11 - URBANIZACION POPULAR DE INTERES SOCIAL MILAGRO DE",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P10177783",
+            "fichaTomoSunarp": null,
+            "autovaluo": 22000,
+            "idHojaVida": 247789,
+            "idEstado": 1,
+            "flValor": "83000"
+          },
+          {
+            "idHvBienInmueble": 252248,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 3,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "  MZ C LOTE 3 URB POPULAR DE INTERES SOCIAL LUIS ANTONIO EGUIGUREN ESCUDERO-SECTOR CHAVIN DE HUANTAR PIURA - PIURA - PIURA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11161854",
+            "fichaTomoSunarp": null,
+            "autovaluo": 30000,
+            "idHojaVida": 247789,
+            "idEstado": 1,
+            "flValor": "120000"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "43989817",
+      "idHojaVida": 248753,
+      "idOrg": 2939,
+      "nombre": "LIDIA MARGOT HIDALGO HERNANDEZ",
+      "partido": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/47a2011a-30cc-4d00-9bc2-c29939552f9c.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "28/07/1976",
+      "lugarNacimiento": "TRUJILLO, TRUJILLO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 237172,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 248753,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 266912,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "COMERCIO",
+          "ocupacionProfesion": "COMERCIANTE",
+          "rucTrabajo": null,
+          "direccionTrabajo": "MERCADO DEL PJ 9 DE OCTUBRE",
+          "anioTrabajoDesde": "1990",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "130101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LAMBAYEQUE",
+          "trabajoProvincia": "CHICLAYO",
+          "trabajoDistrito": "CHICLAYO",
+          "idHojaVida": 248753,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 210781,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 12000,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 248753,
+            "idEstado": 1,
+            "totalIngresos": 12000
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 258780,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "CHICLAYO-PIMENTEL- MZ F LOTE 19 - PUEBLO JOVEN LAS FLORES DE LA PRADERA",
+            "comentario": "ES TERRENO ERIAZO SION CONSTRUIR",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P10138401",
+            "fichaTomoSunarp": null,
+            "autovaluo": 5000,
+            "idHojaVida": 248753,
+            "idEstado": 1,
+            "flValor": "5000"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 211301,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "6255FM ",
+            "valor": 3000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "S/MARCA",
+            "comentario": "EN PROCESO DE TRANSFERENCIA",
+            "idHojaVida": 248753,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 211302,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 2,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "2679QM ",
+            "valor": 3000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "00",
+            "comentario": "EN PROCESO DE TRANSFERENCIA",
+            "idHojaVida": 248753,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 211303,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 3,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "3253QM ",
+            "valor": 3000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "HONDA",
+            "comentario": "EN PROCESO DE TRANSFERENCIA",
+            "idHojaVida": 248753,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "16807018",
+      "idHojaVida": 249712,
+      "idOrg": 2869,
+      "nombre": "WILMER HEVER VILLEGAS RODAS",
+      "partido": "PARTIDO PATRIOTICO DEL PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/7915d8ec-1963-46f2-bd4f-d04491be7f09.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "04/10/1978",
+      "lugarNacimiento": "CHICLAYO, CHICLAYO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241995,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 249712,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 203329,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Pedro Ruiz Gallo",
+            "carreraUni": "INGENIERO AGRONOMO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2004",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 203330,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Pedro Ruiz Gallo",
+            "carreraUni": "BACHILLER EN AGRONOMIA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2004",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 274967,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "INDEPENDIENTE",
+          "ocupacionProfesion": "INDEPENDIENTE",
+          "rucTrabajo": null,
+          "direccionTrabajo": "AV. ORIENTE 256 URB. SAN JUAN",
+          "anioTrabajoDesde": "2020",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "130101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LAMBAYEQUE",
+          "trabajoProvincia": "CHICLAYO",
+          "trabajoDistrito": "CHICLAYO",
+          "idHojaVida": 249712,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 214708,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 18000,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 249712,
+            "idEstado": 1,
+            "totalIngresos": 18000
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 266587,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "AVENIDA ORIENTE NUM 256   URB SAN JUAN CHICLAYO - CHICLAYO - LAMBAYEQUE",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "02229291",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 249712,
+            "idEstado": 1,
+            "flValor": "200000"
+          },
+          {
+            "idHvBienInmueble": 266588,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "SECCION ESPECIAL DE PREDIOS RURALES",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "UBICACION RURAL VALLE ZAÑA/SECTOR PACHERREZ/PREDIO EL FAIQUE PAMPA GRANDE COD.PRED. 7_6609250_15490 AREA Ha. 0.5700 U.C. 15490 ZAÑA - CHICLAYO - LAMBAYEQUE",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "02264889",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 249712,
+            "idEstado": 1,
+            "flValor": "150000"
+          },
+          {
+            "idHvBienInmueble": 266589,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 3,
+            "tipoBienInmueble": "SECCION ESPECIAL DE PREDIOS RURALES",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "UBICACION RURAL VALLE ZAÑA/SECTOR CABALLO BLANCO/PREDIO SANTA ISABEL COD.PRED. 7_6609250_15493 AREA Ha. 0.2900 U.C. 15493 ZAÑA - CHICLAYO - LAMBAYEQUE",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "02270107",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 249712,
+            "idEstado": 1,
+            "flValor": "150000"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 215771,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "LO1700 ",
+            "valor": 45000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "AUTOMOVIL",
+            "comentario": null,
+            "idHojaVida": 249712,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "32399423",
+      "idHojaVida": 250548,
+      "idOrg": 2932,
+      "nombre": "MAXIMO ALEJANDRO ALEGRE MENDEZ",
+      "partido": "PARTIDO POLITICO PERU ACCION",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/63efd8a4-c678-4237-b303-5f22af97f114.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "29/10/1969",
+      "lugarNacimiento": "PUEBLO LIBRE, HUAYLAS",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": null,
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 266469,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "SECCION ESPECIAL DE PREDIOS RURALES",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "ZONA: ZONA REGISTRAL VII - SEDE HUARAZ; OFICINA: HUARAZ",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "02377266",
+            "fichaTomoSunarp": null,
+            "autovaluo": 35800,
+            "idHojaVida": 250548,
+            "idEstado": 1,
+            "flValor": "50000"
+          },
+          {
+            "idHvBienInmueble": 266470,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "CALLE A   SUB LOTE 19A3 SECTOR SAN MIGUEL CARAZ - HUAYLAS - ANCASH",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11380236",
+            "fichaTomoSunarp": null,
+            "autovaluo": 35000,
+            "idHojaVida": 250548,
+            "idEstado": 1,
+            "flValor": "50000"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 215692,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "C0W001 ",
+            "valor": 35000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "TOYOTA CALDINA",
+            "comentario": null,
+            "idHojaVida": 250548,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 215693,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 2,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "RIH115 ",
+            "valor": 47000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "HI LUX TOYOTA",
+            "comentario": null,
+            "idHojaVida": 250548,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 215694,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 3,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "66961H ",
+            "valor": 50000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "AZUL SONIK",
+            "comentario": null,
+            "idHojaVida": 250548,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "16778715",
+      "idHojaVida": 253629,
+      "idOrg": 3024,
+      "nombre": "LUBY EDITHA DEL PILAR PAREDES CASTILLO",
+      "partido": "FUERZA Y LIBERTAD",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/063a6679-ed6b-4fc6-ab80-cd074def2244.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "08/12/1976",
+      "lugarNacimiento": "TUMBES, TUMBES",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 232930,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 253629,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 192560,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Particular de Chiclayo",
+            "carreraUni": "LICENCIADA EN OBSTETRICIA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2016",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 192561,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Particular de Chiclayo",
+            "carreraUni": "BACHILLER EN OBSTETRICIA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2012",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 259929,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "DIRECCION SUB REGIONAL DE SALUD CHOTA",
+          "ocupacionProfesion": "OBSTETRA",
+          "rucTrabajo": "20411038506",
+          "direccionTrabajo": "Jr. Exequiel Montoya Nro. 718",
+          "anioTrabajoDesde": "2021",
+          "anioTrabajoHasta": "2022",
+          "ubigeoTrabajo": "060601",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "CAJAMARCA",
+          "trabajoProvincia": "CHOTA",
+          "trabajoDistrito": "CHOTA",
+          "idHojaVida": 253629,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 259931,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 2,
+          "centroTrabajo": "ESSALUD- Dependencia SGAAOC",
+          "ocupacionProfesion": "LOCADORA DE SERVICIOS",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Av arenales 1302",
+          "anioTrabajoDesde": "2022",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "140133",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "JESUS MARIA",
+          "idHojaVida": 253629,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 259932,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 3,
+          "centroTrabajo": "SUSALUD",
+          "ocupacionProfesion": "ATENCION AL USUARIO",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Av Nicolás de Pierola 529-589",
+          "anioTrabajoDesde": "2020",
+          "anioTrabajoHasta": "2020",
+          "ubigeoTrabajo": "140101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "LIMA",
+          "idHojaVida": 253629,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 259934,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 4,
+          "centroTrabajo": "PADOMI ESSALUD",
+          "ocupacionProfesion": "ATENCION AL USUARIO",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Av arenales 1302",
+          "anioTrabajoDesde": "2020",
+          "anioTrabajoHasta": "2020",
+          "ubigeoTrabajo": "140133",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "JESUS MARIA",
+          "idHojaVida": 253629,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 259936,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 5,
+          "centroTrabajo": "Puesto de Salud Jempets Chikais-Bagua –Imaza",
+          "ocupacionProfesion": "OBSTETRA",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Centro poblado",
+          "anioTrabajoDesde": "2019",
+          "anioTrabajoHasta": "2019",
+          "ubigeoTrabajo": "010206",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "AMAZONAS",
+          "trabajoProvincia": "BAGUA",
+          "trabajoDistrito": "IMAZA",
+          "idHojaVida": 253629,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 210996,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 55000,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 253629,
+            "idEstado": 1,
+            "totalIngresos": 55000
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 258526,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "CHICLAYO-CHICLAYO- MZ 13 LOTE 27 SECCION A - URBANIZACION LAS BRISAS - PARCELA 1",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P10173843",
+            "fichaTomoSunarp": null,
+            "autovaluo": 52687.95,
+            "idHojaVida": 253629,
+            "idEstado": 1,
+            "flValor": "100000"
+          },
+          {
+            "idHvBienInmueble": 258527,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "CHICLAYO-CHICLAYO- MZ 13 LOTE 27 SECCION C - URBANIZACION LAS BRISAS - PARCELA 1",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P10173845",
+            "fichaTomoSunarp": null,
+            "autovaluo": 53004.65,
+            "idHojaVida": 253629,
+            "idEstado": 1,
+            "flValor": "100000"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "17574169",
+      "idHojaVida": 255047,
+      "idOrg": 2939,
+      "nombre": "VICTOR WALTER MESTANZA RODRIGO",
+      "partido": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/e67c5b5e-b6d9-4eb1-b35a-7c4fa2a266ea.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "06/03/1958",
+      "lugarNacimiento": "CHICLAYO, CHICLAYO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": true,
+        "sentenciaObliga": true
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 240804,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": null,
+          "concluidoEduPrimaria": null,
+          "eduSecundaria": null,
+          "concluidoEduSecundaria": null,
+          "idHojaVida": 255047,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [
+          {
+            "idHvEduTecnico": 161522,
+            "tengoEduTecnico": "SI",
+            "cenEstudioTecnico": "ISTP DE CHICLAYO",
+            "carreraTecnico": "RELACIONISTA PUBLICO",
+            "concluidoEduTecnico": "1",
+            "idHojaVida": 255047,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionNoUniversitaria": [
+          {
+            "idHvNoUniversitaria": 145253,
+            "tengoNoUniversitaria": "SI",
+            "eduNoUniversitaria": null,
+            "centroEstudioNoUni": "UNIVERSIDAD PARTICULAR DE CHICLAYO",
+            "carreraNoUni": "ABOGADO",
+            "concluidoNoUni": "1",
+            "idHojaVida": 255047,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)"
+          }
+        ],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 202031,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Particular de Chiclayo",
+            "carreraUni": "ABOGADO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2015",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 202032,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Particular de Chiclayo",
+            "carreraUni": "BACHILLER EN DERECHO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2006",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 273174,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "ABOGADO LITIGANTE",
+          "ocupacionProfesion": "ABOGADO",
+          "rucTrabajo": null,
+          "direccionTrabajo": "AV. 28 JULIO 163 PASAJE DIEGO FERRE",
+          "anioTrabajoDesde": "2014",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "130101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LAMBAYEQUE",
+          "trabajoProvincia": "CHICLAYO",
+          "trabajoDistrito": "CHICLAYO",
+          "idHojaVida": 255047,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 213892,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 7200,
+            "remuBrutaPrivado": 12000,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 255047,
+            "idEstado": 1,
+            "totalIngresos": 19200
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 264772,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "CHICLAYO-CHICLAYO- MZ 2 LOTE 71C - ASENTAMIENTO HUMANO DIEGO FERRE",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P10077278",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 255047,
+            "idEstado": 1,
+            "flValor": "500000"
+          },
+          {
+            "idHvBienInmueble": 264780,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "TERRENO",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "COOPERATIVA VIVIENDA SAGRADO",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "110024462",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 255047,
+            "idEstado": 1,
+            "flValor": "25000"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": [
+          {
+            "idHVTitularidad": 10115,
+            "tengoTitularidad": "SI",
+            "nuItemTitularidad": 1,
+            "txPersonaJuridica": "PROSEN SA",
+            "idParamTipoTitularidad": 87,
+            "txTipoTitularidad": "ACCIONES",
+            "flCantidad": 20,
+            "flValor": 200,
+            "idHojaVida": 255047,
+            "idEstado": 1,
+            "txUsuario": "08528983",
+            "txFechaRegistro": null,
+            "txComentario": "CERTIFICADO 0236",
+            "txRegistroManual": null
+          }
+        ]
+      },
+      "sentenciaPenal": [
+        {
+          "idHvSentenciaPenal": 136301,
+          "tengoSentenciaPenal": "SI",
+          "nuItemSentenciaPenal": 1,
+          "txExpedientePenal": "1195-96",
+          "feSentenciaPenal": "13/06/1996",
+          "txOrganoJudiPenal": "5TO JUZGADO DE PAZ LETRADO",
+          "txDelitoPenal": "RESISTENCIA A LA AUTORIDAD",
+          "txFalloPenal": "RESERVA FALLO",
+          "idParamModalidad": 12,
+          "txModalidad": "RESERVA DE FALLO",
+          "txOtraModalidad": null,
+          "idParamCumpleFallo": 21,
+          "txCumpleFallo": "EN CUMPLIMIENTO",
+          "idEstado": 1,
+          "idHojaVida": 255047,
+          "txComentario": "ADJUNTA DOCUMENTO QUE ESTÁ REHABILITADO."
+        }
+      ],
+      "sentenciaObliga": [
+        {
+          "idHvSentenciaObliga": 138208,
+          "tengoSentenciaObliga": "SI",
+          "nuItemSentenciaObliga": 1,
+          "idParamMateriaSentencia": 18,
+          "txMateriaSentencia": "VIOLENCIA FAMILIAR",
+          "txExpedienteObliga": "2916-2014",
+          "txOrganoJuridicialObliga": "1ER JUSGADO DE FAMILIA",
+          "txFalloObliga": "EN LA DEMANDA DE VIOLENCIA",
+          "idEstado": 1,
+          "idHojaVida": 255047,
+          "txComentario": null
+        }
+      ],
       "resoluciones": []
     }
   ]

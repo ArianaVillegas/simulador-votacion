@@ -18,7 +18,8 @@ const mergeDatos = (orig, enr) => {
       nombre: enriched?.nombre || `${c.strNombres} ${c.strApellidoPaterno} ${c.strApellidoMaterno}`.trim(),
       dni: c.strDocumentoIdentidad,
       foto: enriched?.foto || c.strNombre || c.strGuidFoto,
-      estado: enriched?.estado ?? c.strEstadoCandidato
+      estado: enriched?.estado ?? c.strEstadoCandidato,
+      votosProCrimen: enriched?.votosCongresoProCrimen || null
     };
   });
 };
@@ -148,11 +149,13 @@ const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial, voto,
           const esValido = candidato && ESTADOS_VALIDOS.includes(candidato.estado);
           const enProceso = candidato && ['ADMITIDO', 'EN PROCESO DE TACHAS', 'PUBLICADO PARA TACHAS'].includes(candidato.estado);
           const esRechazado = candidato && !esValido && !enProceso;
+          const tieneVotosProCrimen = candidato?.votosProCrimen?.some(v => v.sigla_voto === 'SI +++' || v.voto === 'A favor');
           const getBorderClass = () => {
             if (!selected) return 'border-black';
             if (noExiste) return 'border-red-500 border-2';
             if (enProceso) return 'border-amber-500 border-2';
             if (esRechazado) return 'border-red-500 border-2';
+            if (tieneVotosProCrimen) return 'border-red-500 border-2';
             return 'border-black';
           };
           return (
