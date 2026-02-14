@@ -8,7 +8,6 @@ import diputadosRawData from '../data/diputados/rawIndex';
 import diputadosEnrichData from '../data/diputados-enriched';
 import parlamenAndinoRaw from '../data/parlamenAndino.json';
 import parlamenAndinoEnrich from '../data/parlamenAndino-enriched.json';
-import presidencialesEnriched from '../data/candidatosPresidenciales-enriched.json';
 import JudicialAlert from './JudicialAlert';
 
 const JNE_FOTO = "https://mpesije.jne.gob.pe/apidocs/";
@@ -72,17 +71,8 @@ const diputadosData = Object.fromEntries(
   ])
 );
 
-// Procesar presidenciales enriquecidos para obtener flags
-const presidencialesList = (presidencialesEnriched.data || presidencialesEnriched || [])
-  .map(c => ({
-    idOrg: c.idOrg || c.idOrganizacionPolitica,
-    flags: c.flags || {
-      sentenciaPenal: false,
-      sentenciaPenalDetalle: [],
-      sentenciaObliga: false,
-      sentenciaObligaDetalle: []
-    }
-  }));
+// El procesamiento de presidencialesList ya no es necesario ya que usamos candidatosPresidenciales directamente
+const presidencialesList = [];
 
 // Buscar candidato por partido y posición
 const buscarCandidato = (idOrg, posicion, datos) => {
@@ -103,15 +93,13 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
     if (valor === null) return { nombre: 'VOTO EN BLANCO', color: '#9CA3AF', siglas: '—' };
 
     const base = candidatosPresidenciales.find(i => i.id === valor);
-    const enriched = presidencialesList.find(c => c.idOrg === base?.idOrg);
-
     // Detección simple de género para presidenciales basándose en nombres comunes o Keiko
     const esFemenino = base?.nombre?.includes('KEIKO') || base?.nombre?.includes('BEATRIZ') || base?.nombre?.includes('VERONIKA') || base?.nombre?.includes('MARIA');
 
     return {
       ...(base || { nombre: 'VOTO EN BLANCO', color: '#9CA3AF', siglas: '—' }),
       sexo: esFemenino ? 'FEMENINO' : 'MASCULINO',
-      flags: enriched?.flags || { sentenciaPenal: false, sentenciaObliga: false },
+      flags: base?.flags || { sentenciaPenal: false, sentenciaObliga: false },
       hojaVida: base?.idOrg && base?.dni ? `https://votoinformado.jne.gob.pe/hoja-vida/${base.idOrg}/${base.dni}` : null
     };
   };

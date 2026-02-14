@@ -93,7 +93,7 @@ const EXPLICACION_DELITOS = {
     "FALSEDAD IDEOLÓGICA": "insertar información falsa en documentos públicos",
     "REBELIÓN": "alzarse en armas contra la constitución",
     "AGRESIONES EN CONTRA DE LAS MUJERES O INTEGRANTES DEL GRUPO FAMILIAR": "agredir a mujeres o integrantes del grupo familiar",
-    "OMISIÓN DE ASISTENCIA FAMILIAR": "no pagar la pensión de alimentos",
+    "OMISIÓN DE ASISTENCIA FAMILIAR": "no cumplir con pagos de pensión de alimentos, obligación económica destinada al cuidado y bienestar de sus hijos/as",
     "PELIGRO COMÚN": "conducir ebrio poniendo en riesgo la vida de otros",
     "ABANDONO DE DESTINO": "desertar de su puesto de servicio",
     "CONTRA LOS MEDIOS DE TRANSPORTE": "atacar o bloquear el transporte público",
@@ -103,7 +103,7 @@ const EXPLICACION_DELITOS = {
 };
 
 const EXPLICACION_CIVILES = {
-    "FAMILIA / ALIMENTARIA": "no cumplir con el deber familiar de alimentos",
+    "FAMILIA / ALIMENTARIA": "no cumplir con pagos de pensión de alimentos, obligación económica destinada al cuidado y bienestar de sus hijos/as",
     "LABORAL": "no pagar deudas laborales a sus trabajadores",
     "CIVIL": "incumplimiento inexcusable de deudas",
     "CONTRACTUAL": "no respetar sus compromisos o contratos",
