@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-02-07T19:59:41.953Z",
+  "fetchedAt": "2026-02-14T01:01:03.806Z",
   "idProcesoElectoral": 124,
-  "count": 44,
+  "count": 60,
   "data": [
     {
       "dni": "41997711",
@@ -8398,6 +8398,1914 @@
             "idEstado": 1
           }
         ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "48133071",
+      "idHojaVida": 244092,
+      "idOrg": 2961,
+      "nombre": "SOCORRO PINTADO PURIZACA",
+      "partido": "PARTIDO DEL BUEN GOBIERNO",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/1ce07f94-799e-4ddd-8c89-833529f50bed.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "10/02/1968",
+      "lugarNacimiento": "BERNAL, SECHURA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 233385,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "NO",
+          "idHojaVida": 244092,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 260619,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "INDEPENDIENTE",
+          "ocupacionProfesion": "AMA DE CASA",
+          "rucTrabajo": null,
+          "direccionTrabajo": "PIURA",
+          "anioTrabajoDesde": "2023",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "190101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "PIURA",
+          "trabajoProvincia": "PIURA",
+          "trabajoDistrito": "PIURA",
+          "idHojaVida": 244092,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 207907,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 8400,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 244092,
+            "idEstado": 1,
+            "totalIngresos": 8400
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "21444508",
+      "idHojaVida": 244370,
+      "idOrg": 2939,
+      "nombre": "DAVID SAUL CUSTODIO CARHUAYO",
+      "partido": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/b4a0ca4b-7e88-47b9-89f3-531cd3089ef8.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "22/09/1955",
+      "lugarNacimiento": "ICA, ICA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 242107,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 244370,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "09218332",
+      "idHojaVida": 244399,
+      "idOrg": 2931,
+      "nombre": "SEGUNDA ERCELIZ QUEZADA LECCA",
+      "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/7c96a768-1a92-46fe-95f2-7e0ba8a802c2.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "30/07/1958",
+      "lugarNacimiento": "PARCOY, PATAZ",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": null,
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "07585781",
+      "idHojaVida": 245528,
+      "idOrg": 2173,
+      "nombre": "AUREA ESPERANZA DEL CARMEN CUBAS ROMERO",
+      "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/e5828a63-3ffa-4d88-85cf-038afac61220.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "23/08/1957",
+      "lugarNacimiento": "LIMA, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": null,
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "09434071",
+      "idHojaVida": 246064,
+      "idOrg": 2985,
+      "nombre": "MANUEL CUZCANO CRUZATE",
+      "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/d30b39c9-99f4-46c0-9489-0147da2cd106.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "12/02/1968",
+      "lugarNacimiento": "JESUS MARIA, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [
+          {
+            "idHvCargoPartidario": 145027,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 1,
+            "idOrgPolCargoPartidario": 2985,
+            "orgPolCargoPartidario": "PARTIDO POLÍTICO PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
+            "cargoPartidario": "SECRETARIO GENERAL",
+            "anioCargoPartiDesde": "2024",
+            "anioCargoPartiHasta": "2025",
+            "idHojaVida": 246064,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 235384,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 246064,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [
+          {
+            "idHvEduTecnico": 160196,
+            "tengoEduTecnico": "SI",
+            "cenEstudioTecnico": "IST GARCILAZO DE LA VEGA",
+            "carreraTecnico": "TECNICO E INORMATICO",
+            "concluidoEduTecnico": "1",
+            "idHojaVida": 246064,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 195811,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Inca Garcilaso de la Vega Asociación Civil",
+            "carreraUni": "ECONOMISTA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": null,
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": "AÑO DE OBTENCION 2003"
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 269931,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "FUERZA AERA DEL PERU",
+          "ocupacionProfesion": "ECONOMISTA",
+          "rucTrabajo": "20144364059",
+          "direccionTrabajo": "AV LA PERUANIDAD S/N",
+          "anioTrabajoDesde": "2002",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "140133",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "JESUS MARIA",
+          "idHojaVida": 246064,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 209508,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 3300,
+            "remuBrutaPrivado": 1000,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 246064,
+            "idEstado": 1,
+            "totalIngresos": 4300
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 209811,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "AOU472 ",
+            "valor": 10000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "DAEWOO LEMAN",
+            "comentario": null,
+            "idHojaVida": 246064,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 209812,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 2,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "C4Q216 ",
+            "valor": 35000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "AUTO SEDAN",
+            "comentario": null,
+            "idHojaVida": 246064,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "23263155",
+      "idHojaVida": 246610,
+      "idOrg": 2986,
+      "nombre": "NICOLAS QUISPE ESCOBAR",
+      "partido": "PARTIDO DEMOCRATICO FEDERAL",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/3d31fc9b-f5ab-4a31-801e-8964877f79f4.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "06/12/1971",
+      "lugarNacimiento": "YAULI, HUANCAVELICA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 236965,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "NO",
+          "concluidoEduSecundaria": null,
+          "idHojaVida": 246610,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "08878421",
+      "idHojaVida": 246646,
+      "idOrg": 2898,
+      "nombre": "HUGO ABRAHAM ALARCON CACERES",
+      "partido": "FE EN EL PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/0451d3aa-3f64-4b07-aa82-36858f7c1f91.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "15/06/1951",
+      "lugarNacimiento": "MAGDALENA DEL MAR, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 242122,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 246646,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 203456,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad de San Martín de Porres",
+            "carreraUni": "ABOGADO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "1993",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 203457,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad de San Martín de Porres",
+            "carreraUni": "BACHILLER EN DERECHO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "1991",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "21431809",
+      "idHojaVida": 247432,
+      "idOrg": 2867,
+      "nombre": "ROSA HERMINIA ESPINOZA DE ROSALES",
+      "partido": "PARTIDO DEMOCRATA UNIDO PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/df08ed98-c1f6-40eb-9d98-bedf297eea2c.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "19/04/1957",
+      "lugarNacimiento": "SANTIAGO DE CHOCORVOS, HUAYTARA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [
+          {
+            "idHvCargoPartidario": 146956,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 1,
+            "idOrgPolCargoPartidario": 47,
+            "orgPolCargoPartidario": "UNION POR EL PERU",
+            "cargoPartidario": "SEGUNDO  VICEPRESIDENTE DEL COMITÉ DE ETICA",
+            "anioCargoPartiDesde": "2004",
+            "anioCargoPartiHasta": "2021",
+            "idHojaVida": 247432,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241134,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 247432,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 202490,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional \"San Luis Gonzaga\" - ICA",
+            "carreraUni": "INGENIERO QUIMICO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "1990",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": "ING.QCO 17-9-90"
+          },
+          {
+            "idHvEduUniversitaria": 202494,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional \"San Luis Gonzaga\" - ICA",
+            "carreraUni": "QUIMICO FAMACEÚTICO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "1997",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": "FARMACIA BIOQUIMICA 05-09-1997"
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 273974,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "EMPRESRIADO",
+          "ocupacionProfesion": "ING. QUIMICO.QCO FTICO",
+          "rucTrabajo": "10214318097",
+          "direccionTrabajo": "URB. LAS DUNAS H.9",
+          "anioTrabajoDesde": "2007",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "100101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "ICA",
+          "trabajoProvincia": "ICA",
+          "trabajoDistrito": "ICA",
+          "idHojaVida": 247432,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 265289,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "CALLE AREQUIPA NUM 0257     ICA - ICA - ICA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "02001959",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 247432,
+            "idEstado": 1,
+            "flValor": "0"
+          },
+          {
+            "idHvBienInmueble": 265290,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "CALLE AREQUIPA NUM 0253   ZONA ICA CERCADO ICA - ICA - ICA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "02001961",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 247432,
+            "idEstado": 1,
+            "flValor": "0"
+          },
+          {
+            "idHvBienInmueble": 265291,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 3,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "CALLE AREQUIPA NUM 0249   ZONA CERCADO ICA - ICA - ICA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "02003927",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 247432,
+            "idEstado": 1,
+            "flValor": "0"
+          },
+          {
+            "idHvBienInmueble": 265292,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 4,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "HUAYTARA-SANTIAGO DE CHOCORVOS- MZ U LOTE 1 - CENTRO POBLADO SANTIAGO DE CHOCORVOS",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P11128864",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 247432,
+            "idEstado": 1,
+            "flValor": "0"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "23371611",
+      "idHojaVida": 247854,
+      "idOrg": 2986,
+      "nombre": "VICTORIA LOAYZA SOTO",
+      "partido": "PARTIDO DEMOCRATICO FEDERAL",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/b45c74f3-cc27-491e-b5fb-8fc6424fceaf.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "24/07/1958",
+      "lugarNacimiento": "PAUCARA, ACOBAMBA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 236962,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": null,
+          "concluidoEduPrimaria": null,
+          "eduSecundaria": null,
+          "concluidoEduSecundaria": null,
+          "idHojaVida": 247854,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "10804271",
+      "idHojaVida": 248175,
+      "idOrg": 2898,
+      "nombre": "ELSA CARMEN BENAVENTE SALAZAR",
+      "partido": "FE EN EL PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/7d0359fb-1b92-42ac-9029-eda68b01ed39.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "13/09/1953",
+      "lugarNacimiento": "LIMA, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": [
+          {
+            "idHvcargoEleccion": 146613,
+            "tengoCargoEleccion": "SI",
+            "itemCargoEleccion": 1,
+            "idOrgPolCargoElec": 2707,
+            "orgPolCargoElec": "HUANCAVELICA SOSTENIBLE",
+            "idCargoEleccion": 9,
+            "cargoEleccion": "REGIDOR PROVINCIAL",
+            "anioCargoElecDesde": "2019",
+            "anioCargoElecHasta": "2022",
+            "idHojaVida": 248175,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ]
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 238876,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 248175,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 199674,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional de Ingeniería",
+            "carreraUni": "BACHILLER EN CIENCIAS CON MENCION EN FISICA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": null,
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 199675,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional de Ingeniería",
+            "carreraUni": "TITULO PROFESIONAL DE LICENCIADO EN FISICA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": null,
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 145457,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "Universidad Nacional de Huancavelica",
+            "txEspecialidadPosgrado": "Maestría en ciencias de ingeniería con mención en ecología y gestión ambiental",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "NO",
+            "esMaestro": null,
+            "esDoctor": null,
+            "txAnioPosgrado": null,
+            "idHojaVida": 248175,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": "Estudios concluidos",
+            "fgRegistro": null
+          },
+          {
+            "idHvPosgrado": 145458,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 2,
+            "txCenEstudioPosgrado": "Universidad Nacional de Huancavelica",
+            "txEspecialidadPosgrado": "Doctorado en Ciencias Ambientales",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "NO",
+            "esMaestro": null,
+            "esDoctor": null,
+            "txAnioPosgrado": null,
+            "idHojaVida": 248175,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": "Estudios concluidos",
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 269795,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "Universidad Nacional de Huancavelica",
+          "ocupacionProfesion": "Docente",
+          "rucTrabajo": "20168014962",
+          "direccionTrabajo": "Av. Centenario 1200",
+          "anioTrabajoDesde": "2022",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "080301",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "HUANCAVELICA",
+          "trabajoProvincia": "ANGARAES",
+          "trabajoDistrito": "LIRCAY",
+          "idHojaVida": 248175,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "Docente en la UNH sede Lircay"
+        },
+        {
+          "idHvExpeLaboral": 269803,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 2,
+          "centroTrabajo": "Municipalidad Provincial de Huancavelica",
+          "ocupacionProfesion": "Regidora",
+          "rucTrabajo": "20171725144",
+          "direccionTrabajo": "Av. Manchego 299 cercado",
+          "anioTrabajoDesde": "2019",
+          "anioTrabajoHasta": "2022",
+          "ubigeoTrabajo": "080101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "HUANCAVELICA",
+          "trabajoProvincia": "HUANCAVELICA",
+          "trabajoDistrito": "HUANCAVELICA",
+          "idHojaVida": 248175,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 269810,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 3,
+          "centroTrabajo": "PRODERN: Programa de Desarrollo Económico Sostenible y Gestión Estratégica de los Recursos Naturales",
+          "ocupacionProfesion": "Consultora",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Av. Antonio Miró Quesada 425",
+          "anioTrabajoDesde": "2018",
+          "anioTrabajoHasta": "2018",
+          "ubigeoTrabajo": "080101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "HUANCAVELICA",
+          "trabajoProvincia": "HUANCAVELICA",
+          "trabajoDistrito": "HUANCAVELICA",
+          "idHojaVida": 248175,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "Es un programa de cooperación bilateral directa entre el gobierno peruano y el gobierno de Bélgica"
+        },
+        {
+          "idHvExpeLaboral": 269845,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 4,
+          "centroTrabajo": "CARITAS HUANCAVELICA",
+          "ocupacionProfesion": "Directora de Proyecto",
+          "rucTrabajo": "20147739835",
+          "direccionTrabajo": "Jr. Antonio Raymondi 282",
+          "anioTrabajoDesde": "2017",
+          "anioTrabajoHasta": "2017",
+          "ubigeoTrabajo": "080101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "HUANCAVELICA",
+          "trabajoProvincia": "HUANCAVELICA",
+          "trabajoDistrito": "HUANCAVELICA",
+          "idHojaVida": 248175,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "Desde enero hasta diciembre 2017"
+        },
+        {
+          "idHvExpeLaboral": 269866,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 5,
+          "centroTrabajo": "Universidad Nacional de Huancavelica",
+          "ocupacionProfesion": "Docente Universitaria",
+          "rucTrabajo": "20168014962",
+          "direccionTrabajo": "Av. agricultura 319 - 321 Paturpampa",
+          "anioTrabajoDesde": "2016",
+          "anioTrabajoHasta": "2018",
+          "ubigeoTrabajo": "080101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "HUANCAVELICA",
+          "trabajoProvincia": "HUANCAVELICA",
+          "trabajoDistrito": "HUANCAVELICA",
+          "idHojaVida": 248175,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "Desde Abril a Diciembre 2016\nDesde Abril a Diciembre 2017\nDesde Abril a Diciembre 2018"
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 212261,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 5945,
+            "remuBrutaPrivado": 8047,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 240,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 248175,
+            "idEstado": 1,
+            "totalIngresos": 14232
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 261564,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "ZONA: ZONA REGISTRAL IX - SEDE LIMA; OFICINA: CALLAO",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "70041493",
+            "fichaTomoSunarp": null,
+            "autovaluo": 180000,
+            "idHojaVida": 248175,
+            "idEstado": 1,
+            "flValor": "180000"
+          },
+          {
+            "idHvBienInmueble": 261581,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "Inmueble",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "Av. Roosvelt 5951 Miraflores",
+            "comentario": "Propietaria del 17.86%",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "41459743",
+            "fichaTomoSunarp": null,
+            "autovaluo": 300000,
+            "idHojaVida": 248175,
+            "idEstado": 1,
+            "flValor": "300000"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "23276619",
+      "idHojaVida": 248490,
+      "idOrg": 2857,
+      "nombre": "ALEXANDER BENDEZU CARBAJAL",
+      "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/0f95e042-5c98-424e-9c40-5a1065a3d1ce.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "04/02/1977",
+      "lugarNacimiento": "ACORIA, HUANCAVELICA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 242407,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 248490,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [
+          {
+            "idHvEduTecnico": 161853,
+            "tengoEduTecnico": "SI",
+            "cenEstudioTecnico": "HUANCAVELICA",
+            "carreraTecnico": "PROFESIONAL TÉCNICO EN COMPUTACIÓN E INFORMÁTICA",
+            "concluidoEduTecnico": "1",
+            "idHojaVida": 248490,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 203716,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Peruana Los Andes",
+            "carreraUni": "LICENCIADO EN EDUCACIÓN SECUNDARIA ESP: BIOLOGÍA Y QUÍMICA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2016",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 203717,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Peruana Los Andes",
+            "carreraUni": "BACHILLER EN EDUCACION Y CIENCIAS HUMANAS",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2007",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 203718,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "3",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional de Huancavelica",
+            "carreraUni": "TÍTULO DE SEGUNDA ESPECIALIDAD PROFESIONAL EN PSICOLOGÍA EDUCATIVA Y TUTORÍA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2024",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 146844,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "Universidad Nacional del Centro del Perú",
+            "txEspecialidadPosgrado": "MAGISTER EN EDUCACION",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "SI",
+            "esDoctor": null,
+            "txAnioPosgrado": "2015",
+            "idHojaVida": 248490,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 2,
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "23202713",
+      "idHojaVida": 249051,
+      "idOrg": 2939,
+      "nombre": "ZOILA ESTRELLA ZUMAETA DELGADO",
+      "partido": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/ca7b1a58-3122-4f5c-869b-d7ee8f88811a.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "11/11/1956",
+      "lugarNacimiento": "LIRCAY, ANGARAES",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 242049,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 249051,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "09713765",
+      "idHojaVida": 251818,
+      "idOrg": 2933,
+      "nombre": "MARLENE JENNY HUILLCAS HUAYAMA",
+      "partido": "LIBERTAD POPULAR",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/1523d024-7b56-4dee-baaa-7e7d89bed7f0.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "03/12/1970",
+      "lugarNacimiento": "LIMA, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 233458,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 251818,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 260743,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "INDEPENDIENTE",
+          "ocupacionProfesion": "COMERCIANTE",
+          "rucTrabajo": null,
+          "direccionTrabajo": "LIMA",
+          "anioTrabajoDesde": "1994",
+          "anioTrabajoHasta": "2005",
+          "ubigeoTrabajo": "140101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "LIMA",
+          "idHojaVida": 251818,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 207971,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 18000,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 251818,
+            "idEstado": 1,
+            "totalIngresos": 18000
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "40205545",
+      "idHojaVida": 252347,
+      "idOrg": 3023,
+      "nombre": "MARILU GARCIA CHAPOÑAN",
+      "partido": "UNIDAD NACIONAL",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/3cb65f8e-f6ce-4592-b31a-8eb2b2ea4c42.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "02/07/1979",
+      "lugarNacimiento": "MOCHUMI, LAMBAYEQUE",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241632,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 252347,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 215503,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "3143AC ",
+            "valor": 18000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "MOTOTAXI TVS KING 2023",
+            "comentario": null,
+            "idHojaVida": 252347,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "07967223",
+      "idHojaVida": 253834,
+      "idOrg": 2933,
+      "nombre": "JESUS DE LA ENCARNACION PACHECO OSPINA",
+      "partido": "LIBERTAD POPULAR",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/70a27ed3-c005-418b-b2c9-cce494df6530.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "10/04/1957",
+      "lugarNacimiento": "PAMPAS, TAYACAJA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 234307,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 253834,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 194399,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Inca Garcilaso de la Vega Asociación Civil",
+            "carreraUni": "BACHILLER EN CONTABILIDAD",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": null,
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 194400,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Inca Garcilaso de la Vega Asociación Civil",
+            "carreraUni": "ABOGADO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2018",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 194401,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "3",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Inca Garcilaso de la Vega Asociación Civil",
+            "carreraUni": "CONTADOR PUBLICO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": null,
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 194402,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "4",
+            "eduUniversitaria": "1",
+            "universidad": "CENTRO UNIVERSITARIO DAS FACULDADES METROPOLITANAS UNIDAS -FMU",
+            "carreraUni": "TÍTULO DE SEGUNDA ESPECIALIDAD PROFESIONAL (POSGRADO \"LATO SENSU\") EN DERECHO TRIBUTARIO (TÍTULO DE SEGUNDA ESPECIALIDAD PROFESIONAL)",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2020",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 194403,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "5",
+            "eduUniversitaria": "1",
+            "universidad": "UNISA FMU BRASIL",
+            "carreraUni": "MAESTRIA EN DERECHO TRIBUTARIO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2011",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": "TITULO DE SEGUNDA ESPECIALIDAD"
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 143770,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "UNIVERSIDAD NACIONAL DEL CALLAO",
+            "txEspecialidadPosgrado": "MAESTRIA EN PROYECTOS DE INVERSION",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "SI",
+            "esDoctor": null,
+            "txAnioPosgrado": "2020",
+            "idHojaVida": 253834,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 262554,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "INDEPENDIENTE",
+          "ocupacionProfesion": "ABOGADO - CONTADOR PUBLICO",
+          "rucTrabajo": null,
+          "direccionTrabajo": "CALLE GENERAL VIDAL 139",
+          "anioTrabajoDesde": "2000",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "140115",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "MIRAFLORES",
+          "idHojaVida": 253834,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "EMPRESARIO, SOCIO PROPIETARIO DE TRES EMPRESAS EN BRASIL Y PERU"
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 208681,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 120000,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 253834,
+            "idEstado": 1,
+            "totalIngresos": 120000
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 254766,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "CALLE GENERAL VIDAL NUM 139  N° 144 - DEPARTAMENTO N° 1007 - DÉCIMO PISO   MIRAFLORES - LIMA - LIMA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "12402035",
+            "fichaTomoSunarp": null,
+            "autovaluo": 120000,
+            "idHojaVida": 253834,
+            "idEstado": 1,
+            "flValor": "700000"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 208805,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "1929DB ",
+            "valor": 2600,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "ADVANCE ADT150T-3",
+            "comentario": null,
+            "idHojaVida": 253834,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 208806,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 2,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "5640UB ",
+            "valor": 4500,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "JCH NEGRO",
+            "comentario": null,
+            "idHojaVida": 253834,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": [
+          {
+            "idHVTitularidad": 8287,
+            "tengoTitularidad": "SI",
+            "nuItemTitularidad": 1,
+            "txPersonaJuridica": "JOSCHEN QUIMICA",
+            "idParamTipoTitularidad": 87,
+            "txTipoTitularidad": "ACCIONES",
+            "flCantidad": 89,
+            "flValor": 10000,
+            "idHojaVida": 253834,
+            "idEstado": 1,
+            "txUsuario": "76302284",
+            "txFechaRegistro": null,
+            "txComentario": null,
+            "txRegistroManual": null
+          }
+        ]
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "10171254",
+      "idHojaVida": 255495,
+      "idOrg": 2173,
+      "nombre": "VICTORIANO QUISPE PAITAN",
+      "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/b5e63021-3757-4642-8a45-ac4838a45d1a.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "15/03/1975",
+      "lugarNacimiento": "HUANCAVELICA, HUANCAVELICA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 242177,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": null,
+          "concluidoEduSecundaria": null,
+          "idHojaVida": 255495,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 203502,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional de Huancavelica",
+            "carreraUni": "BACHILLER EN EDUCACION SECUNDARIA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2013",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 203503,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional de Huancavelica",
+            "carreraUni": "LICENCIADO EN EDUCACION SECUNDARIA ESPECIALIDAD MATEMATICA - FISICA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2014",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
         "otroMueble": [],
         "titularidad": []
       },

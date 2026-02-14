@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-02-07T19:57:42.688Z",
+  "fetchedAt": "2026-02-14T01:01:03.787Z",
   "idProcesoElectoral": 124,
-  "count": 58,
+  "count": 70,
   "data": [
     {
       "dni": "23964916",
@@ -12950,6 +12950,1938 @@
             "txRegistroManual": null
           }
         ]
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "23844967",
+      "idHojaVida": 245551,
+      "idOrg": 2939,
+      "nombre": "ALEJANDRO BUSTAMANTE DEL CASTILLO",
+      "partido": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/ffa4ebc3-8083-4550-9177-68ea467d564b.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "18/03/1944",
+      "lugarNacimiento": "SICUANI, CANCHIS",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [
+          {
+            "idHvCargoPartidario": 145541,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 1,
+            "idOrgPolCargoPartidario": 2098,
+            "orgPolCargoPartidario": "ACUERDO REGIONAL DE INTEGRACION",
+            "cargoPartidario": "SECRETARIO DE CAPACITACIÓN",
+            "anioCargoPartiDesde": "2010",
+            "anioCargoPartiHasta": "2011",
+            "idHojaVida": 245551,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 237087,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 245551,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 197672,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "UNIVERSIDAD SAN ANTONIO DE ABAD",
+            "carreraUni": "PROFESOR",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "1978",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 266738,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "COLEGIO NACIONAL  DE CIENCIAS",
+          "ocupacionProfesion": "PROFESOR CESANTE",
+          "rucTrabajo": null,
+          "direccionTrabajo": "PLAZA SAN FRANCISCO",
+          "anioTrabajoDesde": "1981",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "070101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "CUSCO",
+          "trabajoProvincia": "CUSCO",
+          "trabajoDistrito": "CUSCO",
+          "idHojaVida": 245551,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 210706,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 14400,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 245551,
+            "idEstado": 1,
+            "totalIngresos": 14400
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "32109451",
+      "idHojaVida": 245903,
+      "idOrg": 2898,
+      "nombre": "DORA BEATRIZ FLORES CARRANZA",
+      "partido": "FE EN EL PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/12c1953a-2a37-4144-bd5b-e3a1193faf76.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "11/06/1969",
+      "lugarNacimiento": "CASMA, CASMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [
+          {
+            "idHvCargoPartidario": 145609,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 1,
+            "idOrgPolCargoPartidario": 2898,
+            "orgPolCargoPartidario": "PARTIDO POLÍTICO FE EN EL PERU",
+            "cargoPartidario": "AFILIADO",
+            "anioCargoPartiDesde": "2021",
+            "anioCargoPartiHasta": "2025",
+            "idHojaVida": 245903,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvCargoPartidario": 145610,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 2,
+            "idOrgPolCargoPartidario": 1314,
+            "orgPolCargoPartidario": "PARTIDO POLÍTICO JUSTICIA, TECNOLOGIA, ECOLOGIA",
+            "cargoPartidario": "AFILIADO",
+            "anioCargoPartiDesde": "2009",
+            "anioCargoPartiHasta": "2012",
+            "idHojaVida": 245903,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 237255,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 245903,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [
+          {
+            "idHvEduTecnico": 160639,
+            "tengoEduTecnico": "SI",
+            "cenEstudioTecnico": "PEDAGICO",
+            "carreraTecnico": "TITULO",
+            "concluidoEduTecnico": "1",
+            "idHojaVida": 245903,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": "OTUZCO"
+          }
+        ],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 211368,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "98581C ",
+            "valor": 2000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "bayku motors",
+            "comentario": null,
+            "idHojaVida": 245903,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 211369,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 2,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "40452H ",
+            "valor": 1200,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "TTGM23",
+            "comentario": null,
+            "idHojaVida": 245903,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "23946441",
+      "idHojaVida": 246435,
+      "idOrg": 2927,
+      "nombre": "FRIDA HUARANCCA CUSI",
+      "partido": "SALVEMOS AL PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/9ea12181-b671-4f7d-bc9f-cbef07e19f29.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "27/10/1972",
+      "lugarNacimiento": "CUSCO, CUSCO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241969,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 246435,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "40402436",
+      "idHojaVida": 247826,
+      "idOrg": 2931,
+      "nombre": "SAYRI TUPAC GARCIA ROCA",
+      "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/a5551a80-17f8-4a67-9e00-3cc725976e6b.jpg",
+      "estado": "ADMITIDO",
+      "fechaNacimiento": "15/12/1972",
+      "lugarNacimiento": "MIRAFLORES, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241537,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 247826,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 202952,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "UNIVERSIDAD RUSA DE LA AMISTAD DE LOS PUEBLOS",
+            "carreraUni": "GRADO ACADÉMICO DE BACHILLER EN CIENCIAS FÍSICO - MATEMÁTICAS",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2003",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 146619,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "UNIVERSIDAD RUSA DE LA AMISTAD DE LOS PUEBLOS",
+            "txEspecialidadPosgrado": "GRADO ACADÉMICO DE MAGÍSTER EN CIENCIAS FÍSICAS",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "SI",
+            "esDoctor": null,
+            "txAnioPosgrado": "2003",
+            "idHojaVida": 247826,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 2,
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 274607,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "UNIVERSIDAD NACIONAL DE SAN ANTONIO ABAD DEL CUSCO",
+          "ocupacionProfesion": "DOCENTE",
+          "rucTrabajo": "20172474501",
+          "direccionTrabajo": "AV. DE LA CULTURA NRO. 733",
+          "anioTrabajoDesde": "2002",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "070101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "CUSCO",
+          "trabajoProvincia": "CUSCO",
+          "trabajoDistrito": "CUSCO",
+          "idHojaVida": 247826,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 214527,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 168977,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 7680,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 247826,
+            "idEstado": 1,
+            "totalIngresos": 176657
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 265949,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "SECCION ESPECIAL DE PREDIOS RURALES",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "        MARAS - URUBAMBA - CUSCO",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "02038327",
+            "fichaTomoSunarp": null,
+            "autovaluo": 15000,
+            "idHojaVida": 247826,
+            "idEstado": 1,
+            "flValor": "20000"
+          },
+          {
+            "idHvBienInmueble": 265950,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "SECCION ESPECIAL DE PREDIOS RURALES",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "UBICACION RURAL MARCAHUASI PARCELA 22-C   U.C. 00041 MOLLEPATA - ANTA - CUSCO",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "02059777",
+            "fichaTomoSunarp": null,
+            "autovaluo": 30000,
+            "idHojaVida": 247826,
+            "idEstado": 1,
+            "flValor": "50000"
+          },
+          {
+            "idHvBienInmueble": 265951,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 3,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "  NUM 2-B SUB LOTE C URB ROSASPATA CUSCO - CUSCO - CUSCO",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11044351",
+            "fichaTomoSunarp": null,
+            "autovaluo": 100000,
+            "idHojaVida": 247826,
+            "idEstado": 1,
+            "flValor": "1000000"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 215441,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "X2H128 ",
+            "valor": 20000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "CAMIONETA",
+            "comentario": null,
+            "idHojaVida": 247826,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "23824515",
+      "idHojaVida": 248069,
+      "idOrg": 2931,
+      "nombre": "JENNY ROSSANA HUARCAYA REVILLA",
+      "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/8f2694fa-092b-443b-a5e7-fb5926a2a40b.jpg",
+      "estado": "ADMITIDO",
+      "fechaNacimiento": "04/02/1966",
+      "lugarNacimiento": "CUSCO, CUSCO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [
+          {
+            "idHvCargoPartidario": 147095,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 1,
+            "idOrgPolCargoPartidario": 15,
+            "orgPolCargoPartidario": "PARTIDO POPULAR CRISTIANO - PPC",
+            "cargoPartidario": "VICEPRESIDENTE",
+            "anioCargoPartiDesde": "2017",
+            "anioCargoPartiHasta": "2021",
+            "idHojaVida": 248069,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241741,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 248069,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 203131,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "UNIVERSIDAD SAN ANTONIO ABAD DEL CUSCO",
+            "carreraUni": "ADMINISTRACIÓN DE EMPRESAS",
+            "concluidoEduUni": "NO",
+            "egresadoEduUni": null,
+            "bachillerEduUni": null,
+            "anioBachiller": null,
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 274777,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "HOTEL BOUTIQUE ANKAWA",
+          "ocupacionProfesion": "EMPRESARIA",
+          "rucTrabajo": null,
+          "direccionTrabajo": "AV. TULLUMAYO 123",
+          "anioTrabajoDesde": "2019",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "070108",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "CUSCO",
+          "trabajoProvincia": "CUSCO",
+          "trabajoDistrito": "WANCHAQ",
+          "idHojaVida": 248069,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 214608,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 60000,
+            "idHojaVida": 248069,
+            "idEstado": 1,
+            "totalIngresos": 60000
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 266287,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "SECCION ESPECIAL DE PREDIOS RURALES",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "        SAN SALVADOR - CALCA - CUSCO",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "02001674",
+            "fichaTomoSunarp": null,
+            "autovaluo": 30000,
+            "idHojaVida": 248069,
+            "idEstado": 1,
+            "flValor": "50000"
+          },
+          {
+            "idHvBienInmueble": 266288,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "  NUM 305 INTE BLOCK B-3 URB MARISCAL GAMARRA, 2DA ETAPA DE ESTA CIUDAD CUSCO - CUSCO - CUSCO",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "02038136",
+            "fichaTomoSunarp": null,
+            "autovaluo": 240000,
+            "idHojaVida": 248069,
+            "idEstado": 1,
+            "flValor": "400000"
+          },
+          {
+            "idHvBienInmueble": 266289,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 3,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "  MZ F LOTE 22 URB PAUCARPATA OROPESA - QUISPICANCHIS - CUSCO",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11204647",
+            "fichaTomoSunarp": null,
+            "autovaluo": 150000,
+            "idHojaVida": 248069,
+            "idEstado": 1,
+            "flValor": "250000"
+          },
+          {
+            "idHvBienInmueble": 266290,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 4,
+            "tipoBienInmueble": "SECCION ESPECIAL DE PREDIOS RURALES",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "UBICACION RURAL VALLE ALTO MADRE DE DIOS/NUEVO EDEN/ISMAEL - DARRY I PARCELA 9_2608610_055224 AREA Ha. 11.7024 U.C. 055224/HH.CC. 9_2608610 FITZCARRALD - MANU - MADRE DE DIOS",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11148908",
+            "fichaTomoSunarp": null,
+            "autovaluo": 300000,
+            "idHojaVida": 248069,
+            "idEstado": 1,
+            "flValor": "500000"
+          },
+          {
+            "idHvBienInmueble": 266291,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 5,
+            "tipoBienInmueble": "SECCION ESPECIAL DE PREDIOS RURALES",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "UBICACION RURAL VALLE ALTO MADRE DE DIOS/NUEVO EDEN/JENNY III PARCELA 9_2658615_055274 AREA Ha. 7.1386 U.C. 055274/HH.CC. 9_2658615 FITZCARRALD - MANU - MADRE DE DIOS",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11148931",
+            "fichaTomoSunarp": null,
+            "autovaluo": 210000,
+            "idHojaVida": 248069,
+            "idEstado": 1,
+            "flValor": "350000"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": [
+          {
+            "idHVTitularidad": 10429,
+            "tengoTitularidad": "SI",
+            "nuItemTitularidad": 1,
+            "txPersonaJuridica": "ANKAWA SRL",
+            "idParamTipoTitularidad": 88,
+            "txTipoTitularidad": "PARTICIPACIONES",
+            "flCantidad": 11000,
+            "flValor": 1,
+            "idHojaVida": 248069,
+            "idEstado": 1,
+            "txUsuario": "74582415",
+            "txFechaRegistro": null,
+            "txComentario": "50% DE PARTICIPACIONES",
+            "txRegistroManual": null
+          }
+        ]
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "23917676",
+      "idHojaVida": 251167,
+      "idOrg": 2939,
+      "nombre": "CLAUDIA GLADIZ SANCHEZ ALFARO",
+      "partido": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/884b71de-cd8f-4349-9235-3389f4e384a9.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "25/02/1951",
+      "lugarNacimiento": "CUSCO, CUSCO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 242162,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 251167,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 266887,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "  BLOCK 7 DPTO 7-A-101 CC.HH AGRUPAMIENTO SANTIAGO SANTIAGO - CUSCO - CUSCO",
+            "comentario": "NO REGISTRA",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "02019446",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 251167,
+            "idEstado": 1,
+            "flValor": "0"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "24972725",
+      "idHojaVida": 251529,
+      "idOrg": 2901,
+      "nombre": "FRANCISCO RUIZ MERMA",
+      "partido": "FRENTE POPULAR AGRICOLA FIA DEL PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/babd0343-d3a9-4227-8094-fbfb742955c7.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "29/01/1956",
+      "lugarNacimiento": "ECHARATE, LA CONVENCION",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [
+          {
+            "idHvCargoPartidario": 146388,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 1,
+            "idOrgPolCargoPartidario": 2901,
+            "orgPolCargoPartidario": "PARTIDO POLÍTICO FRENTE POPULAR AGRICOLA FIA DEL PERU",
+            "cargoPartidario": "SEGUNDO VOCAL DE LA COMISIÓN DE DISCIPLINA",
+            "anioCargoPartiDesde": "2023",
+            "anioCargoPartiHasta": "2025",
+            "idHojaVida": 251529,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "cargoEleccion": [
+          {
+            "idHvcargoEleccion": 146673,
+            "tengoCargoEleccion": "SI",
+            "itemCargoEleccion": 1,
+            "idOrgPolCargoElec": 106509,
+            "orgPolCargoElec": "L.I. NRO 33 MAYORIA CON EL CAMBIO EN LA CONVENCION",
+            "idCargoEleccion": 11,
+            "cargoEleccion": "REGIDOR DISTRITAL",
+            "anioCargoElecDesde": "1996",
+            "anioCargoElecHasta": "1998",
+            "idHojaVida": 251529,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ]
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 239486,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "NO",
+          "eduSecundaria": null,
+          "concluidoEduSecundaria": null,
+          "idHojaVida": 251529,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 263016,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "PARCELA",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "PARCELA SAN FRANCISCO, SECTOR ANCHIHUAY-PALMA REAL, DISTRITO ECHARATI",
+            "comentario": "EL VALOR DEL PREDIO CONSIGNADO ES REFERENCIAL AL VALOR DE MERCADO.",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "02012627",
+            "fichaTomoSunarp": null,
+            "autovaluo": 25474.75,
+            "idHojaVida": 251529,
+            "idEstado": 1,
+            "flValor": "150000"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "32962568",
+      "idHojaVida": 251823,
+      "idOrg": 2998,
+      "nombre": "SANDRA ISABEL PRADA LEYTON",
+      "partido": "UN CAMINO DIFERENTE",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/a6a78fd4-0e87-45a3-b880-9cecc41985fd.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "16/07/1974",
+      "lugarNacimiento": "",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 236158,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 251823,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 196709,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Privada Antenor Orrego",
+            "carreraUni": "BACHILLER EN DERECHO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "1999",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 196710,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Privada Antenor Orrego",
+            "carreraUni": "ABOGADO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2001",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "23877718",
+      "idHojaVida": 251940,
+      "idOrg": 2921,
+      "nombre": "SERAPIO VEGA MONGE",
+      "partido": "PARTIDO POLITICO PRIN",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/7ca514d8-308d-4218-8618-d45106eadca3.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "14/11/1956",
+      "lugarNacimiento": "CAPACMARCA, CHUMBIVILCAS",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": true
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": [
+          {
+            "idHvcargoEleccion": 146226,
+            "tengoCargoEleccion": "SI",
+            "itemCargoEleccion": 1,
+            "idOrgPolCargoElec": 9,
+            "orgPolCargoElec": "MOVIMIENTO REGIONAL O DEPARTAMENTAL IZQUIERDA UNIDA REGIONAL - CUSCO",
+            "idCargoEleccion": 9,
+            "cargoEleccion": "REGIDOR PROVINCIAL",
+            "anioCargoElecDesde": "1995",
+            "anioCargoElecHasta": "1999",
+            "idHojaVida": 251940,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ]
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 235767,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 251940,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 196269,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional de San Antonio Abad del Cusco",
+            "carreraUni": "BACHILLER EN ECONOMIA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": null,
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 196270,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional de San Antonio Abad del Cusco",
+            "carreraUni": "TITULO DE ECONOMISTA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "1985",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 144372,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "Universidad Nacional de San Antonio Abad del Cusco",
+            "txEspecialidadPosgrado": "DOCTOR EN ADMINISTRACIÓN",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": null,
+            "esDoctor": "SI",
+            "txAnioPosgrado": "2020",
+            "idHojaVida": 251940,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 2,
+            "txComentario": null,
+            "fgRegistro": null
+          },
+          {
+            "idHvPosgrado": 144373,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 2,
+            "txCenEstudioPosgrado": "UNIVERSITAT POLITÈCNICA DE CATALUNYA",
+            "txEspecialidadPosgrado": "TÍTULO DE MÁSTER EN DISEÑO, GESTIÓN Y DIRECCIÓN DE PROYECTOS (GRADO DE MAESTRO)",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "SI",
+            "esDoctor": null,
+            "txAnioPosgrado": "2018",
+            "idHojaVida": 251940,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 2,
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": [
+          {
+            "idHvPosgradoOtro": 2340,
+            "tengoPosgradoOtro": "SI",
+            "nuItemPosgradoOtro": 1,
+            "txCenEstudioPosgradoOtro": "UNIVERSIDAD NACIONAL DE SAN ANTONIO ABAD DEL CUSCO",
+            "txEspecialidadPosgradoOtro": "DOCTORADO EN ADMINISTRACION",
+            "concluidoPosgradoOtro": "SI",
+            "egresadoPosgradoOtro": "SI",
+            "txGrado": "DOCTOR",
+            "txAnioPosgradoOtro": "2019",
+            "idHojaVida": 251940,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ]
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 265059,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "EPS EMPSSAPAL",
+          "ocupacionProfesion": "PROYECTO DE INVERSION",
+          "rucTrabajo": null,
+          "direccionTrabajo": "AV TO0MASA TITO CONDEMAYTA",
+          "anioTrabajoDesde": "2022",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "070108",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "CUSCO",
+          "trabajoProvincia": "CUSCO",
+          "trabajoDistrito": "WANCHAQ",
+          "idHojaVida": 251940,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "ANTERIORMENTE TRABAJE EN EL SECTOR EDUCATIVO 2 AÑOS"
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 209813,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 46056,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 36000,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 251940,
+            "idEstado": 1,
+            "totalIngresos": 82056
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 257103,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "CALLE LAS TURQUESAS   DPTO 601   WANCHAQ - CUSCO - CUSCO",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11131440",
+            "fichaTomoSunarp": null,
+            "autovaluo": 218,
+            "idHojaVida": 251940,
+            "idEstado": 1,
+            "flValor": "128000"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 210149,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "X5K595 ",
+            "valor": 74806,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "TOYOTA RUSTH X5K595",
+            "comentario": null,
+            "idHojaVida": 251940,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [
+        {
+          "idHvSentenciaObliga": 137800,
+          "tengoSentenciaObliga": "SI",
+          "nuItemSentenciaObliga": 1,
+          "idParamMateriaSentencia": 16,
+          "txMateriaSentencia": "FAMILIA / ALIMENTARIA",
+          "txExpedienteObliga": "1508",
+          "txOrganoJuridicialObliga": "CORTE SUPERIOR DE JUSTICIA CUSCO",
+          "txFalloObliga": "AUDENCIA DE YACIMIENTO, CONCILIACION, PRUEBAS Y SENTENCIA TRANSACCION EXTRA JUDICIAL",
+          "idEstado": 1,
+          "idHojaVida": 251940,
+          "txComentario": null
+        }
+      ],
+      "resoluciones": []
+    },
+    {
+      "dni": "00128383",
+      "idHojaVida": 254368,
+      "idOrg": 2898,
+      "nombre": "DANIEL RIOS SEBASTIAN",
+      "partido": "FE EN EL PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/2e1be515-f7ec-41ae-9700-0a2b73549f78.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "17/09/1976",
+      "lugarNacimiento": "ECHARATE, LA CONVENCION",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": true,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": [
+          {
+            "idHvcargoEleccion": 146549,
+            "tengoCargoEleccion": "SI",
+            "itemCargoEleccion": 1,
+            "idOrgPolCargoElec": 2173,
+            "orgPolCargoElec": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+            "idCargoEleccion": 10,
+            "cargoEleccion": "ALCALDE DISTRITAL",
+            "anioCargoElecDesde": "2019",
+            "anioCargoElecHasta": "2022",
+            "idHojaVida": 254368,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvcargoEleccion": 146550,
+            "tengoCargoEleccion": "SI",
+            "itemCargoEleccion": 2,
+            "idOrgPolCargoElec": 2173,
+            "orgPolCargoElec": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+            "idCargoEleccion": 11,
+            "cargoEleccion": "REGIDOR DISTRITAL",
+            "anioCargoElecDesde": "2015",
+            "anioCargoElecHasta": "2018",
+            "idHojaVida": 254368,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ]
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 238620,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 254368,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [
+          {
+            "idHvEduTecnico": 160920,
+            "tengoEduTecnico": "SI",
+            "cenEstudioTecnico": "QUILLABAMBA",
+            "carreraTecnico": "PROFESIONAL TÉCNICO EN COMPUTACIÓN E INFORMÁTICA",
+            "concluidoEduTecnico": "1",
+            "idHojaVida": 254368,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 199423,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Intercultural de Quillabamba",
+            "carreraUni": "Ing. Civil",
+            "concluidoEduUni": "NO",
+            "egresadoEduUni": null,
+            "bachillerEduUni": null,
+            "anioBachiller": null,
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 199424,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Mayor de San Marcos",
+            "carreraUni": "Ing. Geológica",
+            "concluidoEduUni": "NO",
+            "egresadoEduUni": null,
+            "bachillerEduUni": null,
+            "anioBachiller": null,
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": "En el año 2000 estudié en la Facultad de Ingeniería Geológica Minas Metalúrgica y Ciencias Geográfica"
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 269302,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "Servicios Geográficos y Medio Ambiente-GEMA-SAC",
+          "ocupacionProfesion": "Coordinador Relaciones Comunitarias",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Calle Las Camelias No 492 San Isidro",
+          "anioTrabajoDesde": "2005",
+          "anioTrabajoHasta": "2009",
+          "ubigeoTrabajo": "070915",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "CUSCO",
+          "trabajoProvincia": "LA CONVENCION",
+          "trabajoDistrito": "MEGANTONI",
+          "idHojaVida": 254368,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "Proyecto kinteroni 1X Lote 56 operado la empresa Repsol Exploración Sucursal Perú"
+        },
+        {
+          "idHvExpeLaboral": 269303,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 2,
+          "centroTrabajo": "Municipalidad Distrital de Megantoni",
+          "ocupacionProfesion": "Alcalde",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Comunidad Nativa de Camisea",
+          "anioTrabajoDesde": "2019",
+          "anioTrabajoHasta": "2022",
+          "ubigeoTrabajo": "070915",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "CUSCO",
+          "trabajoProvincia": "LA CONVENCION",
+          "trabajoDistrito": "MEGANTONI",
+          "idHojaVida": 254368,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "Trabaje como Alcalde hasta el día 3 de marzo 2022"
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 212001,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 254368,
+            "idEstado": 1,
+            "totalIngresos": 0
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 260833,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "Casa con material Noble 3 piso",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "Comunidad Nativa de Nuevo Mundo",
+            "comentario": "El inmueble se encuentra en la comunidad nativa de nuevo mundo distrito de Megantoni",
+            "inmuebleSunarp": "0",
+            "inmuebleSunarpDesc": "NO",
+            "partidaSunarp": null,
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 254368,
+            "idEstado": 1,
+            "flValor": "200000"
+          },
+          {
+            "idHvBienInmueble": 260837,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "Terreno",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "Río Mipaya",
+            "comentario": "Chacra de 2 hectarea ubicado por el río Mipaya tiene 12 mil hectáreas de vegetación",
+            "inmuebleSunarp": "0",
+            "inmuebleSunarpDesc": "NO",
+            "partidaSunarp": null,
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 254368,
+            "idEstado": 1,
+            "flValor": "0"
+          },
+          {
+            "idHvBienInmueble": 260838,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 3,
+            "tipoBienInmueble": "Terreno",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "Río Urubamba Atavapango",
+            "comentario": "El terreno esta ubicado en el río Urubamba contiene vegetación 10 mil hectáreas",
+            "inmuebleSunarp": "0",
+            "inmuebleSunarpDesc": "NO",
+            "partidaSunarp": null,
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 254368,
+            "idEstado": 1,
+            "flValor": "0"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 212481,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "A08009 ",
+            "valor": 0,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "Auto",
+            "comentario": "El vehículo con placa A08009 ya es mi propiedad",
+            "idHojaVida": 254368,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 212635,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 2,
+            "vehiculo": "Yate de Aluminio vehículo fluvial",
+            "marca": null,
+            "placa": "00000",
+            "valor": 80000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "Yate modelo deslizador de transporte fluvial",
+            "comentario": null,
+            "idHojaVida": 254368,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": [
+          {
+            "idHVTitularidad": 9397,
+            "tengoTitularidad": "SI",
+            "nuItemTitularidad": 1,
+            "txPersonaJuridica": "Empresa Nia Sankari Osarite Eirl",
+            "idParamTipoTitularidad": 87,
+            "txTipoTitularidad": "ACCIONES",
+            "flCantidad": 1,
+            "flValor": 3000,
+            "idHojaVida": 254368,
+            "idEstado": 1,
+            "txUsuario": "00128383",
+            "txFechaRegistro": null,
+            "txComentario": null,
+            "txRegistroManual": null
+          }
+        ]
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "80045767",
+      "idHojaVida": 255315,
+      "idOrg": 2927,
+      "nombre": "DANY ANTENOR PALOMINO DIAZ",
+      "partido": "SALVEMOS AL PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/65346b1a-51d8-4ee2-b168-c3e5731956e3.jpg",
+      "estado": "ADMITIDO",
+      "fechaNacimiento": "02/09/1976",
+      "lugarNacimiento": "SANTIAGO, CUSCO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241838,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 255315,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [
+          {
+            "idHvEduTecnico": 161764,
+            "tengoEduTecnico": "SI",
+            "cenEstudioTecnico": "SENATI",
+            "carreraTecnico": "MECANICO DE MANTENIMIENTO",
+            "concluidoEduTecnico": "1",
+            "idHojaVida": 255315,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 203224,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Alas Peruanas S.A.",
+            "carreraUni": "BACHILLER EN INGENIERÍA CIVIL",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2021",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 203225,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Alas Peruanas S.A.",
+            "carreraUni": "INGENIERO CIVIL",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2022",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 274988,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "ENTIDADES PUBLICAS",
+          "ocupacionProfesion": "INGENIERO CIVIL",
+          "rucTrabajo": null,
+          "direccionTrabajo": "REGION CUSCO",
+          "anioTrabajoDesde": "2010",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "070101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "CUSCO",
+          "trabajoProvincia": "CUSCO",
+          "trabajoDistrito": "CUSCO",
+          "idHojaVida": 255315,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "TRABAJOR INDEPENDIENTE - EN LAS DIVERSOS PROVINCIAS DE CUSCO"
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 214716,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 500000,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 255315,
+            "idEstado": 1,
+            "totalIngresos": 500000
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 266411,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "      PP.JJ CHOCCO SANTIAGO - CUSCO - CUSCO",
+            "comentario": "ANTICIPO DE HERENCIA 16% \nAUTOVALUO POR REGULARIZAR DE ESE PORCENTAJE",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11214289",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 255315,
+            "idEstado": 1,
+            "flValor": "70000"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 215649,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "X2W743 ",
+            "valor": 55000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "CAMIONETA MARCA MITSUBICHI",
+            "comentario": null,
+            "idHojaVida": 255315,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "09743656",
+      "idHojaVida": 255545,
+      "idOrg": 2921,
+      "nombre": "LUCY RETUERTO DOMINGUEZ",
+      "partido": "PARTIDO POLITICO PRIN",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/66781251-6429-4353-b175-e043bc886fb5.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "09/12/1971",
+      "lugarNacimiento": "LIMA, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 242334,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 255545,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 267066,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "MZ O LOTE 40 - URBANIZACION SANTA LUZMILA - DPTO: LIMA PROV: LIMA DIST: COMAS",
+            "comentario": "CASA HABITACION",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P01312958",
+            "fichaTomoSunarp": null,
+            "autovaluo": 1250,
+            "idHojaVida": 255545,
+            "idEstado": 1,
+            "flValor": "80000"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 216056,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "B5H543 ",
+            "valor": 30000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "AUTOMOVIL",
+            "comentario": null,
+            "idHojaVida": 255545,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
       },
       "sentenciaPenal": [],
       "sentenciaObliga": [],

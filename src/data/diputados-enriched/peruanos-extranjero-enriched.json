@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-02-07T23:13:20.932Z",
+  "fetchedAt": "2026-02-14T01:01:03.574Z",
   "idProcesoElectoral": 124,
-  "count": 105,
+  "count": 132,
   "data": [
     {
       "dni": "48240870",
@@ -1209,7 +1209,238 @@
       },
       "sentenciaPenal": [],
       "sentenciaObliga": [],
-      "resoluciones": []
+      "resoluciones": [],
+      "votosCongresoProCrimen": [
+        {
+          "fecha": "2025-04-10",
+          "hora": "21:04",
+          "sigla_gp": "RP",
+          "grupo_parlamentario": "Renovacion Popular",
+          "sigla_voto": "NO ---",
+          "voto": "En contra",
+          "votacion": "Ley 32326 - segunda votación",
+          "descripcion_corta": "Ley que define nuevas restricciones a la extinción de dominio que dificulta recuperar bienes de origen ilícito",
+          "imagen_local": "/images/ley-32326-segunda-votacion.png",
+          "fuente_oficial": "https://www2.congreso.gob.pe/Sicr/RelatAgenda/PlenoComiPerm20112016.nsf/Apleno/5DA566CD7F78124C05258BF20057DE04/$FILE/Asis_y_vot_de_la_sesi%C3%B3n_del_13-12-2024.pdf#page=35"
+        },
+        {
+          "fecha": "2024-12-13",
+          "hora": "18:34",
+          "sigla_gp": "RP",
+          "grupo_parlamentario": "Renovacion Popular",
+          "sigla_voto": "NO ---",
+          "voto": "En contra",
+          "votacion": "Ley 32326 - primera votación",
+          "descripcion_corta": "Ley que define nuevas restricciones a la extinción de dominio que dificulta recuperar bienes de origen ilícito",
+          "imagen_local": "/images/ley-32326-primera-votacion.png",
+          "fuente_oficial": "https://www2.congreso.gob.pe/Sicr/RelatAgenda/PlenoComiPerm20112016.nsf/Apleno/5DA566CD7F78124C05258BF20057DE04/$FILE/Asis_y_vot_de_la_sesi%C3%B3n_del_13-12-2024.pdf#page=35"
+        },
+        {
+          "fecha": "2024-11-06",
+          "hora": "16:23",
+          "sigla_gp": "RP",
+          "grupo_parlamentario": "Renovacion Popular",
+          "sigla_voto": "SI +++",
+          "voto": "A favor",
+          "votacion": "Ley 32181 - exoneracion segunda votación",
+          "descripcion_corta": "Ley que eliminó de la detención preliminar sin flagrancia que limitó la acción fiscal y judicial",
+          "imagen_local": "/images/ley-32181-exoneracion.png",
+          "fuente_oficial": "https://www2.congreso.gob.pe/Sicr/RelatAgenda/PlenoComiPerm20112016.nsf/Apleno/E2B1F95BB4006FBC05258BCD007AA7A7/$FILE/Asis_y_vot_del_6_11_2024.pdf#page=6"
+        },
+        {
+          "fecha": "2024-11-06",
+          "hora": "16:19",
+          "sigla_gp": "RP",
+          "grupo_parlamentario": "Renovacion Popular",
+          "sigla_voto": "SI +++",
+          "voto": "A favor",
+          "votacion": "Ley 32181- primera votación",
+          "descripcion_corta": "Ley que eliminó de la detención preliminar sin flagrancia que limitó la acción fiscal y judicial",
+          "imagen_local": "/images/ley-32181-votacion.png",
+          "fuente_oficial": "https://www2.congreso.gob.pe/Sicr/RelatAgenda/PlenoComiPerm20112016.nsf/Apleno/E2B1F95BB4006FBC05258BCD007AA7A7/$FILE/Asis_y_vot_del_6_11_2024.pdf#page=5"
+        },
+        {
+          "fecha": "2024-09-04",
+          "hora": "18:43",
+          "sigla_gp": "RP",
+          "grupo_parlamentario": "Renovacion Popular",
+          "sigla_voto": "aus",
+          "voto": "Ausente",
+          "votacion": "Ley 32130 - segunda votación",
+          "descripcion_corta": "Ley que permite que la investigación preliminar pase del Ministerio Público a la PNP",
+          "imagen_local": "/images/ley-32130-segunda-votacion.png",
+          "fuente_oficial": "https://www2.congreso.gob.pe/Sicr/RelatAgenda/PlenoComiPerm20112016.nsf/Apleno/738B6C26098D4AF105258B8E007CF5BE/$FILE/Asis_y_vot_del_4_9_2024.pdf#page=10"
+        },
+        {
+          "fecha": "2024-08-22",
+          "hora": "19:19",
+          "sigla_gp": "RP",
+          "grupo_parlamentario": "Renovacion Popular",
+          "sigla_voto": "SI +++",
+          "voto": "A favor",
+          "votacion": "Ley 32130 - primera votación",
+          "descripcion_corta": "Ley que permite que la investigación preliminar pase del Ministerio Público a la PNP",
+          "imagen_local": "/images/ley-32130-primera-votacion.png",
+          "fuente_oficial": "https://www2.congreso.gob.pe/Sicr/RelatAgenda/PlenoComiPerm20112016.nsf/Apleno/E4A2FA011872319F05258B8100629CE4/$FILE/Asis_y_vot_del-22_8_2024.pdf#page=24"
+        },
+        {
+          "fecha": "2024-05-30",
+          "hora": "19:27",
+          "sigla_gp": "RP",
+          "grupo_parlamentario": "Renovacion Popular",
+          "sigla_voto": "Abst.",
+          "voto": "Abstención",
+          "votacion": "Ley 32108 - primera votación",
+          "descripcion_corta": "Modifica la definición de organización criminal, exigiendo requisitos más estrictos y dificultando investigaciones por corrupción y crimen organizado.",
+          "imagen_local": "/images/ley-32108-votacion-pleno.png",
+          "fuente_oficial": "https://www2.congreso.gob.pe/Sicr/RelatAgenda/PlenoComiPerm20112016.nsf/Apleno/63269A17867358D305258B2D0063AE77/$FILE/Asis_y_vot_de_la_sesi%C3%B3n_del_30-5-2024.pdf#page=34"
+        },
+        {
+          "fecha": "2024-05-30",
+          "hora": "12:13",
+          "sigla_gp": "RP",
+          "grupo_parlamentario": "Renovacion Popular",
+          "sigla_voto": "Abst.",
+          "voto": "Abstención",
+          "votacion": "Ley 32104 - primera votación",
+          "descripcion_corta": "Obliga a jueces a limitar la suspensión de prescripción penal a un año, debilitando procesos complejos y beneficiando a investigados por corrupción.",
+          "imagen_local": "/images/ley-32104-primera-votacion.jpg",
+          "fuente_oficial": "https://www2.congreso.gob.pe/Sicr/RelatAgenda/PlenoComiPerm20112016.nsf/Apleno/63269A17867358D305258B2D0063AE77/$FILE/Asis_y_vot_de_la_sesi%C3%B3n_del_30-5-2024.pdf#page=9"
+        },
+        {
+          "fecha": "2024-05-10",
+          "hora": "23:50",
+          "sigla_gp": "RP",
+          "grupo_parlamentario": "Renovacion Popular",
+          "sigla_voto": "LE",
+          "voto": "Licencia por enfermedad",
+          "votacion": "Ley 32054 - exoneracion segunda votación",
+          "descripcion_corta": "Ley que excluye responsabilidad penal a los partidos políticos.",
+          "imagen_local": "/images/ley-32054-exoneracion-segunda.png",
+          "fuente_oficial": "https://www2.congreso.gob.pe/Sicr/RelatAgenda/PlenoComiPerm20112016.nsf/Apleno/5C5CE6F4DBBFA11D05258B19005D471A/$FILE/Asis_OFICIAL_de_la_sei%C3%B3n_del_10-5-2024.pdf#page=9"
+        },
+        {
+          "fecha": "2024-05-10",
+          "hora": "23:47",
+          "sigla_gp": "RP",
+          "grupo_parlamentario": "Renovacion Popular",
+          "sigla_voto": "LE",
+          "voto": "Licencia por enfermedad",
+          "votacion": "Ley 32054 - primera votación",
+          "descripcion_corta": "Ley que excluye responsabilidad penal a los partidos políticos.",
+          "imagen_local": "/images/ley-32054-primera-votacion.png",
+          "fuente_oficial": "https://www2.congreso.gob.pe/Sicr/RelatAgenda/PlenoComiPerm20112016.nsf/Apleno/5C5CE6F4DBBFA11D05258B19005D471A/$FILE/Asis_OFICIAL_de_la_sei%C3%B3n_del_10-5-2024.pdf#page=8"
+        },
+        {
+          "fecha": "2024-03-13",
+          "hora": "21:09",
+          "sigla_gp": "RP",
+          "grupo_parlamentario": "Renovacion Popular",
+          "sigla_voto": "SI +++",
+          "voto": "A favor",
+          "votacion": "Ley 31989 - exoneracion segunda votación",
+          "descripcion_corta": "Ley que deroga la disposición que facultaba a la Policía Nacional del Perú a incautar explosivos y actuar frente a mineros con REINFO suspendido",
+          "imagen_local": "/images/ley-31989-exoneracion.png",
+          "fuente_oficial": "https://www2.congreso.gob.pe/Sicr/RelatAgenda/PlenoComiPerm20112016.nsf/Apleno/F35D290EAAEEBBAE05258AE0000DABDD/$FILE/Asis_y_vot_OFICIAL_de_la_sei%C3%B3n_del-13-3-2024.pdf#page=34"
+        },
+        {
+          "fecha": "2024-03-13",
+          "hora": "21:06",
+          "sigla_gp": "RP",
+          "grupo_parlamentario": "Renovacion Popular",
+          "sigla_voto": "SI +++",
+          "voto": "A favor",
+          "votacion": "Ley 31989 - primera votación",
+          "descripcion_corta": "Ley que deroga la disposición que facultaba a la Policía Nacional del Perú a incautar explosivos y actuar frente a mineros con REINFO suspendido",
+          "imagen_local": "/images/ley-31989-votacion.png",
+          "fuente_oficial": "https://www2.congreso.gob.pe/Sicr/RelatAgenda/PlenoComiPerm20112016.nsf/Apleno/F35D290EAAEEBBAE05258AE0000DABDD/$FILE/Asis_y_vot_OFICIAL_de_la_sei%C3%B3n_del-13-3-2024.pdf#page=34"
+        },
+        {
+          "fecha": "2023-12-14",
+          "hora": "20:51",
+          "sigla_gp": "RP",
+          "grupo_parlamentario": "Renovacion Popular",
+          "sigla_voto": "SinRes",
+          "voto": "Sin respuesta",
+          "votacion": "Ley 31990 - votación por insistencia",
+          "descripcion_corta": "Ley que limita la colaboración eficaz y favorece a investigados por corrupción y crimen organizado",
+          "imagen_local": "/images/ley-31990-insistencia-votacion.png",
+          "fuente_oficial": "https://www2.congreso.gob.pe/Sicr/RelatAgenda/PlenoComiPerm20112016.nsf/Apleno/B4F7B160875C072805258A85005AFFF5/$FILE/Asis_y_vot_OFICIAL_de_la_sesi%C3%B3n_del-14-12-2023.pdf#page=53"
+        },
+        {
+          "fecha": "2023-09-20",
+          "hora": "20:00",
+          "sigla_gp": "RP",
+          "grupo_parlamentario": "Renovacion Popular",
+          "sigla_voto": "SI +++",
+          "voto": "A favor",
+          "votacion": "Ley 31880 - exoneracion segunda votación",
+          "descripcion_corta": "Permitió el D.L. 1585, que amplió la suspensión de prisión hasta cinco años, favoreciendo a implicados en el caso Mamanivideos como Kenyi Fujimori y otros casos.",
+          "imagen_local": "/images/ley-31880-exoneracion.png",
+          "fuente_oficial": "https://www2.congreso.gob.pe/Sicr/RelatAgenda/PlenoComiPerm20112016.nsf/Apleno/A715238B8099D08D05258A36006FD8A1/$FILE/Asis_vot_OFICIAL_20-09-23.pdf#page=6"
+        },
+        {
+          "fecha": "2023-09-20",
+          "hora": "19:55",
+          "sigla_gp": "RP",
+          "grupo_parlamentario": "Renovacion Popular",
+          "sigla_voto": "SI +++",
+          "voto": "A favor",
+          "votacion": "Ley 31880 - primera votación",
+          "descripcion_corta": "Permitió el D.L. 1585, que amplió la suspensión de prisión hasta cinco años, favoreciendo a implicados en el caso Mamanivideos como Kenyi Fujimori y otros casos.",
+          "imagen_local": "/images/ley-31880-primera-votacion.png",
+          "fuente_oficial": "https://www2.congreso.gob.pe/Sicr/RelatAgenda/PlenoComiPerm20112016.nsf/Apleno/A715238B8099D08D05258A36006FD8A1/$FILE/Asis_vot_OFICIAL_20-09-23.pdf#page=5"
+        },
+        {
+          "fecha": "2023-06-22",
+          "hora": "22:54",
+          "sigla_gp": "RP",
+          "grupo_parlamentario": "Renovacion Popular",
+          "sigla_voto": "SI +++",
+          "voto": "A favor",
+          "votacion": "Ley 31990 - exoneración segunda votación",
+          "descripcion_corta": "Ley que limita la colaboración eficaz y favorece a investigados por corrupción y crimen organizado",
+          "imagen_local": "/images/ley-31990-exoneracion-segunda.png",
+          "fuente_oficial": "https://www2.congreso.gob.pe/Sicr/RelatAgenda/PlenoComiPerm20112016.nsf/Apleno/BA4D4A986C36895A052589E200830A29/$FILE/Asis_vot_OFICIAL_22-06-2023.pdf#page=73"
+        },
+        {
+          "fecha": "2023-06-22",
+          "hora": "22:52",
+          "sigla_gp": "RP",
+          "grupo_parlamentario": "Renovacion Popular",
+          "sigla_voto": "SI +++",
+          "voto": "A favor",
+          "votacion": "Ley 31990 - primera votación",
+          "descripcion_corta": "Ley que limita la colaboración eficaz y favorece a investigados por corrupción y crimen organizado",
+          "imagen_local": "/images/ley-31990-primera-votacion.png",
+          "fuente_oficial": "https://www2.congreso.gob.pe/Sicr/RelatAgenda/PlenoComiPerm20112016.nsf/Apleno/BA4D4A986C36895A052589E200830A29/$FILE/Asis_vot_OFICIAL_22-06-2023.pdf#page=73"
+        },
+        {
+          "fecha": "2023-05-11",
+          "hora": "19:17",
+          "sigla_gp": "RP",
+          "grupo_parlamentario": "Renovacion Popular",
+          "sigla_voto": "SI +++",
+          "voto": "A favor",
+          "votacion": "Ley 31751 - segunda votación",
+          "descripcion_corta": "Reduce el tiempo de suspensión de la prescripción penal, favoreciendo la impunidad y permitiendo que delitos graves prescriban antes de ser juzgados.",
+          "imagen_local": "/images/ley-31751-segunda-votacion.jpg",
+          "fuente_oficial": "https://www2.congreso.gob.pe/Sicr/RelatAgenda/PlenoComiPerm20112016.nsf/Apleno/29472350CE0C791F052589B30062CAB5/$FILE/Asis_vot_OFICIAL_11-05-23.pdf#page=47"
+        },
+        {
+          "fecha": "2023-04-13",
+          "hora": "19:47",
+          "sigla_gp": "RP",
+          "grupo_parlamentario": "Renovacion Popular",
+          "sigla_voto": "SI +++",
+          "voto": "A favor",
+          "votacion": "Ley 31751 - primera votación",
+          "descripcion_corta": "Reduce el tiempo de suspensión de la prescripción penal, favoreciendo la impunidad y permitiendo que delitos graves prescriban antes de ser juzgados.",
+          "imagen_local": "/images/ley-31751-primera-votacion.jpg",
+          "fuente_oficial": "https://www2.congreso.gob.pe/Sicr/RelatAgenda/PlenoComiPerm20112016.nsf/Apleno/BC4178D0A2AA9C4E0525899700524FBA/$FILE/Asis_vot_OFICIAL_13-04-2023.pdf#page=25"
+        }
+      ],
+      "porestosnoSlug": "zeballos-aponte-jorge"
     },
     {
       "dni": "08249179",
@@ -18456,6 +18687,3210 @@
             "idEstado": 1
           }
         ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "09636089",
+      "idHojaVida": 243486,
+      "idOrg": 2939,
+      "nombre": "ANGELA HILDAURA AGUINAGA MASLUCAN",
+      "partido": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERU",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/7d0f82c9-131b-4ad2-b901-7b86c172ca1f.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "13/08/1973",
+      "lugarNacimiento": "",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 235811,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 243486,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [
+          {
+            "idHvNoUniversitaria": 144724,
+            "tengoNoUniversitaria": "SI",
+            "eduNoUniversitaria": null,
+            "centroEstudioNoUni": "ISPAU",
+            "carreraNoUni": "PEDAGOGIA",
+            "concluidoNoUni": "1",
+            "idHojaVida": 243486,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)"
+          }
+        ],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 265140,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "CONSOLENTE INMOBILIARIO",
+          "ocupacionProfesion": "LIBRE PROFESIONISTA",
+          "rucTrabajo": null,
+          "direccionTrabajo": "ROMA - LAZIO",
+          "anioTrabajoDesde": "2000",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "000000",
+          "trabajoPais": "ITALIA",
+          "trabajoDepartamento": null,
+          "trabajoProvincia": null,
+          "trabajoDistrito": null,
+          "idHojaVida": 243486,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 209829,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 20000,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 243486,
+            "idEstado": 1,
+            "totalIngresos": 20000
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 257162,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "MZ E2 LOTE 7    SECTOR LOTE 2 - URBANIZACION POPULAR ASOC. DE VIVIENDA SAN FRANCISCO DE CAYRAN - DPTO: LIMA PROV: LIMA DIST: SAN MARTIN DE PORRAS",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P01176164",
+            "fichaTomoSunarp": null,
+            "autovaluo": 120000,
+            "idHojaVida": 243486,
+            "idEstado": 1,
+            "flValor": "120000"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "44044469",
+      "idHojaVida": 244281,
+      "idOrg": 2925,
+      "nombre": "ZEIDA ARMUTO PARI",
+      "partido": "PARTIDO POLITICO PERU PRIMERO",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/f1d67fd4-ad61-45a8-bfed-550a8b3cc579.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "22/12/1986",
+      "lugarNacimiento": "CAYARANI, CONDESUYOS",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 240280,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 244281,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 201374,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Andina Néstor Cáceres Velásquez",
+            "carreraUni": "BACHILLER EN CIENCIAS CONTABLES",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2016",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 201375,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Andina Néstor Cáceres Velásquez",
+            "carreraUni": "CONTADOR PUBLICO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2017",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 146037,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "Universidad Andina Néstor Cáceres Velásquez",
+            "txEspecialidadPosgrado": "Maestro en Contabilidad y Finanzas, Mención: Auditoría y Tributación",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "SI",
+            "esDoctor": null,
+            "txAnioPosgrado": "2023",
+            "idHojaVida": 244281,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 2,
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 272278,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "DIRECCION REGIONAL DE EDUCACION PUNO",
+          "ocupacionProfesion": "Contador público",
+          "rucTrabajo": "20232544920",
+          "direccionTrabajo": "JR. BUSTAMANTE DUEñAS NRO. S N URB. CHANU CHANU 2DA ETAPA (CERCA AL CERRO HUAYNA PUCARA) PUNO - PUNO",
+          "anioTrabajoDesde": "2021",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "200101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "PUNO",
+          "trabajoProvincia": "PUNO",
+          "trabajoDistrito": "PUNO",
+          "idHojaVida": 244281,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 272279,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 2,
+          "centroTrabajo": "UNIVERSIDAD ANDINA NESTOR CACERES VELASQ UEZ",
+          "ocupacionProfesion": "Docente",
+          "rucTrabajo": "20185851975",
+          "direccionTrabajo": "PJ. LA CULTURA NRO. 305 CERCADO (AL FRENTE DEL TEATRO MUNICIPAL) PUNO - SAN ROMAN - JULIACA",
+          "anioTrabajoDesde": "2019",
+          "anioTrabajoHasta": "2020",
+          "ubigeoTrabajo": "200901",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "PUNO",
+          "trabajoProvincia": "SAN ROMAN",
+          "trabajoDistrito": "JULIACA",
+          "idHojaVida": 244281,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 272280,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 3,
+          "centroTrabajo": "MUNICIP PROVINCIAL DE SAN ROMAN JULIACA",
+          "ocupacionProfesion": "Contadora",
+          "rucTrabajo": "20165195290",
+          "direccionTrabajo": "PZA.DE ARMAS CENTRO CIVICO NRO. SN (LA PLAZA DE ARMAS NO TIENE NUMERACION) PUNO - SAN ROMAN - JULIAC",
+          "anioTrabajoDesde": "2017",
+          "anioTrabajoHasta": "2017",
+          "ubigeoTrabajo": "200901",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "PUNO",
+          "trabajoProvincia": "SAN ROMAN",
+          "trabajoDistrito": "JULIACA",
+          "idHojaVida": 244281,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 272285,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 4,
+          "centroTrabajo": "VOLTEC CONTRATISTAS GENERALES SOCIEDAD COMERCIAL DE RESPONSABILIDAD LIMITADA",
+          "ocupacionProfesion": "Asistente administrativo",
+          "rucTrabajo": "20448334334",
+          "direccionTrabajo": "JR. VILLA PAXA NRO. 405 BAR. VILLA PAXA (A 4 CDRAS DE JARDÍN VILLA PAXA) PUNO - PUNO - PUNO",
+          "anioTrabajoDesde": "2017",
+          "anioTrabajoHasta": "2017",
+          "ubigeoTrabajo": "200101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "PUNO",
+          "trabajoProvincia": "PUNO",
+          "trabajoDistrito": "PUNO",
+          "idHojaVida": 244281,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 213466,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 16800,
+            "rentaIndividualPublico": 37869,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 244281,
+            "idEstado": 1,
+            "totalIngresos": 54669
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 263879,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "PUNO-PUNO- MZ U LOTE 5 - PUEBLO JOVEN PUEBLO JOVEN CUATRO DE NOVIEMBRE",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P47009305",
+            "fichaTomoSunarp": null,
+            "autovaluo": 30000,
+            "idHojaVida": 244281,
+            "idEstado": 1,
+            "flValor": "55000"
+          },
+          {
+            "idHvBienInmueble": 263880,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "PUNO-PUNO- MZ W LOTE 8 - PUEBLO JOVEN PUEBLO JOVEN CUATRO DE NOVIEMBRE",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P47009342",
+            "fichaTomoSunarp": null,
+            "autovaluo": 20000,
+            "idHojaVida": 244281,
+            "idEstado": 1,
+            "flValor": "35000"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "41302596",
+      "idHojaVida": 244998,
+      "idOrg": 2956,
+      "nombre": "MARIAN KARLA ROJAS USHIÑAHUA",
+      "partido": "PARTIDO PAIS PARA TODOS",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/78592f60-d762-4db9-938c-647fd2f41662.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "25/10/1981",
+      "lugarNacimiento": "IQUITOS, MAYNAS",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 238182,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 244998,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [
+          {
+            "idHvEduTecnico": 160869,
+            "tengoEduTecnico": "SI",
+            "cenEstudioTecnico": "BETA COMPUTER",
+            "carreraTecnico": "PROFESIONAL TÉCNICO EN ADMINISTRACIÓN DE EMPRESAS",
+            "concluidoEduTecnico": "1",
+            "idHojaVida": 244998,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 268681,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "FONDO METROPOLITANO DE INVERSIONES",
+          "ocupacionProfesion": "AREA DE RECURSOS HUMANOS",
+          "rucTrabajo": null,
+          "direccionTrabajo": "JR.LAMPA NRO.357 INT.5",
+          "anioTrabajoDesde": "2025",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "140101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "LIMA",
+          "idHojaVida": 244998,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 211681,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 33600,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 16000,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 244998,
+            "idEstado": 1,
+            "totalIngresos": 49600
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 212304,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "91002L ",
+            "valor": 5200,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "UNA MOTO LINEAL HONDA WAVE 110",
+            "comentario": null,
+            "idHojaVida": 244998,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "44369317",
+      "idHojaVida": 245008,
+      "idOrg": 2173,
+      "nombre": "TRINIDAD YOVANA CERPA FERNANDEZ DE VARGAS",
+      "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/28ef0de1-c8d7-4994-b8e3-be83453c1ee1.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "02/07/1985",
+      "lugarNacimiento": "PACHAS, DOS DE MAYO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": null,
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "74035116",
+      "idHojaVida": 245424,
+      "idOrg": 2933,
+      "nombre": "KATHERINE ANAIS JESSENIA MALVACEDA LOBATON",
+      "partido": "LIBERTAD POPULAR",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/78b3b27f-fc66-4699-94f6-a461b198cd77.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "05/05/1993",
+      "lugarNacimiento": "BARRANCA, BARRANCA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [
+          {
+            "idHvCargoPartidario": 144311,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 1,
+            "idOrgPolCargoPartidario": 2933,
+            "orgPolCargoPartidario": "PARTIDO POLÍTICO LIBERTAD POPULAR",
+            "cargoPartidario": "MIEMBRO DEL COMITE DISTRITAL DE BARRANCA",
+            "anioCargoPartiDesde": "2022",
+            "anioCargoPartiHasta": "2025",
+            "idHojaVida": 245424,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 233496,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 245424,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 260822,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "INDEPENDIENTE",
+          "ocupacionProfesion": "VENTA AL POR MENOR EN COMERCIOS NO ESPECIALIZADOS CON PREDOMINIO DE LA VENTA DE ALIMENTOS, BEBIDAS O",
+          "rucTrabajo": null,
+          "direccionTrabajo": "BARRANCA",
+          "anioTrabajoDesde": "2021",
+          "anioTrabajoHasta": "2022",
+          "ubigeoTrabajo": "140901",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "BARRANCA",
+          "trabajoDistrito": "BARRANCA",
+          "idHojaVida": 245424,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 208016,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 21600,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 245424,
+            "idEstado": 1,
+            "totalIngresos": 21600
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "43311501",
+      "idHojaVida": 246183,
+      "idOrg": 2939,
+      "nombre": "GERARDO ESPINOZA HERNANDEZ",
+      "partido": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERU",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/ef5e9563-c4d3-4b24-a97d-e9408485784b.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "21/11/1955",
+      "lugarNacimiento": "PIURA, PIURA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 236000,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 246183,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [
+          {
+            "idHvEduTecnico": 160375,
+            "tengoEduTecnico": "SI",
+            "cenEstudioTecnico": "ADEX",
+            "carreraTecnico": "CONTABILIADD EMPRESARIAL",
+            "concluidoEduTecnico": "1",
+            "idHojaVida": 246183,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": "CORRESPONDE A INSTITUTO DE EDUCAICON SUPERIOR"
+          }
+        ],
+        "educacionNoUniversitaria": [
+          {
+            "idHvNoUniversitaria": 144747,
+            "tengoNoUniversitaria": "SI",
+            "eduNoUniversitaria": null,
+            "centroEstudioNoUni": "CITEN MARINA DE GUERRA DEL PERU",
+            "carreraNoUni": "SUBOFICIALES DE LA MARINA DE GUERRA",
+            "concluidoNoUni": "1",
+            "idHojaVida": 246183,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)"
+          }
+        ],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 265413,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "MARINA DE GUERRA DEL PERU",
+          "ocupacionProfesion": "MILITAR NAVAL",
+          "rucTrabajo": null,
+          "direccionTrabajo": "CDRA. 36 AV LA MARINA",
+          "anioTrabajoDesde": "1981",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "140127",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "SAN MIGUEL",
+          "idHojaVida": 246183,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "PASANDO A LA SITUACION DE RETIRO CON MAS DE 30 AÑOS EN LA MARINA DE GUERRA SATISFACTORIA COMBATIENTE DEL FRENTE INTERNO ANTITERRORISMO Y FRENTE EXTERNO CONFLICTO CON EL ECUADOR 1995"
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 209991,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 28732,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 246183,
+            "idEstado": 1,
+            "totalIngresos": 28732
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 257408,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "MZ D LOTE 2 - PROGRAMA DE VIVIENDA MANZANA D CORRESPONDIENTE A LA URBANIZACION PEDRO CUEVA     VASQUEZ - DPTO: LIMA PROV: CALLAO DIST: VENTANILLA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P01311069",
+            "fichaTomoSunarp": null,
+            "autovaluo": 50085,
+            "idHojaVida": 246183,
+            "idEstado": 1,
+            "flValor": "50085"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "46548517",
+      "idHojaVida": 247401,
+      "idOrg": 2967,
+      "nombre": "YANET YANINA LIVA EYZAGUIRRE",
+      "partido": "PROGRESEMOS",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/4ee2b504-9374-4f8c-b10a-cd9218683b67.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "28/08/1988",
+      "lugarNacimiento": "AYACUCHO, HUAMANGA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": null,
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "07533517",
+      "idHojaVida": 248289,
+      "idOrg": 2933,
+      "nombre": "RICARDO EDUARDO COTRINA ROWE",
+      "partido": "LIBERTAD POPULAR",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/45c55123-c3f9-4645-ab81-94d5f50c79b6.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "01/12/1971",
+      "lugarNacimiento": "CAJAMARCA, CAJAMARCA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": true
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 233254,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 248289,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 192954,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Mayor de San Marcos",
+            "carreraUni": "BACHILLER EN DERECHO Y CIENCIA POLITICA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": null,
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 192955,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Mayor de San Marcos",
+            "carreraUni": "ABOGADO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": null,
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 260263,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "GRUPO ROWE SAC",
+          "ocupacionProfesion": "REPRESENTANTE",
+          "rucTrabajo": "20388236044",
+          "direccionTrabajo": "PRIMAVERA N° 107",
+          "anioTrabajoDesde": "2015",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "060101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "CAJAMARCA",
+          "trabajoProvincia": "CAJAMARCA",
+          "trabajoDistrito": "CAJAMARCA",
+          "idHojaVida": 248289,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 253452,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "RUSTICO, 1 HECTAREA",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "BAÑOS DEL INCA, CAJAMARCA",
+            "comentario": "SOCIEDADES GANANCIALES",
+            "inmuebleSunarp": "0",
+            "inmuebleSunarpDesc": "NO",
+            "partidaSunarp": null,
+            "fichaTomoSunarp": null,
+            "autovaluo": 700000,
+            "idHojaVida": 248289,
+            "idEstado": 1,
+            "flValor": "990000"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 207738,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "94XX670",
+            "valor": 67400,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "HONDA",
+            "comentario": null,
+            "idHojaVida": 248289,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 207739,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 2,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "6JW9267",
+            "valor": 26960,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "FORD",
+            "comentario": null,
+            "idHojaVida": 248289,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": [
+          {
+            "idHVTitularidad": 8031,
+            "tengoTitularidad": "SI",
+            "nuItemTitularidad": 1,
+            "txPersonaJuridica": "GRUPO ROWE SAC",
+            "idParamTipoTitularidad": 88,
+            "txTipoTitularidad": "PARTICIPACIONES",
+            "flCantidad": 860,
+            "flValor": 10,
+            "idHojaVida": 248289,
+            "idEstado": 1,
+            "txUsuario": "76302284",
+            "txFechaRegistro": null,
+            "txComentario": "LOS DATOS APROXIMADOS",
+            "txRegistroManual": null
+          }
+        ]
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [
+        {
+          "idHvSentenciaObliga": 137658,
+          "tengoSentenciaObliga": "SI",
+          "nuItemSentenciaObliga": 1,
+          "idParamMateriaSentencia": 16,
+          "txMateriaSentencia": "FAMILIA / ALIMENTARIA",
+          "txExpedienteObliga": "1842011",
+          "txOrganoJuridicialObliga": "2° JUZGADO PAZ LETRADO",
+          "txFalloObliga": "PENSION ALIMENTICIA",
+          "idEstado": 1,
+          "idHojaVida": 248289,
+          "txComentario": "900 SOLES A FAVOR DE MI HIJO SCOTT FACUNDO COTRINA GUEVARA"
+        }
+      ],
+      "resoluciones": []
+    },
+    {
+      "dni": "42356782",
+      "idHojaVida": 250015,
+      "idOrg": 2173,
+      "nombre": "PIERO ANTONIO PARRA MALDONADO",
+      "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/739e5ef8-9278-4f88-be3a-af0e121fbcb9.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "24/06/1983",
+      "lugarNacimiento": "LINCE, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 238610,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 250015,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [
+          {
+            "idHvEduTecnico": 160957,
+            "tengoEduTecnico": "SI",
+            "cenEstudioTecnico": "BETA COMPUTER",
+            "carreraTecnico": "PROFESIONAL TÉCNICO EN ADMINISTRACIÓN DE EMPRESAS",
+            "concluidoEduTecnico": "1",
+            "idHojaVida": 250015,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "74892946",
+      "idHojaVida": 250487,
+      "idOrg": 2731,
+      "nombre": "YARITH MIREYA MAGALLAN SULLCAPUMA",
+      "partido": "PODEMOS PERU",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/93571008-eaa4-4851-9cd5-f7616e5a1f5e.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "12/12/1999",
+      "lugarNacimiento": "OROPESA, QUISPICANCHI",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 237306,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 250487,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [
+          {
+            "idHvEduTecnico": 160656,
+            "tengoEduTecnico": "SI",
+            "cenEstudioTecnico": "IEIP GILDA BALLIVIAN ROSADO",
+            "carreraTecnico": "ADMINISTRACION DE EMPRESAS",
+            "concluidoEduTecnico": "1",
+            "idHojaVida": 250487,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": "TITULO EN TRAMITE"
+          }
+        ],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 197919,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Federico Villarreal",
+            "carreraUni": "BACHILLER EN DERECHO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2025",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 144855,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "UNIVERSIDAD EUROPEA DE MADRID",
+            "txEspecialidadPosgrado": "GESTION PUBLICA",
+            "concluidoPosgrado": "NO",
+            "egresadoPosgrado": null,
+            "esMaestro": null,
+            "esDoctor": null,
+            "txAnioPosgrado": null,
+            "idHojaVida": 250487,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 267170,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "INSTITUTO SUPERIOR TECNOLOGICO PRIVADO INTUR PERU",
+          "ocupacionProfesion": "COORDINADORA ACADEMICA",
+          "rucTrabajo": null,
+          "direccionTrabajo": "AV AREQUIPA 3545",
+          "anioTrabajoDesde": "2023",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "140124",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "SAN ISIDRO",
+          "idHojaVida": 250487,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 267171,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 2,
+          "centroTrabajo": "PODEMOS PERU",
+          "ocupacionProfesion": "AUXILIAR DE LA SECRERIA NACIONAL DE GOBIERNOS LOCALES Y REGIONALES",
+          "rucTrabajo": null,
+          "direccionTrabajo": "AV PASEO COLON N° 323",
+          "anioTrabajoDesde": "2022",
+          "anioTrabajoHasta": "2023",
+          "ubigeoTrabajo": "140101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "LIMA",
+          "idHojaVida": 250487,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 267172,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 3,
+          "centroTrabajo": "M & M ESTUDIO JURIDICO Y CONTABLE SAC",
+          "ocupacionProfesion": "AUXILIAR LEGAL",
+          "rucTrabajo": null,
+          "direccionTrabajo": "JR LAMPA N° 1125",
+          "anioTrabajoDesde": "2020",
+          "anioTrabajoHasta": "2021",
+          "ubigeoTrabajo": "140101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "LIMA",
+          "idHojaVida": 250487,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 267173,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 4,
+          "centroTrabajo": "BRADINT SAC",
+          "ocupacionProfesion": "ATENCION AL CLIENTE",
+          "rucTrabajo": null,
+          "direccionTrabajo": "AV SANTA LUCIA N° 143",
+          "anioTrabajoDesde": "2019",
+          "anioTrabajoHasta": "2020",
+          "ubigeoTrabajo": "140103",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "ATE",
+          "idHojaVida": 250487,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 267174,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 5,
+          "centroTrabajo": "YARITH MIREYA MAGALLAN SULCAPUMA",
+          "ocupacionProfesion": "INDEPENDIENTE",
+          "rucTrabajo": null,
+          "direccionTrabajo": "AA.HH. ANDRES AVELINO CACERES MZ A LT 1",
+          "anioTrabajoDesde": "2018",
+          "anioTrabajoHasta": "2019",
+          "ubigeoTrabajo": "140132",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "VILLA MARIA DEL TRIUNFO",
+          "idHojaVida": 250487,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 210937,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 25789.96,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 329,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 250487,
+            "idEstado": 1,
+            "totalIngresos": 26118.96
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "08772338",
+      "idHojaVida": 250555,
+      "idOrg": 2939,
+      "nombre": "ROMULO WILLIAM ZEA MENESES",
+      "partido": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERU",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/096b9e24-d1f4-4f04-9504-4c08a3add85b.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "11/11/1965",
+      "lugarNacimiento": "MIRAFLORES, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241738,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 250555,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 203128,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Ricardo Palma",
+            "carreraUni": "BACHILLER EN CONTABILIDAD",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "1990",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 203129,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Ricardo Palma",
+            "carreraUni": "CONTADOR PUBLICO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "1992",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 266279,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "CALLE SANTA CRUZ NUM 147  6: DEPARTAMENTO N° 302 URB MAYORAZGO TERCERA ETAPA ATE - LIMA - LIMA",
+            "comentario": "NO HAY REGISTRO",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11896566",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 250555,
+            "idEstado": 1,
+            "flValor": "0"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 215584,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "C5W208 ",
+            "valor": 0,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "NO REGISTRA",
+            "comentario": "NO HAY REGISTRO",
+            "idHojaVida": 250555,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "25471651",
+      "idHojaVida": 250623,
+      "idOrg": 2930,
+      "nombre": "MIGUEL ANGEL MORALES MATOS",
+      "partido": "PARTIDO APRISTA PERUANO",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/5055081e-c388-4e15-ba18-933031d0582d.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "30/03/1959",
+      "lugarNacimiento": "BELLAVISTA, CALLAO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241329,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 250623,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 274372,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "H & S Auto H & S Auto Wrecking",
+          "ocupacionProfesion": "Mecánico Automotriz",
+          "rucTrabajo": null,
+          "direccionTrabajo": "127-14 Willens Point Blvd, Yonkers NY 11368",
+          "anioTrabajoDesde": "2014",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "000000",
+          "trabajoPais": "ESTADOS UNIDOS",
+          "trabajoDepartamento": null,
+          "trabajoProvincia": null,
+          "trabajoDistrito": null,
+          "idHojaVida": 250623,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 214383,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 100000,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 250623,
+            "idEstado": 1,
+            "totalIngresos": 100000
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 215263,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "A3D669 ",
+            "valor": 12000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "automovil sedan",
+            "comentario": null,
+            "idHojaVida": 250623,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "08657942",
+      "idHojaVida": 250866,
+      "idOrg": 2956,
+      "nombre": "ELVIS JIMENEZ ENCISO",
+      "partido": "PARTIDO PAIS PARA TODOS",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/1d6391de-dc18-4d23-b733-2b377d252d26.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "29/12/1965",
+      "lugarNacimiento": "LIMA, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 234782,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 250866,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 263394,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 0,
+          "centroTrabajo": "FAMOME FABRICACIONES Y MONTAJES METÁLICOS E.I.R.L.",
+          "ocupacionProfesion": "OPERARIO SOLDADOR",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Jr. los Robles N° 227",
+          "anioTrabajoDesde": "2014",
+          "anioTrabajoHasta": "2017",
+          "ubigeoTrabajo": "140143",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "SANTA ANITA",
+          "idHojaVida": 250866,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 263396,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 2,
+          "centroTrabajo": "YALO SAC",
+          "ocupacionProfesion": "OPERARIO SOLDADOR",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Cal. Hernando de Lavalle N° 110a a.H. año Nuevo",
+          "anioTrabajoDesde": "2017",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "140106",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "COMAS",
+          "idHojaVida": 250866,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "Julio 2025 a la fecha\nJunio hasta setiembre 2018\nAbril hasta Junio 2017"
+        },
+        {
+          "idHvExpeLaboral": 263399,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 3,
+          "centroTrabajo": "TRAMET SA",
+          "ocupacionProfesion": "OPERARIO SOLDADOR",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Av. Industrias Unidas Mza. E6 Lote. 1 Otr. P.I.de Ancon (Serpentin de Pasamayo)",
+          "anioTrabajoDesde": "2017",
+          "anioTrabajoHasta": "2020",
+          "ubigeoTrabajo": "140102",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "ANCON",
+          "idHojaVida": 250866,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "De diciembre 2017 a marzo 2018.\nDe noviembre a diciembre 2018.\nDe agosto 2019 a marzo 2020.\nFebrero 2022 a febrero 2024."
+        },
+        {
+          "idHvExpeLaboral": 263410,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 4,
+          "centroTrabajo": "FUNDICIÓN Y MAESTRANZA INDUSTRIAL S.R.L.",
+          "ocupacionProfesion": "OPERARIO SOLDADOR",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Jr. Luis Carranza N° 2250",
+          "anioTrabajoDesde": "2025",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "140101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "LIMA",
+          "idHojaVida": 250866,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "Febrero 2025 hasta junio 2025"
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 209051,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 360000,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 250866,
+            "idEstado": 1,
+            "totalIngresos": 360000
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 257099,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "PREDIO",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "Asociación San Valentín de Santa Rosa - Segunda etapa P.V. Residencial N° de Manzana Lote 37 - San Martin de Porres",
+            "comentario": null,
+            "inmuebleSunarp": "0",
+            "inmuebleSunarpDesc": "NO",
+            "partidaSunarp": null,
+            "fichaTomoSunarp": null,
+            "autovaluo": 9000,
+            "idHojaVida": 250866,
+            "idEstado": 1,
+            "flValor": "120000"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "74224818",
+      "idHojaVida": 251543,
+      "idOrg": 2933,
+      "nombre": "JAMIR GERSON HARO CORDOVA",
+      "partido": "LIBERTAD POPULAR",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/9a8ae1bd-1fe3-4274-8b49-eb4f105f2b7c.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "22/11/1995",
+      "lugarNacimiento": "CALLAO, CALLAO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 233497,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 251543,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 260824,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "INDEPENDIENTE",
+          "ocupacionProfesion": "SERVICIOS GENERALES",
+          "rucTrabajo": "10742248181",
+          "direccionTrabajo": "CALLAO",
+          "anioTrabajoDesde": "2014",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "240101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "CALLAO",
+          "trabajoProvincia": "CALLAO",
+          "trabajoDistrito": "CALLAO",
+          "idHojaVida": 251543,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 208017,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 13560,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 251543,
+            "idEstado": 1,
+            "totalIngresos": 13560
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "70763160",
+      "idHojaVida": 251873,
+      "idOrg": 2867,
+      "nombre": "GUDELIA DAMIANO LEGUIA",
+      "partido": "PARTIDO DEMOCRATA UNIDO PERU",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/531f2d6b-f58e-48df-a4b6-a5b4b2b9a8c8.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "30/07/1991",
+      "lugarNacimiento": "ANDARAPA, ANDAHUAYLAS",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": null,
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "45077198",
+      "idHojaVida": 252204,
+      "idOrg": 2867,
+      "nombre": "GLADYS KATHERINE VEGA CARRASCO",
+      "partido": "PARTIDO DEMOCRATA UNIDO PERU",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/be19625e-9a49-40f2-8a96-a1beb9782cb3.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "30/05/1987",
+      "lugarNacimiento": "LIMA, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": null,
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "72782254",
+      "idHojaVida": 252510,
+      "idOrg": 2933,
+      "nombre": "CINTHYA MADELEINE HARO ESPINOZA",
+      "partido": "LIBERTAD POPULAR",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/3597a8f9-7464-43d6-979d-fae947e23495.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "06/10/1996",
+      "lugarNacimiento": "CALLAO, CALLAO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 233547,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 252510,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 260892,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "INDEPENDIENTE",
+          "ocupacionProfesion": "INDEPENDIENTE",
+          "rucTrabajo": null,
+          "direccionTrabajo": "LIMA",
+          "anioTrabajoDesde": "2017",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "140101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "LIMA",
+          "idHojaVida": 252510,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 208052,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 13560,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 252510,
+            "idEstado": 1,
+            "totalIngresos": 13560
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "44147632",
+      "idHojaVida": 253413,
+      "idOrg": 2967,
+      "nombre": "SALOMON MAMANI FLORES",
+      "partido": "PROGRESEMOS",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/f27c906e-8009-4a75-9ff8-8556bf3418f7.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "19/11/1981",
+      "lugarNacimiento": "LIMA, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": null,
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 267155,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "MZ C LOTE 10    SECTOR PRIMERO GRUP.RESI 10 - PUEBLO JOVEN VILLA EL SALVADOR - DPTO: LIMA PROV: LIMA DIST: VILLA EL SALVADOR",
+            "comentario": "Desconozco",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P03007847",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 253413,
+            "idEstado": 1,
+            "flValor": "0"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 216148,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "AVU216 ",
+            "valor": 20,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "0",
+            "comentario": "Desconozco",
+            "idHojaVida": 253413,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "40940578",
+      "idHojaVida": 254307,
+      "idOrg": 2935,
+      "nombre": "MARIA DEL CARMEN FERNANDEZ SARMIENTO",
+      "partido": "PARTIDO SICREO",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/415aeed3-cf43-49f7-8ee4-ee28f4ee65c0.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "17/06/1981",
+      "lugarNacimiento": "LIMA, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 239022,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 254307,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [
+          {
+            "idHvEduTecnico": 161054,
+            "tengoEduTecnico": "SI",
+            "cenEstudioTecnico": "CETPRO \"PRESENTACIÓN DE MARIA\"",
+            "carreraTecnico": "INDUSTRIA TEXTIL",
+            "concluidoEduTecnico": "1",
+            "idHojaVida": 254307,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionNoUniversitaria": [
+          {
+            "idHvNoUniversitaria": 145061,
+            "tengoNoUniversitaria": "SI",
+            "eduNoUniversitaria": null,
+            "centroEstudioNoUni": "Instituto Superior Pedagógico \"SAN JUAN BOSCO\"",
+            "carreraNoUni": "ED. PRIMARIA",
+            "concluidoNoUni": "2",
+            "idHojaVida": 254307,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)"
+          }
+        ],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 270159,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "IEP \"DOMINGO ELÍAS\"",
+          "ocupacionProfesion": "Docente Administrativo",
+          "rucTrabajo": "20604233756",
+          "direccionTrabajo": "Mz. C Lote 17 Asociación Los NAranjos - Puente Piedra",
+          "anioTrabajoDesde": "2014",
+          "anioTrabajoHasta": "2023",
+          "ubigeoTrabajo": "140119",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "PUENTE PIEDRA",
+          "idHojaVida": 254307,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "09341360",
+      "idHojaVida": 254535,
+      "idOrg": 2935,
+      "nombre": "RITA SILVIA BARRERA VIRHUEZ",
+      "partido": "PARTIDO SICREO",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/ebc57fa9-ed2c-458f-95af-397a6ad9189e.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "04/08/1972",
+      "lugarNacimiento": "MIRAFLORES, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 239028,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 254535,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 199898,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Pontificia Universidad Católica del Perú",
+            "carreraUni": "BACHILLER EN HUMANIDADES",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2000",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": [
+          {
+            "idHvPosgradoOtro": 2602,
+            "tengoPosgradoOtro": "SI",
+            "nuItemPosgradoOtro": 1,
+            "txCenEstudioPosgradoOtro": "UNIVERSIDAD DE HELSINKI",
+            "txEspecialidadPosgradoOtro": "Magíster en Filología Española",
+            "concluidoPosgradoOtro": "SI",
+            "egresadoPosgradoOtro": "SI",
+            "txGrado": "--",
+            "txAnioPosgradoOtro": "--",
+            "idHojaVida": 254535,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "txComentario": null,
+            "fgRegistro": null
+          },
+          {
+            "idHvPosgradoOtro": 2603,
+            "tengoPosgradoOtro": "SI",
+            "nuItemPosgradoOtro": 2,
+            "txCenEstudioPosgradoOtro": "UNIVERSIDAD DE LEIDEN",
+            "txEspecialidadPosgradoOtro": "PHD DOCTORA EN LINGUISTICA",
+            "concluidoPosgradoOtro": "SI",
+            "egresadoPosgradoOtro": "SI",
+            "txGrado": "--",
+            "txAnioPosgradoOtro": "--",
+            "idHojaVida": 254535,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ]
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 270171,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "HAKEN SCGOOL OF ECONOMICS",
+          "ocupacionProfesion": "JEFE DE DEPARTAMENTO DE ESPAÑOL/ PROFESORA DE ESPAÑOL COMO SEGUNDA LENGUA",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Arkadiankatu 22 – Helsinki",
+          "anioTrabajoDesde": "2011",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "000000",
+          "trabajoPais": "FINLANDIA",
+          "trabajoDepartamento": null,
+          "trabajoProvincia": null,
+          "trabajoDistrito": null,
+          "idHojaVida": 254535,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "08114540",
+      "idHojaVida": 255014,
+      "idOrg": 2857,
+      "nombre": "REYNALDO ARMANDO CARRETERO TORRES",
+      "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/cb82f17a-75bb-4012-9e48-708a6a1c1bfc.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "17/02/1966",
+      "lugarNacimiento": "RIMAC, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 240727,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 255014,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [
+          {
+            "idHvEduTecnico": 161500,
+            "tengoEduTecnico": "SI",
+            "cenEstudioTecnico": "UNIVERSIDAD DE FRIBURGO - SUIZA",
+            "carreraTecnico": "HOTELERIA",
+            "concluidoEduTecnico": "1",
+            "idHojaVida": 255014,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 273058,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "ENCOMPASS HEALTH HOSPITAL",
+          "ocupacionProfesion": "EMPLEADO",
+          "rucTrabajo": null,
+          "direccionTrabajo": "6400 Edgelake Dr, Sarasota, FL 34240",
+          "anioTrabajoDesde": "2024",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "000000",
+          "trabajoPais": "ESTADOS UNIDOS",
+          "trabajoDepartamento": null,
+          "trabajoProvincia": null,
+          "trabajoDistrito": null,
+          "idHojaVida": 255014,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "07502504",
+      "idHojaVida": 255023,
+      "idOrg": 2857,
+      "nombre": "MARTHA PATRICIA GALLO RENGIFO",
+      "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/a4f22efd-a5cc-4dd7-83d8-9818274cd24f.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "23/03/1975",
+      "lugarNacimiento": "LA VICTORIA, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 240756,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 255023,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [
+          {
+            "idHvEduTecnico": 161514,
+            "tengoEduTecnico": "SI",
+            "cenEstudioTecnico": "AYUNTAMIENTO DE MADRID",
+            "carreraTecnico": "TELEASISTENCIA",
+            "concluidoEduTecnico": "1",
+            "idHojaVida": 255023,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionNoUniversitaria": [
+          {
+            "idHvNoUniversitaria": 145247,
+            "tengoNoUniversitaria": "SI",
+            "eduNoUniversitaria": null,
+            "centroEstudioNoUni": "USMP",
+            "carreraNoUni": "BACHILLER CCCC",
+            "concluidoNoUni": "1",
+            "idHojaVida": 255023,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)"
+          }
+        ],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 273107,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "LINEA 10 AYUNTAMIENTO DE MADRID",
+          "ocupacionProfesion": "GESTORA AL CIUDADANO",
+          "rucTrabajo": null,
+          "direccionTrabajo": "MADRID",
+          "anioTrabajoDesde": "2025",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "000000",
+          "trabajoPais": "ESPANA",
+          "trabajoDepartamento": null,
+          "trabajoProvincia": null,
+          "trabajoDistrito": null,
+          "idHojaVida": 255023,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 264702,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "DPTO 203 - URBANIZACION MATUTE -SEGUNDA ZONA- MZ. 38 LT.15 - DPTO: LIMA PROV: LIMA DIST: LA VICTORIA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P02198523",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 255023,
+            "idEstado": 1,
+            "flValor": "0"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "08534203",
+      "idHojaVida": 255286,
+      "idOrg": 2857,
+      "nombre": "LUIS ALFREDO BELLEZA CABALLINA",
+      "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/238c3941-b466-4990-b908-da989a3b7fb9.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "08/03/1963",
+      "lugarNacimiento": "LIMA, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241287,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": null,
+          "idHojaVida": 255286,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [
+          {
+            "idHvEduTecnico": 161665,
+            "tengoEduTecnico": "SI",
+            "cenEstudioTecnico": "CESCA",
+            "carreraTecnico": "AUDIOVISUAL",
+            "concluidoEduTecnico": "1",
+            "idHojaVida": 255286,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": "UNIVERSIDAD PARTICULAR SMP FOTOGRAFÍA"
+          }
+        ],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 274313,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "BELFILMS",
+          "ocupacionProfesion": "FOTOGRAFÍA AUDIOVISUAL",
+          "rucTrabajo": null,
+          "direccionTrabajo": "LO ESPINOZA #2580",
+          "anioTrabajoDesde": "2014",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "000000",
+          "trabajoPais": "CHILE",
+          "trabajoDepartamento": null,
+          "trabajoProvincia": null,
+          "trabajoDistrito": null,
+          "idHojaVida": 255286,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 274317,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 2,
+          "centroTrabajo": "RADIO QUILCA",
+          "ocupacionProfesion": "LOCUTOR Y FOTOGRAFÍA",
+          "rucTrabajo": null,
+          "direccionTrabajo": "RADAL 01566",
+          "anioTrabajoDesde": "2015",
+          "anioTrabajoHasta": "2021",
+          "ubigeoTrabajo": "000000",
+          "trabajoPais": "CHILE",
+          "trabajoDepartamento": null,
+          "trabajoProvincia": null,
+          "trabajoDistrito": null,
+          "idHojaVida": 255286,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 265635,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "MZ J LOTE 6 - ASENTAMIENTO HUMANO CAHUIDE (P.E. N° 11264152) - DPTO: LIMA PROV: LIMA DIST: INDEPENDENCIA",
+            "comentario": "no tiene el dato",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P01289289",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 255286,
+            "idEstado": 1,
+            "flValor": "150000"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "07405654",
+      "idHojaVida": 255447,
+      "idOrg": 2869,
+      "nombre": "ISABEL LAZO CRUZ",
+      "partido": "PARTIDO PATRIOTICO DEL PERU",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/fbb29bac-984c-4868-a8f0-6056d5e45367.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "04/11/1958",
+      "lugarNacimiento": "LA VICTORIA, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241992,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 255447,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "10320198",
+      "idHojaVida": 255480,
+      "idOrg": 2869,
+      "nombre": "HUGO MARTIN DODERO HUARCAYA",
+      "partido": "PARTIDO PATRIOTICO DEL PERU",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/54a9ab71-072d-4b3f-b3ce-c9316831ec1f.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "19/04/1975",
+      "lugarNacimiento": "JESUS MARIA, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 242134,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 255480,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 203468,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "UNIVERSIDAD DEL PACIFICO",
+            "carreraUni": "GESTIÓN COMERCIAL",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2019",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 275087,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "AGENCIA DE PUBLICIDAD PUNTOO",
+          "ocupacionProfesion": "JEFE DE VENTAS",
+          "rucTrabajo": null,
+          "direccionTrabajo": "CORONEL INCLAN 235",
+          "anioTrabajoDesde": "2015",
+          "anioTrabajoHasta": "2019",
+          "ubigeoTrabajo": "140115",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "MIRAFLORES",
+          "idHojaVida": 255480,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 214779,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 60000,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 255480,
+            "idEstado": 1,
+            "totalIngresos": 60000
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 266857,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "CALLE SAMIRIA NUM 281 ESTAC 103 - SEGUNDO SOTANO   SURQUILLO - LIMA - LIMA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "12882591",
+            "fichaTomoSunarp": null,
+            "autovaluo": 36000,
+            "idHojaVida": 255480,
+            "idEstado": 1,
+            "flValor": "36000"
+          },
+          {
+            "idHvBienInmueble": 266858,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "CALLE LA CALERA DE LA MERCED NUM 214 DPTO 704 - SETIMO PISO   SURQUILLO - LIMA - LIMA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "12883282",
+            "fichaTomoSunarp": null,
+            "autovaluo": 472000,
+            "idHojaVida": 255480,
+            "idEstado": 1,
+            "flValor": "472000"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "06424357",
+      "idHojaVida": 255543,
+      "idOrg": 2869,
+      "nombre": "ERNESTO VLADIMIR ALVARADO VERASTEGUI",
+      "partido": "PARTIDO PATRIOTICO DEL PERU",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/c6cb99ef-5a51-40a4-bf2d-bf44727898f3.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "10/07/1972",
+      "lugarNacimiento": "LA VICTORIA, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 242331,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 255543,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 203649,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "UNIVERSIDAD DE GINEBRA",
+            "carreraUni": "ADMINISTRADOR EN SISTEMAS INFORMÁTICAS",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "1999",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 275275,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "GVAX - KCSWISS",
+          "ocupacionProfesion": "ADMINISTRADOR",
+          "rucTrabajo": null,
+          "direccionTrabajo": "12 RUE DE LA GOLETTE",
+          "anioTrabajoDesde": "2020",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "000000",
+          "trabajoPais": "SUIZA",
+          "trabajoDepartamento": null,
+          "trabajoProvincia": null,
+          "trabajoDistrito": null,
+          "idHojaVida": 255543,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 214882,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 342000,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 21000,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 255543,
+            "idEstado": 1,
+            "totalIngresos": 363000
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "06418369",
+      "idHojaVida": 255603,
+      "idOrg": 2939,
+      "nombre": "FRIDA MILAGROS GIRALDO GONZALES",
+      "partido": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERU",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/c0f94fa1-ac05-436c-8aa4-7127b38ad295.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "09/10/1965",
+      "lugarNacimiento": "HUARAZ, HUARAZ",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 242473,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 255603,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 203774,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad de San Martín de Porres",
+            "carreraUni": "BACHILLER EN ENFERMERIA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "1989",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 203775,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad de San Martín de Porres",
+            "carreraUni": "LICENCIADO EN ENFERMERIA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "1990",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 267184,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "CALLE RAYMUNDO CARCAMO NUM 936 LOTE 7 ETAP 4 LA VICTORIA - LIMA - LIMA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "43255991",
+            "fichaTomoSunarp": null,
+            "autovaluo": 20000,
+            "idHojaVida": 255603,
+            "idEstado": 1,
+            "flValor": "100000"
+          }
+        ],
+        "bienMueble": [],
         "otroMueble": [],
         "titularidad": []
       },

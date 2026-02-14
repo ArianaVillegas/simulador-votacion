@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-02-07T20:34:56.360Z",
+  "fetchedAt": "2026-02-14T01:01:04.055Z",
   "idProcesoElectoral": 124,
-  "count": 46,
+  "count": 60,
   "data": [
     {
       "dni": "00428460",
@@ -9426,6 +9426,1909 @@
       "declaracionJurada": {
         "ingreso": [],
         "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "01324687",
+      "idHojaVida": 244097,
+      "idOrg": 2939,
+      "nombre": "MARITZA PERCCA TARQUI",
+      "partido": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/ad1f943e-5efa-46c9-a04a-5025b9b92cc9.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "02/08/1975",
+      "lugarNacimiento": "ACORA, PUNO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241836,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 244097,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 203218,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional José Faustino Sánchez Carrión",
+            "carreraUni": "BACHILLER EN EDUCACION",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2016",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 203219,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional José Faustino Sánchez Carrión",
+            "carreraUni": "LICENCIADA EN EDUCACIÓN NIVEL SECUNDARIA ESPECIALIDAD: BIOLOGÍA, QUÍMICA Y TECNOLOGÍA DE LOS ALIMENTOS",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2022",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 203220,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "3",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Privada Telesup S.A.C.",
+            "carreraUni": "BACHILLER EN DERECHO CORPORATIVO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2021",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 266404,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "AZANGARO-AZANGARO- MZ Y LOTE 18    BARRIO LIZANDRO LUNA - CENTRO POBLADO AZANGARO",
+            "comentario": "NO HAY REGISTRO",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P48008116",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 244097,
+            "idEstado": 1,
+            "flValor": "0"
+          },
+          {
+            "idHvBienInmueble": 266405,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "  MZ A5 LOTE 26 URB LOS PINOS II ETAPA - SECTOR B JULIACA - SAN ROMAN - PUNO",
+            "comentario": "NO HAY REGISTRO",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11265674",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 244097,
+            "idEstado": 1,
+            "flValor": "0"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 215643,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "W4S937 ",
+            "valor": 0,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "NO REGISTRA",
+            "comentario": "NO HAY REGISTRO",
+            "idHojaVida": 244097,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "80014494",
+      "idHojaVida": 244170,
+      "idOrg": 2895,
+      "nombre": "HERMELINDA COLORADO AQUINO",
+      "partido": "PARTIDO DEMOCRATA VERDE",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/f552d7ad-8b40-409c-8ec7-c4295d3e6dc1.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "26/07/1974",
+      "lugarNacimiento": "SAN RAFAEL, AMBO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 233184,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "NO",
+          "concluidoEduSecundaria": null,
+          "idHojaVida": 244170,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "07166473",
+      "idHojaVida": 244221,
+      "idOrg": 2956,
+      "nombre": "BERTHA LUZ GONZALES PADILLA",
+      "partido": "PARTIDO PAIS PARA TODOS",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/e470e75d-e89f-4572-8e68-f18eb981fcab.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "18/08/1957",
+      "lugarNacimiento": "MIRAFLORES, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 238067,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 244221,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [
+          {
+            "idHvEduTecnico": 160835,
+            "tengoEduTecnico": "SI",
+            "cenEstudioTecnico": "INSTITUTO CARRION",
+            "carreraTecnico": "ENFERMERIA TECNICA",
+            "concluidoEduTecnico": "1",
+            "idHojaVida": 244221,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": "SECRETARIA"
+          }
+        ],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 268469,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "MUNICIPALIDAD DE INDEPENDENCIA",
+          "ocupacionProfesion": "SECRETARIA",
+          "rucTrabajo": null,
+          "direccionTrabajo": "AV. TUPAC AMARU KM 4/5",
+          "anioTrabajoDesde": "1982",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "140134",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "INDEPENDENCIA",
+          "idHojaVida": 244221,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 211683,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 36000,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 244221,
+            "idEstado": 1,
+            "totalIngresos": 36000
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 262458,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "CASA",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "JR  LOS PRECURSORESMZ H LOTE 17 STA APOLONIA",
+            "comentario": "POR REGULARIZAR A REGISTRO PUBLICOS",
+            "inmuebleSunarp": "0",
+            "inmuebleSunarpDesc": "NO",
+            "partidaSunarp": null,
+            "fichaTomoSunarp": null,
+            "autovaluo": 83196.8,
+            "idHojaVida": 244221,
+            "idEstado": 1,
+            "flValor": "150000"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "40068078",
+      "idHojaVida": 244656,
+      "idOrg": 2932,
+      "nombre": "NINFA CHAMBI CANAZA",
+      "partido": "PARTIDO POLITICO PERU ACCION",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/0a8816ff-9d70-4a92-8aa6-ea618777ecec.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "08/09/1978",
+      "lugarNacimiento": "VILQUE, PUNO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241595,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 244656,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "28293030",
+      "idHojaVida": 245235,
+      "idOrg": 2867,
+      "nombre": "AURORA SANCHEZ RONDINEL",
+      "partido": "PARTIDO DEMOCRATA UNIDO PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/e418dc3c-ba72-4d93-8294-c83c0ae8fc24.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "08/12/1963",
+      "lugarNacimiento": "AYACUCHO, HUAMANGA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": null,
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "02377723",
+      "idHojaVida": 247245,
+      "idOrg": 2921,
+      "nombre": "ESTEFANIA NOA PAREDES",
+      "partido": "PARTIDO POLITICO PRIN",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/2bebae18-9dca-45c9-a76c-4935f37db70f.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "01/08/1962",
+      "lugarNacimiento": "JULIACA, SAN ROMAN",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 242450,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 247245,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "16725581",
+      "idHojaVida": 250011,
+      "idOrg": 2933,
+      "nombre": "MARAYA ELENA TRUJILLANO MUÑOZ",
+      "partido": "LIBERTAD POPULAR",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/c9f3d3a0-f2c6-469f-81da-d2484db9fa84.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "06/03/1975",
+      "lugarNacimiento": "CHICLAYO, CHICLAYO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 233163,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 250011,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [
+          {
+            "idHvNoUniversitaria": 144440,
+            "tengoNoUniversitaria": "SI",
+            "eduNoUniversitaria": null,
+            "centroEstudioNoUni": "ISPP SAGRADO CORAZON DE JESUS",
+            "carreraNoUni": "PROFESORA",
+            "concluidoNoUni": "1",
+            "idHojaVida": 250011,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)"
+          }
+        ],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 260014,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "031 VIRGEN DEL CARMEN",
+          "ocupacionProfesion": "PROFESORA",
+          "rucTrabajo": null,
+          "direccionTrabajo": "AV PIURA LA CRUZ",
+          "anioTrabajoDesde": "2024",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "230103",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "TUMBES",
+          "trabajoProvincia": "TUMBES",
+          "trabajoDistrito": "LA CRUZ",
+          "idHojaVida": 250011,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 207732,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 12000,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 250011,
+            "idEstado": 1,
+            "totalIngresos": 12000
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "01318086",
+      "idHojaVida": 250136,
+      "idOrg": 3023,
+      "nombre": "HERBERT LARRY FLORES REATEGUI",
+      "partido": "UNIDAD NACIONAL",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/b13b0af0-58c2-48b9-915a-3dcc4b8025a7.jpg",
+      "estado": "PUBLICADO PARA TACHAS",
+      "fechaNacimiento": "03/03/1973",
+      "lugarNacimiento": "CALLERIA, CORONEL PORTILLO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [
+          {
+            "idHvCargoPartidario": 145754,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 1,
+            "idOrgPolCargoPartidario": 2943,
+            "orgPolCargoPartidario": "PARTIDO POLÍTICO PARTIDO POPULAR CRISTIANO - PPC",
+            "cargoPartidario": "COORDINADOR PROVINCIAL",
+            "anioCargoPartiDesde": "2024",
+            "anioCargoPartiHasta": "2025",
+            "idHojaVida": 250136,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": "HASTA LA ACTUALIDAD"
+          }
+        ],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 237627,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 250136,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 198271,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional del Altiplano",
+            "carreraUni": "LICENCIADO EN CIENCIAS BIOLOGICAS",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2000",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 198272,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional del Altiplano",
+            "carreraUni": "BACHILLER EN CIENCIAS BIOLOGICAS",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "1999",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 144971,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "UNIVERSIDAD NACIONAL DEL ALTIPLANO",
+            "txEspecialidadPosgrado": "GESTION EMPRESARIAL",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "NO",
+            "esDoctor": "NO",
+            "txAnioPosgrado": null,
+            "idHojaVida": 250136,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": "MAESTRIA CONCLUIDA",
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": [
+          {
+            "idHvPosgradoOtro": 2490,
+            "tengoPosgradoOtro": "SI",
+            "nuItemPosgradoOtro": 1,
+            "txCenEstudioPosgradoOtro": "UNIVERSIDAD PERUANA UNION",
+            "txEspecialidadPosgradoOtro": "INGENIERIA AMBIENTAL",
+            "concluidoPosgradoOtro": "NO",
+            "egresadoPosgradoOtro": null,
+            "txGrado": "--",
+            "txAnioPosgradoOtro": "--",
+            "idHojaVida": 250136,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ]
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 267835,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "RED DE SALUD PUNO - JUNCAL",
+          "ocupacionProfesion": "BIOLOGO",
+          "rucTrabajo": null,
+          "direccionTrabajo": "JR. SAN ANTONIO S/N",
+          "anioTrabajoDesde": "2009",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "200111",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "PUNO",
+          "trabajoProvincia": "PUNO",
+          "trabajoDistrito": "SAN ANTONIO",
+          "idHojaVida": 250136,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "ACTUALMENTE LABORANDO EN REGIMEN NOMBRADO"
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 211211,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 90000,
+            "remuBrutaPrivado": 14400,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 250136,
+            "idEstado": 1,
+            "totalIngresos": 104400
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 259514,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "TERRENO",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "VENTANILLA",
+            "comentario": null,
+            "inmuebleSunarp": "0",
+            "inmuebleSunarpDesc": "NO",
+            "partidaSunarp": null,
+            "fichaTomoSunarp": null,
+            "autovaluo": 12000,
+            "idHojaVida": 250136,
+            "idEstado": 1,
+            "flValor": "12000"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 211917,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "Z6L574 ",
+            "valor": 44000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "CAMIONETA",
+            "comentario": null,
+            "idHojaVida": 250136,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "02409451",
+      "idHojaVida": 251087,
+      "idOrg": 2939,
+      "nombre": "VLADIMIR LENIN GUZMAN VILCA LIMA",
+      "partido": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/8102e6d9-39e5-4a9c-83fc-6d1916989516.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "04/08/1958",
+      "lugarNacimiento": "COTAHUASI, LA UNION",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 236019,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 251087,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [
+          {
+            "idHvNoUniversitaria": 144750,
+            "tengoNoUniversitaria": "SI",
+            "eduNoUniversitaria": null,
+            "centroEstudioNoUni": "PACIFICO DEL SUR",
+            "carreraNoUni": "ADMINSTRACION DE EMPRESAS",
+            "concluidoNoUni": "1",
+            "idHojaVida": 251087,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)"
+          }
+        ],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 196582,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional José Faustino Sánchez Carrión",
+            "carreraUni": "BACHILLER EN EDUCACION",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "1996",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 196583,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Andina Néstor Cáceres Velásquez",
+            "carreraUni": "BACHILLER EN DERECHO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2001",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 196584,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "3",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Andina Néstor Cáceres Velásquez",
+            "carreraUni": "ABOGADO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2001",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 196585,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "4",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad los Ángeles de Chimbote",
+            "carreraUni": "LICENCIADO EN EDUCACION",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2007",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 144463,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "Universidad Privada César Vallejo",
+            "txEspecialidadPosgrado": "MAGISTER EN PSICOLOGIA EDUCATIVA",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "SI",
+            "esDoctor": null,
+            "txAnioPosgrado": "2014",
+            "idHojaVida": 251087,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 2,
+            "txComentario": null,
+            "fgRegistro": null
+          },
+          {
+            "idHvPosgrado": 144466,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 2,
+            "txCenEstudioPosgrado": "UNIVERSIDAD ANDINA NESTOR CACERES VELASQUEZ",
+            "txEspecialidadPosgrado": "DERECHO CIVIL EMPRESARIAL",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "NO",
+            "esDoctor": "NO",
+            "txAnioPosgrado": null,
+            "idHojaVida": 251087,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": "EN TRAMITE",
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 265445,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "MINISTERIO DE EDUCACION",
+          "ocupacionProfesion": "PROFESOR",
+          "rucTrabajo": null,
+          "direccionTrabajo": "UGEL SAN ROMAN",
+          "anioTrabajoDesde": "1982",
+          "anioTrabajoHasta": "2023",
+          "ubigeoTrabajo": "200901",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "PUNO",
+          "trabajoProvincia": "SAN ROMAN",
+          "trabajoDistrito": "JULIACA",
+          "idHojaVida": 251087,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 210006,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 37620,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 251087,
+            "idEstado": 1,
+            "totalIngresos": 37620
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 257427,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "CALLE HUASCAR NUM 585     JULIACA - SAN ROMAN - PUNO",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "02002197",
+            "fichaTomoSunarp": null,
+            "autovaluo": 43,
+            "idHojaVida": 251087,
+            "idEstado": 1,
+            "flValor": "20000"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": [
+          {
+            "idHVTitularidad": 8713,
+            "tengoTitularidad": "SI",
+            "nuItemTitularidad": 1,
+            "txPersonaJuridica": "RUC 20601400856",
+            "idParamTipoTitularidad": 87,
+            "txTipoTitularidad": "ACCIONES",
+            "flCantidad": 1500,
+            "flValor": 1,
+            "idHojaVida": 251087,
+            "idEstado": 1,
+            "txUsuario": "08528983",
+            "txFechaRegistro": null,
+            "txComentario": "RUC 20601400856",
+            "txRegistroManual": null
+          }
+        ]
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "01224784",
+      "idHojaVida": 251120,
+      "idOrg": 2927,
+      "nombre": "ROLANDO JAVIER BERNEDO BERNEDO",
+      "partido": "SALVEMOS AL PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/fe479f74-bbed-4a96-8ff8-19bb1fab4785.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "25/10/1964",
+      "lugarNacimiento": "AREQUIPA, AREQUIPA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": [
+          {
+            "idHvcargoEleccion": 146891,
+            "tengoCargoEleccion": "SI",
+            "itemCargoEleccion": 1,
+            "idOrgPolCargoElec": 2338,
+            "orgPolCargoElec": "PODER ANDINO",
+            "idCargoEleccion": 9,
+            "cargoEleccion": "REGIDOR PROVINCIAL",
+            "anioCargoElecDesde": "2015",
+            "anioCargoElecHasta": "2018",
+            "idHojaVida": 251120,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ]
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241996,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 251120,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 203331,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional del Altiplano",
+            "carreraUni": "Bachiller en Ciencias de la Educación",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2019",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 203332,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional del Altiplano",
+            "carreraUni": "Licenciado en Educación, Especialidad Lengua, Literatura, Psicología y Filosofía",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2019",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 266590,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "PUNO-PUNO- JR MARIANO H. CORNEJO NUM 451 - PUEBLO JOVEN LAS CRUCES",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P47009461",
+            "fichaTomoSunarp": null,
+            "autovaluo": 15000,
+            "idHojaVida": 251120,
+            "idEstado": 1,
+            "flValor": "50000"
+          },
+          {
+            "idHvBienInmueble": 266591,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "JIRON VENEZUELA NUM 360     PUNO - PUNO - PUNO",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11163451",
+            "fichaTomoSunarp": null,
+            "autovaluo": 12000,
+            "idHojaVida": 251120,
+            "idEstado": 1,
+            "flValor": "45000"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 215772,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "Z5A689 ",
+            "valor": 18000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "AUTO",
+            "comentario": null,
+            "idHojaVida": 251120,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "17400118",
+      "idHojaVida": 252230,
+      "idOrg": 2931,
+      "nombre": "MARIA YMELDA CHAMAYA TEMOCHE",
+      "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/56fae430-f461-4a1a-8544-b14c49ec6529.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "02/01/1960",
+      "lugarNacimiento": "FERREÑAFE, FERREÑAFE",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241979,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 252230,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 274955,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "SISTEMA NACIONAL DE COOPERACION POPULAR",
+          "ocupacionProfesion": "ADMINISTRATIVO",
+          "rucTrabajo": null,
+          "direccionTrabajo": "CALLE 7 RINCONADA BAJA",
+          "anioTrabajoDesde": "1987",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "140110",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "LA MOLINA",
+          "idHojaVida": 252230,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 274957,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 2,
+          "centroTrabajo": "FONDO DE COOPERACION POPULAR PARA EL DESARROLLO SOCIAL - FONCODES",
+          "ocupacionProfesion": "ADMINISTRATIVO",
+          "rucTrabajo": null,
+          "direccionTrabajo": "AV AREQUIPA 381",
+          "anioTrabajoDesde": "2025",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "140101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "LIMA",
+          "idHojaVida": 252230,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 214707,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 35000,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 9000,
+            "idHojaVida": 252230,
+            "idEstado": 1,
+            "totalIngresos": 44000
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 266575,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "SECCION ESPECIAL DE PREDIOS RURALES",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "UBICACION RURAL VALLE CHANCAY/SECTOR SOLTIN HUABO/ROMUALDO VELASQUEZ Y NICANOR CARMONA COD.PRED. 7_6309265_112717 AREA Ha. 4.1491 U.C. 112717 PUEBLO NUEVO - FERREÑAFE - LAMBAYEQUE",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11129210",
+            "fichaTomoSunarp": null,
+            "autovaluo": 25080,
+            "idHojaVida": 252230,
+            "idEstado": 1,
+            "flValor": "30000"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 215760,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "F7J379 ",
+            "valor": 5000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "NISSAN SUNNY",
+            "comentario": null,
+            "idHojaVida": 252230,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "25000928",
+      "idHojaVida": 252835,
+      "idOrg": 2932,
+      "nombre": "WILLIAM EVONY HUMPIRE CASTRO",
+      "partido": "PARTIDO POLITICO PERU ACCION",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/04375e31-a6e7-469f-bec0-e287c61fb5e7.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "17/04/1975",
+      "lugarNacimiento": "CUSCO, CUSCO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": [
+          {
+            "idHvcargoEleccion": 146868,
+            "tengoCargoEleccion": "SI",
+            "itemCargoEleccion": 1,
+            "idOrgPolCargoElec": 2668,
+            "orgPolCargoElec": "MOVIMIENTO DE INTEGRACION POR EL DESARROLLO REGIONAL (MI CASITA)",
+            "idCargoEleccion": 9,
+            "cargoEleccion": "REGIDOR PROVINCIAL",
+            "anioCargoElecDesde": "2019",
+            "anioCargoElecHasta": "2022",
+            "idHojaVida": 252835,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ]
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241504,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 252835,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 202924,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Andina del Cusco",
+            "carreraUni": "BACHILLER EN PSICOLOGIA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2002",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 202925,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Andina del Cusco",
+            "carreraUni": "LICENCIADO EN PSICOLOGIA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2002",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 146612,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "Universidad Andina Néstor Cáceres Velásquez",
+            "txEspecialidadPosgrado": "MAGISTER EN EDUCACIÓN, MENCIÓN: INVESTIGACIÓN Y DOCENCIA EN EDUCACIÓN SUPERIOR",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "SI",
+            "esDoctor": null,
+            "txAnioPosgrado": "2022",
+            "idHojaVida": 252835,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 2,
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 265879,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "AREQUIPA-CERRO COLORADO- MZ O LOTE 25 SECCION 7 - PUEBLO TRADICIONAL URBANIZACION LA LIBERTAD",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P06268474",
+            "fichaTomoSunarp": null,
+            "autovaluo": 58000,
+            "idHojaVida": 252835,
+            "idEstado": 1,
+            "flValor": "45000"
+          },
+          {
+            "idHvBienInmueble": 265880,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "AREQUIPA-CERRO COLORADO- MZ O LOTE 25 SECCION B-2 - PUEBLO TRADICIONAL URBANIZACION LA LIBERTAD",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P06268488",
+            "fichaTomoSunarp": null,
+            "autovaluo": 50000,
+            "idHojaVida": 252835,
+            "idEstado": 1,
+            "flValor": "35000"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 215403,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "V1X066 ",
+            "valor": 28000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "gris",
+            "comentario": null,
+            "idHojaVida": 252835,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 215404,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 2,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "VAZ511 ",
+            "valor": 35000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "verde oscuro",
+            "comentario": null,
+            "idHojaVida": 252835,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "01305484",
+      "idHojaVida": 253331,
+      "idOrg": 2927,
+      "nombre": "CRISTINA LLANOS CRUZ",
+      "partido": "SALVEMOS AL PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/eb7036c0-73b5-40c3-8326-e50bc9381a2f.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "12/12/1956",
+      "lugarNacimiento": "PUNO, PUNO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 242492,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": null,
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": null,
+          "idHojaVida": 253331,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "01326044",
+      "idHojaVida": 254607,
+      "idOrg": 3023,
+      "nombre": "TANIA LIBERTAD CASTILLO ORTEGA",
+      "partido": "UNIDAD NACIONAL",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/f559f7ac-7e0b-440d-9f3d-b5da73408f52.jpg",
+      "estado": "ADMITIDO",
+      "fechaNacimiento": "19/12/1974",
+      "lugarNacimiento": "PUNO, PUNO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 239230,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 254607,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 200129,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Andina Néstor Cáceres Velásquez",
+            "carreraUni": "CONTADOR PUBLICO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2008",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 200130,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Andina Néstor Cáceres Velásquez",
+            "carreraUni": "BACHILLER EN CIENCIAS CONTABLES",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2005",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 145596,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "UNIVERSIDAD NACIONAL DEL ALTIPLANO",
+            "txEspecialidadPosgrado": "AUDITORIA Y TRIBUTACION",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "NO",
+            "esDoctor": "NO",
+            "txAnioPosgrado": null,
+            "idHojaVida": 254607,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 270561,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "T$J CONTADORES",
+          "ocupacionProfesion": "CONTADOR PUBLICO",
+          "rucTrabajo": null,
+          "direccionTrabajo": "JR AREQUIPA 134",
+          "anioTrabajoDesde": "1995",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "200101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "PUNO",
+          "trabajoProvincia": "PUNO",
+          "trabajoDistrito": "PUNO",
+          "idHojaVida": 254607,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 212596,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 40000,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 254607,
+            "idEstado": 1,
+            "totalIngresos": 40000
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 262432,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "AVENIDA LUIS BANCHERO ROSSI NUM S/N     PUNO - PUNO - PUNO",
+            "comentario": "NO INDICA EN LA DDJJ",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "02001357",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 254607,
+            "idEstado": 1,
+            "flValor": "0"
+          },
+          {
+            "idHvBienInmueble": 262433,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "  MZ H2 LOTE 12 URB TEPRO SALCEDO II PUNO - PUNO - PUNO",
+            "comentario": "NO INDICA EN LA DDJJ",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11089418",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 254607,
+            "idEstado": 1,
+            "flValor": "0"
+          }
+        ],
         "bienMueble": [],
         "otroMueble": [],
         "titularidad": []

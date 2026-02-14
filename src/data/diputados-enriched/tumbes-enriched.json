@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-02-07T23:46:32.189Z",
+  "fetchedAt": "2026-02-14T01:01:03.681Z",
   "idProcesoElectoral": 124,
-  "count": 101,
+  "count": 124,
   "data": [
     {
       "dni": "71567627",
@@ -18681,6 +18681,3647 @@
             "idEstado": 1
           }
         ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "00508867",
+      "idHojaVida": 243477,
+      "idOrg": 2867,
+      "nombre": "LUCIO FRANKLIN CRUZ LOPEZ",
+      "partido": "PARTIDO DEMOCRATA UNIDO PERU",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/e031597d-614e-4cd8-81e5-e4bb61034c01.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "06/04/1963",
+      "lugarNacimiento": "TACNA, TACNA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": null,
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "46768969",
+      "idHojaVida": 243744,
+      "idOrg": 2956,
+      "nombre": "PAOLA CYNTHIA DEL PILAR ROJAS GUTIERREZ",
+      "partido": "PARTIDO PAIS PARA TODOS",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/08d96bbe-48ad-4d13-b87c-a99b8d3e6de7.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "19/12/1990",
+      "lugarNacimiento": "TACNA, TACNA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 233341,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 243744,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 193074,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Privada de Tacna",
+            "carreraUni": "BACHILLER EN INGENIERIA CIVIL",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2014",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 193075,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Privada de Tacna",
+            "carreraUni": "INGENIERA CIVIL",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2014",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 143301,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "POSTGRADO DE LA UNIVERSIDAD PRIVADA DE TACNA",
+            "txEspecialidadPosgrado": "MAESTRIA EN INGENIERIA CIVIL CON MENCION EN GERENCIA DE LA CONSTRUCCION",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "SI",
+            "esDoctor": null,
+            "txAnioPosgrado": "2017",
+            "idHojaVida": 243744,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 260560,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "GOBIERNO REGIONAL DE TACNA",
+          "ocupacionProfesion": "INGENIERA CIVIL",
+          "rucTrabajo": "20519752515",
+          "direccionTrabajo": "AV. MANUEL A. ODRIA N°1245",
+          "anioTrabajoDesde": "2023",
+          "anioTrabajoHasta": "2023",
+          "ubigeoTrabajo": "220101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "TACNA",
+          "trabajoProvincia": "TACNA",
+          "trabajoDistrito": "TACNA",
+          "idHojaVida": 243744,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 207870,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 71748,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 2920,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 243744,
+            "idEstado": 1,
+            "totalIngresos": 74668
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 252788,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "CASA",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "URB. EL OLIVAR MZ.06 LOTE 22",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11146042",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 243744,
+            "idEstado": 1,
+            "flValor": "160000"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "00426522",
+      "idHojaVida": 244031,
+      "idOrg": 2867,
+      "nombre": "AURELIA COLQUE HUANCA",
+      "partido": "PARTIDO DEMOCRATA UNIDO PERU",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/135cc162-e467-4e13-9212-d1a0ef90663e.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "25/09/1961",
+      "lugarNacimiento": "YUNGUYO, YUNGUYO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": null,
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "41768848",
+      "idHojaVida": 245948,
+      "idOrg": 2867,
+      "nombre": "JUÁN EBER SÁNCHEZ COPA",
+      "partido": "PARTIDO DEMOCRATA UNIDO PERU",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/c2c00e45-c59f-4bc7-9f7f-a99124aa5fb7.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "22/01/1983",
+      "lugarNacimiento": "INCLAN, TACNA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [
+          {
+            "idHvCargoPartidario": 146653,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 1,
+            "idOrgPolCargoPartidario": 1783,
+            "orgPolCargoPartidario": "AVANZANDO POR EL DESARROLLO DE INCLAN",
+            "cargoPartidario": "FUNDADOR",
+            "anioCargoPartiDesde": "2010",
+            "anioCargoPartiHasta": "2010",
+            "idHojaVida": 245948,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvCargoPartidario": 146652,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 2,
+            "idOrgPolCargoPartidario": 1783,
+            "orgPolCargoPartidario": "AVANZANDO POR EL DESARROLLO DE INCLAN",
+            "cargoPartidario": "SECRETARIO DE ACTAS",
+            "anioCargoPartiDesde": "2010",
+            "anioCargoPartiHasta": "2010",
+            "idHojaVida": 245948,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 240439,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 245948,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [
+          {
+            "idHvEduTecnico": 161431,
+            "tengoEduTecnico": "SI",
+            "cenEstudioTecnico": "IST TELESUP",
+            "carreraTecnico": "TECN. INFORMATICA Y ADMINISTRACION DE DATOS",
+            "concluidoEduTecnico": "1",
+            "idHojaVida": 245948,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 201578,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Jorge Basadre Grohmann",
+            "carreraUni": "BACHILLER EN CIENCIAS",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2009",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 201579,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Jorge Basadre Grohmann",
+            "carreraUni": "INGENIERO EN ECONOMÍA AGRARIA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2025",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": [
+          {
+            "idHvPosgradoOtro": 2729,
+            "tengoPosgradoOtro": "SI",
+            "nuItemPosgradoOtro": 1,
+            "txCenEstudioPosgradoOtro": "ICIENTIFIC",
+            "txEspecialidadPosgradoOtro": "GESTION DE DESASTRES",
+            "concluidoPosgradoOtro": "SI",
+            "egresadoPosgradoOtro": "SI",
+            "txGrado": "--",
+            "txAnioPosgradoOtro": "--",
+            "idHojaVida": 245948,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "txComentario": "CORD DE CERTIFICACIÓN ICF 26706",
+            "fgRegistro": null
+          }
+        ]
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 272566,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "MUNICIPALIDAD DISTRITAL DE CALANA",
+          "ocupacionProfesion": "GERENTE DE INFRASTRUCTURA YDV",
+          "rucTrabajo": "20166311242",
+          "direccionTrabajo": "AV. GENERAL VARCIA S/N",
+          "anioTrabajoDesde": "2025",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "220101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "TACNA",
+          "trabajoProvincia": "TACNA",
+          "trabajoDistrito": "TACNA",
+          "idHojaVida": 245948,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 213574,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 5000,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 35000,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 5000,
+            "idHojaVida": 245948,
+            "idEstado": 1,
+            "totalIngresos": 45000
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": [
+          {
+            "idHVTitularidad": 9985,
+            "tengoTitularidad": "SI",
+            "nuItemTitularidad": 1,
+            "txPersonaJuridica": "ASES CONS GROUP. FCO-SANA",
+            "idParamTipoTitularidad": 87,
+            "txTipoTitularidad": "ACCIONES",
+            "flCantidad": 50,
+            "flValor": 20000,
+            "idHojaVida": 245948,
+            "idEstado": 1,
+            "txUsuario": "43300267",
+            "txFechaRegistro": null,
+            "txComentario": null,
+            "txRegistroManual": null
+          }
+        ]
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "43343270",
+      "idHojaVida": 245976,
+      "idOrg": 2895,
+      "nombre": "NICODEMO VIZCARRA ROJAS",
+      "partido": "PARTIDO DEMOCRATA VERDE",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/10c432ed-b5f0-44d9-a77f-e0b5a785a22d.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "03/08/1985",
+      "lugarNacimiento": "JULI, CHUCUITO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 232709,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 245976,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [
+          {
+            "idHvNoUniversitaria": 144411,
+            "tengoNoUniversitaria": "SI",
+            "eduNoUniversitaria": null,
+            "centroEstudioNoUni": "NEUMANN",
+            "carreraNoUni": "DIPLOMADO ADMINISTRACION DE EMPRESAS",
+            "concluidoNoUni": "1",
+            "idHojaVida": 245976,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)"
+          }
+        ],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 192284,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "UMSS",
+            "carreraUni": "CIRUJANO DENTISTA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2021",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 143077,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "Universidade Cidade de  Sao Paulo",
+            "txEspecialidadPosgrado": "IMPLANTACION Y ORTODONCIA",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "NO",
+            "esDoctor": "NO",
+            "txAnioPosgrado": null,
+            "idHojaVida": 245976,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 259278,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "DENTOR INVERSIONES EIRL",
+          "ocupacionProfesion": "ODONTOLOGO",
+          "rucTrabajo": "20533309756",
+          "direccionTrabajo": "AV. BOLOGNESI 774",
+          "anioTrabajoDesde": "2018",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "220101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "TACNA",
+          "trabajoProvincia": "TACNA",
+          "trabajoDistrito": "TACNA",
+          "idHojaVida": 245976,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 207498,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 30000,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 10000,
+            "idHojaVida": 245976,
+            "idEstado": 1,
+            "totalIngresos": 40000
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 251707,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "  MZ L LOTE 10 SECTOR ASOCIACION DE VIVIENDA SAN PEDRO Y SAN PABLO TACNA - TACNA - TACNA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11001914",
+            "fichaTomoSunarp": null,
+            "autovaluo": 70000,
+            "idHojaVida": 245976,
+            "idEstado": 1,
+            "flValor": "72000"
+          },
+          {
+            "idHvBienInmueble": 251708,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "  MZ L LOTE 09 SECTOR ASOCIACION DE VIVIENDA SAN PEDRO Y SAN PABLO TACNA - TACNA - TACNA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11002255",
+            "fichaTomoSunarp": null,
+            "autovaluo": 35000,
+            "idHojaVida": 245976,
+            "idEstado": 1,
+            "flValor": "40000"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 207321,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "Z2W168 ",
+            "valor": 30000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "KIA SPORTAGE - PLATA BRILLANTE",
+            "comentario": null,
+            "idHojaVida": 245976,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 207322,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 2,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "D0K096 ",
+            "valor": 20000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "HYUNDAI VELOSTER - PLATA",
+            "comentario": null,
+            "idHojaVida": 245976,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 207323,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 3,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "06242Z ",
+            "valor": 7000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "NEGRO - YAMAHA",
+            "comentario": null,
+            "idHojaVida": 245976,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 207324,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 4,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "AVZ310 ",
+            "valor": 25000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "KIA SORENTO - GRIS METAL",
+            "comentario": null,
+            "idHojaVida": 245976,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 207325,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 5,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "15878Z ",
+            "valor": 0,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "NO ESTÁ EN USO",
+            "comentario": null,
+            "idHojaVida": 245976,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 207326,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 6,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "10970Z ",
+            "valor": 0,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "NO ESTA EN USO",
+            "comentario": null,
+            "idHojaVida": 245976,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "16706776",
+      "idHojaVida": 246271,
+      "idOrg": 2933,
+      "nombre": "JULIA ESTHER VILCHEZ MONTENEGRO",
+      "partido": "LIBERTAD POPULAR",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/00b6b033-7a65-4566-856a-9b038f98b1ae.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "21/07/1971",
+      "lugarNacimiento": "CHICLAYO, CHICLAYO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [
+          {
+            "idHvCargoPartidario": 144039,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 1,
+            "idOrgPolCargoPartidario": 2173,
+            "orgPolCargoPartidario": "PARTIDO POLÍTICO AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+            "cargoPartidario": "MIEMBRO DEL COMITE DE LAMBAYEQUE",
+            "anioCargoPartiDesde": "2005",
+            "anioCargoPartiHasta": "2007",
+            "idHojaVida": 246271,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 233461,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 246271,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 260747,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "INDEPENDIENTE",
+          "ocupacionProfesion": "ACTIVIDADES DE SERVICIOS PERSONALES",
+          "rucTrabajo": null,
+          "direccionTrabajo": "SAN JOSE",
+          "anioTrabajoDesde": "2024",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "130311",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LAMBAYEQUE",
+          "trabajoProvincia": "LAMBAYEQUE",
+          "trabajoDistrito": "SAN JOSE",
+          "idHojaVida": 246271,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 207973,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 13560,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 246271,
+            "idEstado": 1,
+            "totalIngresos": 13560
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "29310594",
+      "idHojaVida": 246301,
+      "idOrg": 1264,
+      "nombre": "EDGARD RAFAEL ESCOBEDO VELANDO",
+      "partido": "JUNTOS POR EL PERU",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/d54857d5-a1d9-487e-8bf4-3cea433fdb0f.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "12/02/1967",
+      "lugarNacimiento": "AREQUIPA, AREQUIPA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241958,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 246301,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 203307,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional de San Agustín de Arequipa",
+            "carreraUni": "Ingeniero Químico",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "1999",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 146749,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "Universidad Nacional Jorge Basadre",
+            "txEspecialidadPosgrado": "Gestión Ambiental y Desarrollo Sostenible",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "NO",
+            "esDoctor": "NO",
+            "txAnioPosgrado": null,
+            "idHojaVida": 246301,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": [
+          {
+            "idHvPosgradoOtro": 2867,
+            "tengoPosgradoOtro": "SI",
+            "nuItemPosgradoOtro": 1,
+            "txCenEstudioPosgradoOtro": "Universidad Nacional Jorge Basadre",
+            "txEspecialidadPosgradoOtro": "Planificación y Ordenamiento territorial para el desarrollo sostenible",
+            "concluidoPosgradoOtro": "SI",
+            "egresadoPosgradoOtro": "SI",
+            "txGrado": "Diplomado",
+            "txAnioPosgradoOtro": "2010",
+            "idHojaVida": 246301,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ]
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 274936,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "Gobierno Regional de Tacna",
+          "ocupacionProfesion": "Ingeniero",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Avenida Manuel A Odria 1245 Villa Panamericana",
+          "anioTrabajoDesde": "2017",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "220101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "TACNA",
+          "trabajoProvincia": "TACNA",
+          "trabajoDistrito": "TACNA",
+          "idHojaVida": 246301,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 274938,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 2,
+          "centroTrabajo": "Universidad Nacvional Jorge Basadre",
+          "ocupacionProfesion": "Docente",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Av Miraflores s/n",
+          "anioTrabajoDesde": "2018",
+          "anioTrabajoHasta": "2021",
+          "ubigeoTrabajo": "220101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "TACNA",
+          "trabajoProvincia": "TACNA",
+          "trabajoDistrito": "TACNA",
+          "idHojaVida": 246301,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 274939,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 3,
+          "centroTrabajo": "Autoridad Nacional del Agua",
+          "ocupacionProfesion": "Especialista en Conservación y planeamiento de recursos hídricos",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Tacna 214 Cercado",
+          "anioTrabajoDesde": "2013",
+          "anioTrabajoHasta": "2016",
+          "ubigeoTrabajo": "220101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "TACNA",
+          "trabajoProvincia": "TACNA",
+          "trabajoDistrito": "TACNA",
+          "idHojaVida": 246301,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 274942,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 4,
+          "centroTrabajo": "Municipalidad Provincial de Jorge Basadre",
+          "ocupacionProfesion": "Planificador Social proyecto: Mejoramiento de capacidades para el ordenamiento territorial",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Villa Locumba Plaza Principal",
+          "anioTrabajoDesde": "2011",
+          "anioTrabajoHasta": "2012",
+          "ubigeoTrabajo": "220301",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "TACNA",
+          "trabajoProvincia": "JORGE BASADRE",
+          "trabajoDistrito": "LOCUMBA",
+          "idHojaVida": 246301,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 214692,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 40000,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 246301,
+            "idEstado": 1,
+            "totalIngresos": 40000
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "45836771",
+      "idHojaVida": 247138,
+      "idOrg": 2939,
+      "nombre": "SHEYLA LUCIA PERALTA BALUARTE",
+      "partido": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERU",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/f8cbf9cd-4864-4fce-8812-58ca86572d16.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "10/02/1989",
+      "lugarNacimiento": "TACNA, TACNA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 242072,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 247138,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 203395,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Privada de Tacna",
+            "carreraUni": "BACHILLER EN CIENCIAS AGROINDUSTRIALES",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2011",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 203396,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Privada de Tacna",
+            "carreraUni": "INGENIERO AGROINDUSTRIAL",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2012",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "44979991",
+      "idHojaVida": 247142,
+      "idOrg": 2986,
+      "nombre": "ROBERTO FERNANDO VARGAS VILCA",
+      "partido": "PARTIDO DEMOCRATICO FEDERAL",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/a9f6d9e4-1dee-4e02-9941-8bb660381913.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "14/02/1988",
+      "lugarNacimiento": "TACNA, TACNA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 240017,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 247142,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 201082,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Jorge Basadre Grohmann",
+            "carreraUni": "BACHILLER EN MEDICINA HUMANA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2017",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 201083,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Jorge Basadre Grohmann",
+            "carreraUni": "MEDICO CIRUJANO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2017",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 145927,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "CENTRO EUROPEO DE MASTERS Y POSTGRADOS DE ESPAÑA",
+            "txEspecialidadPosgrado": "MEDICINA ESTETICA",
+            "concluidoPosgrado": "NO",
+            "egresadoPosgrado": null,
+            "esMaestro": null,
+            "esDoctor": null,
+            "txAnioPosgrado": null,
+            "idHojaVida": 247142,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 271875,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "HOSPITAL HIPOLITO UNANUE DE TACNA",
+          "ocupacionProfesion": "MEDICO ASISTENCIAL.",
+          "rucTrabajo": "20453223788",
+          "direccionTrabajo": "CALLE BARRETO S/N CERCADO DE TACNA",
+          "anioTrabajoDesde": "2021",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "220101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "TACNA",
+          "trabajoProvincia": "TACNA",
+          "trabajoDistrito": "TACNA",
+          "idHojaVida": 247142,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 213229,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 62400,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 247142,
+            "idEstado": 1,
+            "totalIngresos": 62400
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 214011,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "CAMIONETA SUV",
+            "marca": null,
+            "placa": "F1B055",
+            "valor": 30000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "MARCA SUBARU, COLOR PLATEADO 2009",
+            "comentario": null,
+            "idHojaVida": 247142,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "44591445",
+      "idHojaVida": 247160,
+      "idOrg": 2933,
+      "nombre": "ANA LUZ SHIKIU TIWI",
+      "partido": "LIBERTAD POPULAR",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/0f357d99-fc3b-436a-9cd9-b7f69cd7257d.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "25/10/1987",
+      "lugarNacimiento": "NIEVA, CONDORCANQUI",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 232662,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 247160,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 259208,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "INDEPENDIENTE",
+          "ocupacionProfesion": "COSTURERA",
+          "rucTrabajo": null,
+          "direccionTrabajo": "MERCADO MODELO",
+          "anioTrabajoDesde": "2018",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "130101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LAMBAYEQUE",
+          "trabajoProvincia": "CHICLAYO",
+          "trabajoDistrito": "CHICLAYO",
+          "idHojaVida": 247160,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 207879,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 13560,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 247160,
+            "idEstado": 1,
+            "totalIngresos": 13560
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "40693860",
+      "idHojaVida": 248424,
+      "idOrg": 2941,
+      "nombre": "ELIEL LOPEZ DAVALOS",
+      "partido": "PARTIDO CIVICO OBRAS",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/3243e85c-1561-47c2-af92-3a8c3a12d32e.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "09/10/1980",
+      "lugarNacimiento": "CAIRANI, CANDARAVE",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 235521,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 248424,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 195966,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Peruana Unión",
+            "carreraUni": "INGENIERO DE SISTEMAS",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2008",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 195967,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Peruana Unión",
+            "carreraUni": "BACHILLER EN INGENIERIA DE SISTEMAS",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2008",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 264677,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "CONSORCIO HUARAL JU",
+          "ocupacionProfesion": "LOGISTICA",
+          "rucTrabajo": "20614427699",
+          "direccionTrabajo": "LIMA",
+          "anioTrabajoDesde": "2025",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "140801",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "HUARAL",
+          "trabajoDistrito": "HUARAL",
+          "idHojaVida": 248424,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 264680,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 2,
+          "centroTrabajo": "FONDO DE ASEGURAMIENTO EN SALUD DE LA POLICIA NACIONAL DEL PERU - SALUDPOL",
+          "ocupacionProfesion": "CORDINADOR DE CARTAS DE GARANTIA",
+          "rucTrabajo": "20178922581",
+          "direccionTrabajo": "LIMA",
+          "anioTrabajoDesde": "2024",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "140115",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "MIRAFLORES",
+          "idHojaVida": 248424,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 264689,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 3,
+          "centroTrabajo": "SEGURO SOCIAL DE SALUD",
+          "ocupacionProfesion": "DIGITADOR ASISTENCIAL",
+          "rucTrabajo": "20131257750",
+          "direccionTrabajo": "LIMA",
+          "anioTrabajoDesde": "2020",
+          "anioTrabajoHasta": "2024",
+          "ubigeoTrabajo": "140143",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "SANTA ANITA",
+          "idHojaVida": 248424,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "EN EL 2021 Y 2022 EH TRABAJADO COMO DIGITADOR ADMINISTRATIVO\nEN EL 2023 - 2024 EH LABORADO COMO DIGITADOR ASISTENCIAL"
+        },
+        {
+          "idHvExpeLaboral": 264696,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 4,
+          "centroTrabajo": "FRUTINKA DEL PERU SOCIEDAD ANONIMA CERRADA - FRUTINKA DEL PERU S.A.C.",
+          "ocupacionProfesion": "ASISTENTE DE RECURSOS HUMANOS",
+          "rucTrabajo": "20601092850",
+          "direccionTrabajo": "LIMA",
+          "anioTrabajoDesde": "2018",
+          "anioTrabajoHasta": "2018",
+          "ubigeoTrabajo": "140112",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "LURIGANCHO",
+          "idHojaVida": 248424,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "EN EL 2019  EH TRABAJADO EN SERVICIOS EDUCATIVOS KIDS & KIDS E.I.R.L. CON RUC. 20524633788 TODO EL AÑO."
+        },
+        {
+          "idHvExpeLaboral": 264699,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 5,
+          "centroTrabajo": "I.E.P. HUGO MITCHELL",
+          "ocupacionProfesion": "DOCENTE DE MATEMATICA",
+          "rucTrabajo": "10071863901",
+          "direccionTrabajo": "TACNA",
+          "anioTrabajoDesde": "2016",
+          "anioTrabajoHasta": "2017",
+          "ubigeoTrabajo": "220113",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "TACNA",
+          "trabajoProvincia": "TACNA",
+          "trabajoDistrito": "CORONEL GREGORIO ALBARRACIN LANCHIPA",
+          "idHojaVida": 248424,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "EN EL 2015 EH LABORADO EN LA MUNICIPALIDAD DISTRITAL DE CAIRANI CON RUC. 20196371312."
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 209619,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 29500,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 248424,
+            "idEstado": 1,
+            "totalIngresos": 29500
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "04623601",
+      "idHojaVida": 249544,
+      "idOrg": 2867,
+      "nombre": "BERTHA GARABITO RAMIREZ",
+      "partido": "PARTIDO DEMOCRATA UNIDO PERU",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/20f9b1fd-4380-4ab4-87f1-2560e05ce802.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "11/03/1961",
+      "lugarNacimiento": "ACORA, PUNO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": null,
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "00670451",
+      "idHojaVida": 249740,
+      "idOrg": 2939,
+      "nombre": "QUILDER FRANCISCO OSCO MANCILLA",
+      "partido": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERU",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/ea6ec250-6ff5-46b1-b967-042487fe93c7.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "24/07/1961",
+      "lugarNacimiento": "TACNA, TACNA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": true,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": [
+          {
+            "idHvcargoEleccion": 146897,
+            "tengoCargoEleccion": "SI",
+            "itemCargoEleccion": 1,
+            "idOrgPolCargoElec": 116420,
+            "orgPolCargoElec": "L.I. NRO 11 MOVIMIENTO POLITICO INDEPENDIENTE MI PUEBLO",
+            "idCargoEleccion": 10,
+            "cargoEleccion": "ALCALDE DISTRITAL",
+            "anioCargoElecDesde": "1996",
+            "anioCargoElecHasta": "1998",
+            "idHojaVida": 249740,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ]
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 242056,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 249740,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 203380,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Andina Néstor Cáceres Velásquez",
+            "carreraUni": "LICENCIADO EN EDUCACION",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "1992",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 266649,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "CANDARAVE-HUANUARA- MZ E LOTE 4 - CENTRO POBLADO HUANUARA",
+            "comentario": "NO HAY REGISTRO",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P20046210",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 249740,
+            "idEstado": 1,
+            "flValor": "0"
+          },
+          {
+            "idHvBienInmueble": 266650,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "SECCION ESPECIAL DE PREDIOS RURALES",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "UBICACION RURAL DENOMINADO CALACOTA PONGO PARCELA 9-3558080-40829     HUANUARA - CANDARAVE - TACNA",
+            "comentario": "NO HAY REGISTRO",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "05123371",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 249740,
+            "idEstado": 1,
+            "flValor": "0"
+          },
+          {
+            "idHvBienInmueble": 266651,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 3,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "TACNA-ALTO DE LA ALIANZA- MZ 19 LOTE 6A - ASENTAMIENTO HUMANO LA ESPERANZA",
+            "comentario": "NO HAY REGISTRO",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P20067703",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 249740,
+            "idEstado": 1,
+            "flValor": "0"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "00420823",
+      "idHojaVida": 250160,
+      "idOrg": 2939,
+      "nombre": "ANGELINA OSCO MANCILLA",
+      "partido": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERU",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/1b29b564-7f10-46e8-99ed-667fb435f0dc.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "27/01/1958",
+      "lugarNacimiento": "HUANUARA, CANDARAVE",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241719,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 250160,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 266262,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "TACNA-ALTO DE LA ALIANZA- MZ 28 LOTE 12B - ASENTAMIENTO HUMANO LA ESPERANZA",
+            "comentario": "NO HAY REGISTRO",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P20011074",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 250160,
+            "idEstado": 1,
+            "flValor": "0"
+          },
+          {
+            "idHvBienInmueble": 266263,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "SECCION ESPECIAL DE PREDIOS RURALES",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "UBICACION RURAL HUERTA UBICADO EN EL SECTOR PILA PARCELA 9_35908085_41355     HUANUARA - CANDARAVE - TACNA",
+            "comentario": "NO HAY REGISTRO",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11018932",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 250160,
+            "idEstado": 1,
+            "flValor": "0"
+          },
+          {
+            "idHvBienInmueble": 266264,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 3,
+            "tipoBienInmueble": "SECCION ESPECIAL DE PREDIOS RURALES",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "UBICACION RURAL PARCELA 98-A/VALLE TACNA/SECTOR LOS PALOS PARCELA 9_3457980_009691 AREA Ha. 5.0018   LA YARADA -LOS PALOS - TACNA - TACNA",
+            "comentario": "NO HAY REGISTRO",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11140958",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 250160,
+            "idEstado": 1,
+            "flValor": "0"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 215569,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "Z4H526 ",
+            "valor": 0,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "NO REGISTRA",
+            "comentario": "NO HAY REGISTRO",
+            "idHojaVida": 250160,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "09472776",
+      "idHojaVida": 250340,
+      "idOrg": 2931,
+      "nombre": "CELINA OLGA MATOS CHAVARRIA",
+      "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/e9d40925-0257-4537-81ab-189b460a8423.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "28/05/1968",
+      "lugarNacimiento": "RIMAC, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 240812,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 250340,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [
+          {
+            "idHvEduTecnico": 161532,
+            "tengoEduTecnico": "SI",
+            "cenEstudioTecnico": "INSTITUTO SUPERIOR TECNOLOGICO CARLOS CUETO FERNANDINI",
+            "carreraTecnico": "ADMINISTRACION DE EMPRESAS",
+            "concluidoEduTecnico": "1",
+            "idHojaVida": 250340,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 273198,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "PROMOTORA DE ESPECTACULOS ROSITA SHOW EVENTOS",
+          "ocupacionProfesion": "COORDINADORA",
+          "rucTrabajo": null,
+          "direccionTrabajo": "JOSE MARIA QUIROGA 218",
+          "anioTrabajoDesde": "2021",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "140101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "LIMA",
+          "idHojaVida": 250340,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 213905,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 8000,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 250340,
+            "idEstado": 1,
+            "totalIngresos": 8000
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 264792,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "JIRON JOSE MARIA QUIROGA MZ O-IV LOTE 13 URB SANTA LUZMILA COMAS - LIMA - LIMA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11335945",
+            "fichaTomoSunarp": null,
+            "autovaluo": 100000,
+            "idHojaVida": 250340,
+            "idEstado": 1,
+            "flValor": "300000"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "00406723",
+      "idHojaVida": 250823,
+      "idOrg": 22,
+      "nombre": "OSCAR PETER VILLANUEVA ZAVALA",
+      "partido": "RENOVACION POPULAR",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/c2fb1659-46f9-4923-bd70-1f2f1249c31a.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "23/02/1959",
+      "lugarNacimiento": "TACNA, TACNA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": true,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [
+          {
+            "idHvCargoPartidario": 146809,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 1,
+            "idOrgPolCargoPartidario": 22,
+            "orgPolCargoPartidario": "PARTIDO POLÍTICO RENOVACION POPULAR",
+            "cargoPartidario": "MIEMBRO DEL COMITE DEL DISTRITO DE POCOLLAY DE LA CIUDAD DE TACNA",
+            "anioCargoPartiDesde": "2024",
+            "anioCargoPartiHasta": "2025",
+            "idHojaVida": 250823,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": "LA FECHA 2025 VA EN RAZON QUE TODAVIA NO FINALIZA EL AÑO"
+          }
+        ],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 240807,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 250823,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 202042,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Jorge Basadre Grohmann",
+            "carreraUni": "CONTADOR PUBLICO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "1999",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 202043,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Jorge Basadre Grohmann",
+            "carreraUni": "BACHILLER EN CIENCIAS CONTABLES Y FINANCIERAS",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": null,
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 146321,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "UNIVERSIDAD PRIVADA DE TACNA",
+            "txEspecialidadPosgrado": "POLITICAS Y GESTION PUBLICA",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "NO",
+            "esDoctor": "NO",
+            "txAnioPosgrado": null,
+            "idHojaVida": 250823,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": "NO SE PUEDE YA QUE EL SISTEMA ME PIDE QUE SEA MAESTRO O DOCTOR, PERO SOLO HE CONCLUIDO Y HE EGRESADO",
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 273405,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "C Y V SOCIEDAD CIVIL S.C.",
+          "ocupacionProfesion": "ASOCIADO",
+          "rucTrabajo": "20532599360",
+          "direccionTrabajo": "CALLE MODESTO MOLINA 319",
+          "anioTrabajoDesde": "2010",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "220101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "TACNA",
+          "trabajoProvincia": "TACNA",
+          "trabajoDistrito": "TACNA",
+          "idHojaVida": 250823,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "SE COLOCA 2025, POR NO HABER ACBADO EL AÑO"
+        },
+        {
+          "idHvExpeLaboral": 273601,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 2,
+          "centroTrabajo": "UGEL TACNA",
+          "ocupacionProfesion": "CONTADOR",
+          "rucTrabajo": "20533025057",
+          "direccionTrabajo": "Asociación Las Begonias Mz. I, Lt. 02-A, Distrito Gregorio Albarracín Lanchipa, Tacn",
+          "anioTrabajoDesde": "2024",
+          "anioTrabajoHasta": "2024",
+          "ubigeoTrabajo": "220101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "TACNA",
+          "trabajoProvincia": "TACNA",
+          "trabajoDistrito": "TACNA",
+          "idHojaVida": 250823,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 213906,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 60000,
+            "idHojaVida": 250823,
+            "idEstado": 1,
+            "totalIngresos": 60000
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 264793,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "CALLE ARMANDO BLONDELL NUM 32     TACNA - TACNA - TACNA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "05012499",
+            "fichaTomoSunarp": null,
+            "autovaluo": 150000,
+            "idHojaVida": 250823,
+            "idEstado": 1,
+            "flValor": "150000"
+          },
+          {
+            "idHvBienInmueble": 264794,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "CALLE BLONDELL NUM 30     TACNA - TACNA - TACNA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "05013818",
+            "fichaTomoSunarp": null,
+            "autovaluo": 150000,
+            "idHojaVida": 250823,
+            "idEstado": 1,
+            "flValor": "150000"
+          },
+          {
+            "idHvBienInmueble": 264795,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 3,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "TACNA-CORONEL GREGORIO ALBARRACIN LANCHIPA- MZ F LOTE 2    PARCELA 1 - ASOCIACION DE VIVIENDA LAS VI",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P20043009",
+            "fichaTomoSunarp": null,
+            "autovaluo": 130000,
+            "idHojaVida": 250823,
+            "idEstado": 1,
+            "flValor": "11999"
+          },
+          {
+            "idHvBienInmueble": 264796,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 4,
+            "tipoBienInmueble": "SECCION ESPECIAL DE PREDIOS RURALES",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "UBICACION RURAL DENOMINADO LOS BURDEOS       POCOLLAY - TACNA - TACNA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "05100690",
+            "fichaTomoSunarp": null,
+            "autovaluo": 35000,
+            "idHojaVida": 250823,
+            "idEstado": 1,
+            "flValor": "35000"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 214791,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "Z1P279 ",
+            "valor": 11000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "STATION WAGON",
+            "comentario": null,
+            "idHojaVida": 250823,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 214792,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 2,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "C9J566 ",
+            "valor": 35000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "CAMIONETA SUBARU",
+            "comentario": null,
+            "idHojaVida": 250823,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [
+        {
+          "idHvSentenciaPenal": 136302,
+          "tengoSentenciaPenal": "SI",
+          "nuItemSentenciaPenal": 1,
+          "txExpedientePenal": "1796-2014",
+          "feSentenciaPenal": "29/08/2018",
+          "txOrganoJudiPenal": "CORTE SUPERIOR DE TACNA",
+          "txDelitoPenal": "NEGOCIACION INCOMPATIBLE",
+          "txFalloPenal": "SENTENCIA DE 04 AÑOS",
+          "idParamModalidad": 11,
+          "txModalidad": "SUSPENDIDA",
+          "txOtraModalidad": null,
+          "idParamCumpleFallo": 20,
+          "txCumpleFallo": "PENA CUMPLIDA",
+          "idEstado": 1,
+          "idHojaVida": 250823,
+          "txComentario": null
+        }
+      ],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "41394119",
+      "idHojaVida": 251539,
+      "idOrg": 2986,
+      "nombre": "JIMMY JHUNIOR BALDEON CORDERO",
+      "partido": "PARTIDO DEMOCRATICO FEDERAL",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/586d62dc-c741-4b3b-8475-b076abfbd5c6.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "29/12/1981",
+      "lugarNacimiento": "SAN MATEO, HUAROCHIRI",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 237023,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 251539,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 266663,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "Hospital Hipolito Unanue de Tacna",
+          "ocupacionProfesion": "SERVICIOS GENERALES",
+          "rucTrabajo": "20453223788",
+          "direccionTrabajo": "Daniel Alcides Carrion 160, Tacna 23001",
+          "anioTrabajoDesde": "2020",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "220101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "TACNA",
+          "trabajoProvincia": "TACNA",
+          "trabajoDistrito": "TACNA",
+          "idHojaVida": 251539,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 210666,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 18000,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 251539,
+            "idEstado": 1,
+            "totalIngresos": 18000
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 258632,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "TACNA-CORONEL GREGORIO ALBARRACIN LANCHIPA- MZ 106 LOTE 23 - HABILITACION URBANA PROMUVI VIÑANI II",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P20051589",
+            "fichaTomoSunarp": null,
+            "autovaluo": 3500,
+            "idHojaVida": 251539,
+            "idEstado": 1,
+            "flValor": "202200"
+          },
+          {
+            "idHvBienInmueble": 258633,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "AVENIDA BILLINGHURST NUM 800 SUB LOTE 4A ZONA PAGO COLLANA TACNA - TACNA - TACNA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11139976",
+            "fichaTomoSunarp": null,
+            "autovaluo": 18590,
+            "idHojaVida": 251539,
+            "idEstado": 1,
+            "flValor": "155020"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "16175910",
+      "idHojaVida": 251624,
+      "idOrg": 2933,
+      "nombre": "MIGUEL CABRERA HIDALGO",
+      "partido": "LIBERTAD POPULAR",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/924f4b80-ab61-4139-a9ee-56301a371dbb.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "17/04/1973",
+      "lugarNacimiento": "RICARDO PALMA, HUAROCHIRI",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [
+          {
+            "idHvCargoPartidario": 144040,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 1,
+            "idOrgPolCargoPartidario": 1372,
+            "orgPolCargoPartidario": "ORGANIZACIÓN POLÍTICA LOCAL DISTRITAL UNIDOS POR EL PUEBLO",
+            "cargoPartidario": "MIEMBRO DEL COMITE DISTRITAL DE RICARDO PALMA - HUAROCHIRI - LIMA",
+            "anioCargoPartiDesde": "2009",
+            "anioCargoPartiHasta": "2011",
+            "idHojaVida": 251624,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvCargoPartidario": 144041,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 2,
+            "idOrgPolCargoPartidario": 2933,
+            "orgPolCargoPartidario": "PARTIDO POLÍTICO LIBERTAD POPULAR",
+            "cargoPartidario": "MIEMBRO DEL COMITE DISTRITAL DE RICARDO PALMA - HUAROCHIRI - LIMA ",
+            "anioCargoPartiDesde": "2022",
+            "anioCargoPartiHasta": "2025",
+            "idHojaVida": 251624,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 232712,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 251624,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 259283,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "CARPAS MROSAS",
+          "ocupacionProfesion": "ALAMACENERO",
+          "rucTrabajo": null,
+          "direccionTrabajo": "SANTIAGO DE CHILE",
+          "anioTrabajoDesde": "2013",
+          "anioTrabajoHasta": "2016",
+          "ubigeoTrabajo": "000000",
+          "trabajoPais": "CHILE",
+          "trabajoDepartamento": null,
+          "trabajoProvincia": null,
+          "trabajoDistrito": null,
+          "idHojaVida": 251624,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 259284,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 2,
+          "centroTrabajo": "INDEPENDIENTE",
+          "ocupacionProfesion": "ASESOR DE EVENTOS",
+          "rucTrabajo": null,
+          "direccionTrabajo": "RICARDO PALMA",
+          "anioTrabajoDesde": "2016",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "140613",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "HUAROCHIRI",
+          "trabajoDistrito": "RICARDO PALMA",
+          "idHojaVida": 251624,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 207500,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 25000,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 251624,
+            "idEstado": 1,
+            "totalIngresos": 25000
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 251653,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "HUANCAYO-CHILCA- MZ J LOTE 24 - CENTRO POBLADO \"CHILCA\" SECTOR 1",
+            "comentario": "EL CANDIDATO NO RECONOCE LA PROPIEDAD",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P16022162",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 251624,
+            "idEstado": 1,
+            "flValor": "0"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 207282,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "47350W ",
+            "valor": 0,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "00",
+            "comentario": "EL CANDIDATO NO RECONOCE COMO SUYO LA PROPIEDAD DE LOS VEHÍCULOS. CASO DE HOMINIMIA",
+            "idHojaVida": 251624,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 207283,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 2,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "1432PW ",
+            "valor": 0,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "00",
+            "comentario": "EL CANDIDATO NO RECONOCE COMO SUYO LA PROPIEDAD DE LOS VEHÍCULOS. CASO DE HOMINIMIA",
+            "idHojaVida": 251624,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "07622939",
+      "idHojaVida": 253204,
+      "idOrg": 2931,
+      "nombre": "MARITZA LEONOR VILLAVICENCIO OTINIANO DE SANTOS",
+      "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/9f6d62fc-e38f-4da9-adc5-de680c791583.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "10/01/1971",
+      "lugarNacimiento": "VIRU, VIRU",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 242164,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 253204,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 214794,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 14500,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 253204,
+            "idEstado": 1,
+            "totalIngresos": 14500
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "44950632",
+      "idHojaVida": 253253,
+      "idOrg": 2935,
+      "nombre": "ANNA VANESSA DEL ROSARIO BOLAÑOS DELGADO",
+      "partido": "PARTIDO SICREO",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/ef62672d-dff0-4506-b391-206dfd35ea5f.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "10/02/1988",
+      "lugarNacimiento": "TACNA, TACNA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 232585,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 253253,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 192128,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Privada de Tacna",
+            "carreraUni": "BACHILLER EN CIENCIAS AGROINDUSTRIALES",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2010",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 192129,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Privada de Tacna",
+            "carreraUni": "INGENIERO AGROINDUSTRIAL",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2011",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 143027,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "Universidad Nacional Jorge Basadre Grohmann",
+            "txEspecialidadPosgrado": "Maestría en Gerencia Pública",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "NO",
+            "esDoctor": "NO",
+            "txAnioPosgrado": null,
+            "idHojaVida": 253253,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 259131,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "Gobierno Regional de Tacna",
+          "ocupacionProfesion": "Especialista Enólogo",
+          "rucTrabajo": "20519752515",
+          "direccionTrabajo": "Av. Manuel A. Odria °1245, Villa Panamericana, Tacna",
+          "anioTrabajoDesde": "2015",
+          "anioTrabajoHasta": "2016",
+          "ubigeoTrabajo": "220101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "TACNA",
+          "trabajoProvincia": "TACNA",
+          "trabajoDistrito": "TACNA",
+          "idHojaVida": 253253,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "Encargada de realizar Inspecciones a bodegas vitivinícolas para la certificación de calidad de 5s, Elaboración y actualización de la ruta del vino y pisco de la región Tacna, Elaboración de licores de frutas, destilados de uva (Pisco), Elaboración de informe final del componente I del Proyecto de la vid"
+        },
+        {
+          "idHvExpeLaboral": 259132,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 2,
+          "centroTrabajo": "Municipalidad Provincial de Tacna",
+          "ocupacionProfesion": "Encargada de Inspección Sanitaria del Área de Salud de la Gerencia de Desarrollo Económico Social",
+          "rucTrabajo": "20147797100",
+          "direccionTrabajo": "Calle Inclán N°404, Tacna",
+          "anioTrabajoDesde": "2016",
+          "anioTrabajoHasta": "2016",
+          "ubigeoTrabajo": "220101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "TACNA",
+          "trabajoProvincia": "TACNA",
+          "trabajoDistrito": "TACNA",
+          "idHojaVida": 253253,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "Encargada de realizar visitas de inspección sanitaria, buenas prácticas de manipulación de alimentos, programas de higiene y saneamiento, restaurante saludable, visitas inopinadas a Restaurantes, Pollerías, Cevicheras, Mercados, Súper Mercados, brindando recomendaciones para una mejora continua del establecimiento"
+        },
+        {
+          "idHvExpeLaboral": 259133,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 3,
+          "centroTrabajo": "Municipalidad Provincial de Tacna",
+          "ocupacionProfesion": "Sub Gerente de Desarrollo Económico y Turístico",
+          "rucTrabajo": "20147797100",
+          "direccionTrabajo": "Calle Inclán N°404, Tacna",
+          "anioTrabajoDesde": "2017",
+          "anioTrabajoHasta": "2018",
+          "ubigeoTrabajo": "220101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "TACNA",
+          "trabajoProvincia": "TACNA",
+          "trabajoDistrito": "TACNA",
+          "idHojaVida": 253253,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "Encargada de plantear y conducir las estrategias de desarrollo económico local, impulsando y promoviendo las actividades comerciales, productivas y de servicio para consolidar la economía sostenible de la provincia. Fomentando el Desarrollo Turístico en coordinación con Gremios Turísticos, Mesas Binacionales, Plan de Turismo Regional, según corresponda las coordinaciones con los sectores que tengan competencia"
+        },
+        {
+          "idHvExpeLaboral": 259134,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 4,
+          "centroTrabajo": "Gobierno Regional de Tacna",
+          "ocupacionProfesion": "Sub Gerente de Población, Desarrollo Social e Igualdad de Oportunidades y Comunidades Campesinas",
+          "rucTrabajo": "20519752515",
+          "direccionTrabajo": "Av. Manuel A. Odria °1245, Villa Panamericana, Tacna",
+          "anioTrabajoDesde": "2023",
+          "anioTrabajoHasta": "2023",
+          "ubigeoTrabajo": "220101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "TACNA",
+          "trabajoProvincia": "TACNA",
+          "trabajoDistrito": "TACNA",
+          "idHojaVida": 253253,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "Encargada de Formular, proponer, planificar, evaluar, dirigir, controlar y administrar la ejecución de políticas regionales en materia de población, desarrollo social e igualdad de oportunidad. Formular y ejecutar políticas y acciones concretas orientas para que la asistencia social y participación ciudadana se torne productiva en la región."
+        },
+        {
+          "idHvExpeLaboral": 259135,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 5,
+          "centroTrabajo": "Gobierno Regional de Tacna",
+          "ocupacionProfesion": "Sub Gerente de Gestión Empresarial",
+          "rucTrabajo": "20519752515",
+          "direccionTrabajo": "Av. Manuel A. Odria °1245, Villa Panamericana, Tacna",
+          "anioTrabajoDesde": "2023",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "220101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "TACNA",
+          "trabajoProvincia": "TACNA",
+          "trabajoDistrito": "TACNA",
+          "idHojaVida": 253253,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "Encargada de planificar, dirigir, monitorear y ejecutar las actividades relacionadas con la promoción de la actividad empresarial. Coordinar la ejecución de actividades con los órganos y unidades orgánicas en materia de industria comercio, turismo, artesanía, pesquería. Gestionar y ejecutar proyectos de inversión de las cadenas productivas"
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 207409,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 78000,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 253253,
+            "idEstado": 1,
+            "totalIngresos": 78000
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 207214,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "51002Z ",
+            "valor": 3000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "RONCO 70GY-1 COLOR AZUL",
+            "comentario": null,
+            "idHojaVida": 253253,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "43715961",
+      "idHojaVida": 253277,
+      "idOrg": 2956,
+      "nombre": "GUISEL IRENE VIDAL COAHILA",
+      "partido": "PARTIDO PAIS PARA TODOS",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/4159913a-c9f2-47de-a70f-b857c3f50d9c.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "05/04/1986",
+      "lugarNacimiento": "TACNA, TACNA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 233161,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 253277,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 192829,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Privada de Tacna",
+            "carreraUni": "ABOGADA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2009",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 192830,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Privada de Tacna",
+            "carreraUni": "BACHILLER EN DERECHO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2009",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 143218,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "UNIVERSIDAD PRIVADA DE TACNA",
+            "txEspecialidadPosgrado": "GESTION Y POLITICAS PUBLICAS",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "NO",
+            "esDoctor": "NO",
+            "txAnioPosgrado": null,
+            "idHojaVida": 253277,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 260044,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "UNIDAD DE GESTION EDUCATIVA LOCAL",
+          "ocupacionProfesion": "ABOGADA",
+          "rucTrabajo": null,
+          "direccionTrabajo": "ASOCIACIONLAS BEGONIASNZ 1 LOTE 02-A",
+          "anioTrabajoDesde": "2025",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "220113",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "TACNA",
+          "trabajoProvincia": "TACNA",
+          "trabajoDistrito": "CORONEL GREGORIO ALBARRACIN LANCHIPA",
+          "idHojaVida": 253277,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 207736,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 37500,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 253277,
+            "idEstado": 1,
+            "totalIngresos": 37500
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "04647142",
+      "idHojaVida": 254416,
+      "idOrg": 2935,
+      "nombre": "MARISOL SONIA MAYTA LOZA",
+      "partido": "PARTIDO SICREO",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/6afa7441-4507-444c-bfbe-92327605b1d1.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "25/09/1972",
+      "lugarNacimiento": "ILO, ILO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [
+          {
+            "idHvCargoPartidario": 146238,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 1,
+            "idOrgPolCargoPartidario": 609,
+            "orgPolCargoPartidario": "RECUPEREMOS TACNA",
+            "cargoPartidario": "FUNDADOR",
+            "anioCargoPartiDesde": "2006",
+            "anioCargoPartiHasta": "2007",
+            "idHojaVida": 254416,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvCargoPartidario": 146237,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 2,
+            "idOrgPolCargoPartidario": 609,
+            "orgPolCargoPartidario": "RECUPEREMOS TACNA",
+            "cargoPartidario": "SECRETARIO DE PERSONAS ESPECIALES",
+            "anioCargoPartiDesde": "2006",
+            "anioCargoPartiHasta": "2007",
+            "idHojaVida": 254416,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 239021,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": null,
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": null,
+          "idHojaVida": 254416,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 199888,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Jorge Basadre Grohmann",
+            "carreraUni": "BACHILLER EN DERECHO Y CIENCIAS POLITICAS",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2007",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 199889,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Jorge Basadre Grohmann",
+            "carreraUni": "LICENCIADA EN ENFERMERIA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": null,
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 199890,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "3",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad José Carlos Mariátegui",
+            "carreraUni": "ABOGADO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2010",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 199891,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "4",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Jorge Basadre Grohmann",
+            "carreraUni": "BACHILLER EN ENFERMERIA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": null,
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 145519,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "Universidad Nacional Jorge Basadre Grohmann",
+            "txEspecialidadPosgrado": "MAESTRO EN CIENCIAS (MAGISTER SCIENTIAE) CON MENCION EN DERECHO CIVIL Y COMERCIAL",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "SI",
+            "esDoctor": null,
+            "txAnioPosgrado": "2024",
+            "idHojaVida": 254416,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 2,
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": [
+          {
+            "idHvPosgradoOtro": 2598,
+            "tengoPosgradoOtro": "SI",
+            "nuItemPosgradoOtro": 1,
+            "txCenEstudioPosgradoOtro": "UNIVERSIDAD NACIONAL JORGE BASADRE GROHMANN DE TACNA",
+            "txEspecialidadPosgradoOtro": "SEGUNDA ESPECIALIDAD EN GERENCIA Y ADMINISTRACION",
+            "concluidoPosgradoOtro": "SI",
+            "egresadoPosgradoOtro": "SI",
+            "txGrado": "--",
+            "txAnioPosgradoOtro": "--",
+            "idHojaVida": 254416,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "txComentario": null,
+            "fgRegistro": null
+          },
+          {
+            "idHvPosgradoOtro": 2599,
+            "tengoPosgradoOtro": "SI",
+            "nuItemPosgradoOtro": 2,
+            "txCenEstudioPosgradoOtro": "PERULEX",
+            "txEspecialidadPosgradoOtro": "CONCILIADORA EXTRAJUDICIAL (ESPECIALIDAD EN FAMILIA)",
+            "concluidoPosgradoOtro": "SI",
+            "egresadoPosgradoOtro": "SI",
+            "txGrado": "--",
+            "txAnioPosgradoOtro": "--",
+            "idHojaVida": 254416,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ]
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 270151,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "Hospital Hipólito Unanue de Tacna",
+          "ocupacionProfesion": "Licenciada en enfermería",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Blondell S/N",
+          "anioTrabajoDesde": "1998",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "220101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "TACNA",
+          "trabajoProvincia": "TACNA",
+          "trabajoDistrito": "TACNA",
+          "idHojaVida": 254416,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "Personal nombrado con más de 26 años de servicio"
+        },
+        {
+          "idHvExpeLaboral": 270152,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 2,
+          "centroTrabajo": "Abogada litigante independiente",
+          "ocupacionProfesion": "Abogada",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Calle Alcedo 325",
+          "anioTrabajoDesde": "2010",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "220101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "TACNA",
+          "trabajoProvincia": "TACNA",
+          "trabajoDistrito": "TACNA",
+          "idHojaVida": 254416,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 213482,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 96540.72,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 254416,
+            "idEstado": 1,
+            "totalIngresos": 96540.72
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 261704,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "CALLE ALCEDO NUM 325   SECTOR P.J. FRANCISCO BOLOGNESI TACNA - TACNA - TACNA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11025626",
+            "fichaTomoSunarp": null,
+            "autovaluo": 100000,
+            "idHojaVida": 254416,
+            "idEstado": 1,
+            "flValor": "100000"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 213013,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "Z7V519 ",
+            "valor": 14000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "HYUNDAI",
+            "comentario": null,
+            "idHojaVida": 254416,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "00436052",
+      "idHojaVida": 255596,
+      "idOrg": 2939,
+      "nombre": "MARCELINO VELARDE CASTILLO",
+      "partido": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERU",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/f4cfc8f1-d600-4c7b-9864-ff24b29c9346.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "24/09/1954",
+      "lugarNacimiento": "TARATA, TARATA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 242467,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 255596,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
         "otroMueble": [],
         "titularidad": []
       },

@@ -6,10 +6,18 @@ const path = require('path');
 const JNE_FOTO = "https://mpesije.jne.gob.pe/apidocs/";
 const ID_PROCESO_ELECTORAL = 124;
 const DATA_DIR = path.join(__dirname, '..', 'src', 'data');
+const DELAY_MS = 3000; // Delay between requests to avoid rate limiting
+const DELAY_JITTER = 2000; // Random extra delay (0-2s)
+
+const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+const randomDelay = () => DELAY_MS + Math.floor(Math.random() * DELAY_JITTER);
+
+// Browser-like headers to avoid CAPTCHA
+const BROWSER_HEADERS = '-H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" -H "Accept-Language: es-PE,es;q=0.9" -H "Referer: https://votoinformado.jne.gob.pe/"';
 
 function curlGet(url) {
   try {
-    const result = execSync(`curl -sk "${url}" -H "Accept: application/json"`, { encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 });
+    const result = execSync(`curl -sk "${url}" ${BROWSER_HEADERS} -H "Accept: application/json"`, { encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 });
     return JSON.parse(result);
   } catch (e) { return null; }
 }
@@ -17,7 +25,7 @@ function curlGet(url) {
 function curlPost(url, body) {
   try {
     fs.writeFileSync('/tmp/jne-body.json', JSON.stringify(body));
-    const result = execSync('curl -sk -X POST "' + url + '" -H "Content-Type: application/json" -H "Accept: application/json" -d @/tmp/jne-body.json', { encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 });
+    const result = execSync(`curl -sk -X POST "${url}" ${BROWSER_HEADERS} -H "Content-Type: application/json" -H "Accept: application/json" -d @/tmp/jne-body.json`, { encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 });
     return JSON.parse(result);
   } catch (e) {
     console.error(` [CURL ERROR] ${e.message}`);
@@ -118,17 +126,32 @@ async function processFile(inputFile, outputFile, dniField = 'strDocumentoIdenti
   const raw = JSON.parse(fs.readFileSync(inputFile, 'utf8'));
   const candidates = raw.data || [];
   
-  console.log(`Found ${candidates.length} candidates`);
+  // Load existing enriched data to skip already fetched
+  let existing = [];
+  if (fs.existsSync(outputFile)) {
+    const existingData = JSON.parse(fs.readFileSync(outputFile, 'utf8'));
+    existing = existingData.data || [];
+  }
+  const existingDnis = new Set(existing.map(c => c.dni));
+  const toFetch = candidates.filter(c => !existingDnis.has(c[dniField]));
   
-  // Enriquecer TODOS los candidatos, pasando la posición
-  const enriched = [];
-  for (let i = 0; i < candidates.length; i++) {
-    const c = candidates[i];
+  console.log(`Found ${candidates.length} total, ${existing.length} already enriched, ${toFetch.length} to fetch`);
+  
+  if (toFetch.length === 0) {
+    console.log('  All candidates already enriched, skipping.');
+    return;
+  }
+  
+  // Start with existing enriched data
+  const enriched = [...existing];
+  for (let i = 0; i < toFetch.length; i++) {
+    const c = toFetch[i];
     const dni = c[dniField];
     const pos = c.intPosicion;
-    process.stdout.write(`\r  [${i + 1}/${candidates.length}] Fetching ${dni}...`);
+    process.stdout.write(`\r  [${i + 1}/${toFetch.length}] Fetching ${dni}...`);
     const data = enrichCandidato(dni, pos);
     if (data) enriched.push(data);
+    await sleep(randomDelay());
   }
   
   const output = { fetchedAt: new Date().toISOString(), idProcesoElectoral: ID_PROCESO_ELECTORAL, count: enriched.length, data: enriched };
@@ -156,18 +179,29 @@ async function main() {
   console.log(`Type: ${type}${region ? `, Region: ${region}` : ''}\n`);
   
   if (type === 'presidenciales' || type === 'all') {
-    // For presidenciales, we use existing DNI list
     const dnis = ["10001088","17903382","07845838","41265978","06466585","01211014","07246887","06280714","09177250","43287528","09871134","40728264","41904418","07867789","25681995","18141156","25331980","06002034","06506278","16002918","10266270","10219647","43632186","04411300","43409673","06529088","40799023","40139245","08587486","18870364","07260881","08263758","09307547","41373494","08058852","08255194"];
-    console.log(`\nProcessing: candidatosPresidenciales (${dnis.length} DNIs)`);
-    const enriched = [];
-    for (let i = 0; i < dnis.length; i++) {
-      process.stdout.write(`\r  [${i + 1}/${dnis.length}] Fetching ${dnis[i]}...`);
-      const data = enrichCandidato(dnis[i]);
-      if (data) enriched.push(data);
+    const outputFile = path.join(DATA_DIR, 'candidatosPresidenciales-enriched.json');
+    let existing = [];
+    if (fs.existsSync(outputFile)) {
+      existing = JSON.parse(fs.readFileSync(outputFile, 'utf8')).data || [];
     }
-    const output = { fetchedAt: new Date().toISOString(), idProcesoElectoral: ID_PROCESO_ELECTORAL, count: enriched.length, data: enriched };
-    fs.writeFileSync(path.join(DATA_DIR, 'candidatosPresidenciales-enriched.json'), JSON.stringify(output, null, 2));
-    console.log(`\n  Saved ${enriched.length} candidates`);
+    const existingDnis = new Set(existing.map(c => c.dni));
+    const toFetch = dnis.filter(d => !existingDnis.has(d));
+    console.log(`\nProcessing: candidatosPresidenciales (${dnis.length} total, ${existing.length} already, ${toFetch.length} to fetch)`);
+    if (toFetch.length === 0) {
+      console.log('  All candidates already enriched, skipping.');
+    } else {
+      const enriched = [...existing];
+      for (let i = 0; i < toFetch.length; i++) {
+        process.stdout.write(`\r  [${i + 1}/${toFetch.length}] Fetching ${toFetch[i]}...`);
+        const data = enrichCandidato(toFetch[i]);
+        if (data) enriched.push(data);
+        await sleep(randomDelay());
+      }
+      const output = { fetchedAt: new Date().toISOString(), idProcesoElectoral: ID_PROCESO_ELECTORAL, count: enriched.length, data: enriched };
+      fs.writeFileSync(outputFile, JSON.stringify(output, null, 2));
+      console.log(`\n  Saved ${enriched.length} candidates`);
+    }
   }
   
   if (type === 'parlamenAndino' || type === 'all') {

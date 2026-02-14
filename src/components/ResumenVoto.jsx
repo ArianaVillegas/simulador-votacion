@@ -29,24 +29,29 @@ const ESTADOS_EN_PROCESO = ['ADMITIDO', 'EN PROCESO DE TACHAS', 'PUBLICADO PARA 
 const fusionarDatos = (raw, enrich) => {
   const data = raw.data || raw;
   const enrichList = enrich.data || enrich;
-  const enrichedMap = new Map((Array.isArray(enrichList) ? enrichList : []).map(e => [e.dni, e.flags]));
+  const enrichedMap = new Map((Array.isArray(enrichList) ? enrichList : []).map(e => [e.dni, e]));
 
   return (Array.isArray(data) ? data : [])
-    .map(c => ({
-      idOrg: c.idOrganizacionPolitica,
-      pos: c.intPosicion,
-      nombre: `${c.strNombres} ${c.strApellidoPaterno} ${c.strApellidoMaterno}`.trim(),
-      dni: c.strDocumentoIdentidad,
-      foto: c.strNombre || c.strGuidFoto,
-      sexo: c.strSexo,
-      estado: c.strEstadoCandidato,
-      flags: enrichedMap.get(c.strDocumentoIdentidad) || {
-        sentenciaPenal: false,
-        sentenciaPenalDetalle: [],
-        sentenciaObliga: false,
-        sentenciaObligaDetalle: []
-      }
-    }));
+    .map(c => {
+      const e = enrichedMap.get(c.strDocumentoIdentidad);
+      return {
+        idOrg: c.idOrganizacionPolitica,
+        pos: c.intPosicion,
+        nombre: e?.nombre || `${c.strNombres} ${c.strApellidoPaterno} ${c.strApellidoMaterno}`.trim(),
+        dni: c.strDocumentoIdentidad,
+        foto: e?.foto || c.strNombre || c.strGuidFoto,
+        sexo: c.strSexo,
+        estado: e?.estado ?? c.strEstadoCandidato,
+        votosProCrimen: e?.votosCongresoProCrimen || null,
+        porestosnoSlug: e?.porestosnoSlug || null,
+        flags: e?.flags || {
+          sentenciaPenal: false,
+          sentenciaPenalDetalle: [],
+          sentenciaObliga: false,
+          sentenciaObligaDetalle: []
+        }
+      };
+    });
 };
 
 // Procesar senadores nacionales (Híbrido)
@@ -230,6 +235,15 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
         <div className="mt-2 space-y-2 pl-2 border-l-2 border-slate-200 ml-4">
           {seleccion.candidatos.map((c, i) => (
             <div key={i} className="flex flex-col gap-1">
+              {c.noExiste ? (
+                <div className="bg-red-50 border-l-4 border-red-600 p-2 rounded-r-md shadow-sm">
+                  <div className="flex items-center gap-2">
+                    <span className="text-red-600 text-xs">⚠</span>
+                    <span className="text-[10px] font-semibold text-red-800 uppercase">NÚMERO NO EXISTE</span>
+                  </div>
+                  <p className="text-[10px] text-gray-700 mt-1 ml-5">El número {c.numPref} no corresponde a ningún candidato. Tu voto preferencial no será contado.</p>
+                </div>
+              ) : (
               <div className="flex items-center gap-2">
                 <img
                   src={c.foto?.startsWith('http') ? c.foto : `${JNE_FOTO}${c.foto}`}
@@ -249,6 +263,7 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
                   </a>
                 </div>
               </div>
+              )}
               {c.estado && c.estado !== 'INSCRITO' && (() => {
                 const enProceso = ESTADOS_EN_PROCESO.includes(c.estado);
                 const esRechazado = !ESTADOS_VALIDOS.includes(c.estado) && !enProceso;
@@ -282,6 +297,22 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
                 cargosAnteriores={c.flags?.cargosAnteriores}
                 sexo={c.sexo}
               />
+              {c.votosProCrimen && (() => {
+                const aFavor = c.votosProCrimen.filter(v => v.sigla_voto === 'SI +++' || v.voto === 'A favor').length;
+                if (aFavor === 0) return null;
+                return (
+                  <div className="bg-red-50 border-l-4 border-red-700 p-2 rounded-r-md shadow-sm">
+                    <div className="flex items-center gap-2">
+                      <span className="text-red-700 text-xs">🚨</span>
+                      <span className="text-[10px] font-semibold text-red-800 uppercase">VOTÓ A FAVOR DE {aFavor} {aFavor === 1 ? 'LEY' : 'LEYES'} PRO CRIMEN</span>
+                    </div>
+                    <p className="text-[10px] text-gray-700 mt-1 ml-5">
+                      Como congresista, votó a favor de leyes que favorecen al crimen organizado.
+                      {' '}<a href={`https://porestosno.com/content/voto-de-cada-congresista?congresista=${c.porestosnoSlug}`} target="_blank" rel="noopener noreferrer" className="text-red-700 underline font-semibold">Ver detalle</a>
+                    </p>
+                  </div>
+                );
+              })()}
             </div>
           ))}
         </div>

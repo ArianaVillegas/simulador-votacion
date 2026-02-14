@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-02-07T20:42:21.729Z",
+  "fetchedAt": "2026-02-14T01:01:04.094Z",
   "idProcesoElectoral": 124,
-  "count": 54,
+  "count": 60,
   "data": [
     {
       "dni": "00026752",
@@ -11702,6 +11702,938 @@
             "caracteristica": "KIA - SOUL",
             "comentario": null,
             "idHojaVida": 244061,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "40231709",
+      "idHojaVida": 246578,
+      "idOrg": 2985,
+      "nombre": "ANA MARIA HIDALGO CABALLERO",
+      "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/210d5f54-310b-46ef-93d5-e1afa93bf2f2.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "07/10/1978",
+      "lugarNacimiento": "CALLERIA, CORONEL PORTILLO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 239011,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 246578,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [
+          {
+            "idHvEduTecnico": 161051,
+            "tengoEduTecnico": "SI",
+            "cenEstudioTecnico": "HORACIO ZEBALLOS GAMEZ",
+            "carreraTecnico": "PROFESOR DE EDUCACIÓN PRIMARIA",
+            "concluidoEduTecnico": "1",
+            "idHojaVida": 246578,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 199878,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Mayor de San Marcos",
+            "carreraUni": "BACHILLER EN EDUCACION",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2009",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 145514,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "UNIVERSIDAD NACIONAL DE UCAYALI",
+            "txEspecialidadPosgrado": "GESTION EDUCATIVA",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "SI",
+            "esDoctor": null,
+            "txAnioPosgrado": "2020",
+            "idHojaVida": 246578,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 270127,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "IE 64012 MIGUEL GRAU",
+          "ocupacionProfesion": "DOCENTE",
+          "rucTrabajo": null,
+          "direccionTrabajo": "JR MARISCAL NIETO S/N",
+          "anioTrabajoDesde": "2019",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "250101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "UCAYALI",
+          "trabajoProvincia": "CORONEL PORTILLO",
+          "trabajoDistrito": "CALLERIA",
+          "idHojaVida": 246578,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 212382,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 44760,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 246578,
+            "idEstado": 1,
+            "totalIngresos": 44760
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 213006,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "04133U ",
+            "valor": 1000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "COLOR: AZUL, MARCA: HONDA, MODELO: CGL125- 2014",
+            "comentario": "MOTO",
+            "idHojaVida": 246578,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 213007,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 2,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "55449U ",
+            "valor": 2000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "COLOR:BLANCO, MARCA:LIFAN, MODELO:LF150T-C- 2017",
+            "comentario": "MOTO",
+            "idHojaVida": 246578,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 213008,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 3,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "4953AL ",
+            "valor": 5000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "COLOR: NEGRO, MARCA: HERO, MODELO:XPULSE 200-2022",
+            "comentario": "MOTO",
+            "idHojaVida": 246578,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 213009,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 4,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "3403GU ",
+            "valor": 6500,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "MOTO",
+            "comentario": null,
+            "idHojaVida": 246578,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "22666413",
+      "idHojaVida": 251593,
+      "idOrg": 2895,
+      "nombre": "GLADYS ZENAIDA NIETO CAJAS",
+      "partido": "PARTIDO DEMOCRATA VERDE",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/63921f5a-7b52-469d-b554-e437e4140d07.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "08/09/1975",
+      "lugarNacimiento": "SAN MARTIN DE PORRES, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 233152,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 251593,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [
+          {
+            "idHvEduTecnico": 159626,
+            "tengoEduTecnico": "SI",
+            "cenEstudioTecnico": "MAX PLANCK",
+            "carreraTecnico": "PROFESIONAL TÉCNICO EN ENFERMERÍA TÉCNICA",
+            "concluidoEduTecnico": "1",
+            "idHojaVida": 251593,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 259978,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "CENTRO DE SALUD AMBO",
+          "ocupacionProfesion": "TECNICA DE ENFERMERIA",
+          "rucTrabajo": null,
+          "direccionTrabajo": "JR. MARISCAL CASTILLA N° 352",
+          "anioTrabajoDesde": "2021",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "090201",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "HUANUCO",
+          "trabajoProvincia": "AMBO",
+          "trabajoDistrito": "AMBO",
+          "idHojaVida": 251593,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 207723,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 21600,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 251593,
+            "idEstado": 1,
+            "totalIngresos": 21600
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 252396,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "TERRENO",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "MARISCAL CASTILLA",
+            "comentario": "EL MUNICIPIO NO HA GENERADO VALOR DE AUTOAVALUO HASTA LA FECHA",
+            "inmuebleSunarp": "0",
+            "inmuebleSunarpDesc": "NO",
+            "partidaSunarp": null,
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 251593,
+            "idEstado": 1,
+            "flValor": "60000"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "24999291",
+      "idHojaVida": 252063,
+      "idOrg": 2898,
+      "nombre": "AIDE PAMPAÑAUPA VILLENA",
+      "partido": "FE EN EL PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/ec016c5c-ee83-4e87-82ed-8e73f5551eed.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "21/06/1976",
+      "lugarNacimiento": "VILCABAMBA, LA CONVENCION",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 242452,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 252063,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [
+          {
+            "idHvEduTecnico": 161858,
+            "tengoEduTecnico": "SI",
+            "cenEstudioTecnico": "SUIZA",
+            "carreraTecnico": "PROFESIONAL TÉCNICO EN CONTABILIDAD",
+            "concluidoEduTecnico": "1",
+            "idHojaVida": 252063,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 216149,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "99212U ",
+            "valor": 2000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "VX 150 VELOREX 2013 AZUL",
+            "comentario": null,
+            "idHojaVida": 252063,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 216150,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 2,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "44906U ",
+            "valor": 4000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "ZONGSHEN ZX 200 2014 NEGRO",
+            "comentario": null,
+            "idHojaVida": 252063,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 216151,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 3,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "34020U ",
+            "valor": 3500,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "MOTOKAR GL 150 2018 AZUL",
+            "comentario": null,
+            "idHojaVida": 252063,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "09974980",
+      "idHojaVida": 252657,
+      "idOrg": 2985,
+      "nombre": "LUIS DELSON DEL VALLE RAMOS",
+      "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/8763dd97-0945-4e10-adc1-fa22c91fddec.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "18/08/1972",
+      "lugarNacimiento": "SIMON BOLIVAR, PASCO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 234910,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 252657,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [
+          {
+            "idHvNoUniversitaria": 144623,
+            "tengoNoUniversitaria": "SI",
+            "eduNoUniversitaria": null,
+            "centroEstudioNoUni": "I.S. PEDAGOGICO G.B.M",
+            "carreraNoUni": "PROFESOR DE EDUCACION FISICA",
+            "concluidoNoUni": "1",
+            "idHojaVida": 252657,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)"
+          }
+        ],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 263646,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "IE FRANCISCO BOLOGNESI - SHELBY",
+          "ocupacionProfesion": "AUXILIAR DE EDUCACION",
+          "rucTrabajo": null,
+          "direccionTrabajo": "CENTRO POBLADO MENOR DE SHELBY",
+          "anioTrabajoDesde": "2018",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "180113",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "PASCO",
+          "trabajoProvincia": "PASCO",
+          "trabajoDistrito": "VICCO",
+          "idHojaVida": 252657,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 209146,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 24000,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 252657,
+            "idEstado": 1,
+            "totalIngresos": 24000
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 255991,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "ZONA: ZONA REGISTRAL VIII - SEDE HUANCAYO; OFICINA: PASCO",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P13012610",
+            "fichaTomoSunarp": null,
+            "autovaluo": 3000,
+            "idHojaVida": 252657,
+            "idEstado": 1,
+            "flValor": "60000"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "10330217",
+      "idHojaVida": 253258,
+      "idOrg": 2867,
+      "nombre": "RUDESINDA ANTONIA MORA PATIÑO",
+      "partido": "PARTIDO DEMOCRATA UNIDO PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/7faabd97-e6c8-45ac-bc55-1dd4be9ea832.jpg",
+      "estado": "IMPROCEDENTE",
+      "fechaNacimiento": "01/03/1965",
+      "lugarNacimiento": "ABANCAY, ABANCAY",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": null,
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": null,
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "09619224",
+      "idHojaVida": 255155,
+      "idOrg": 2173,
+      "nombre": "OSCAR ALEJANDRO REYNA GARRIDO",
+      "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/09185368-833d-4826-b6be-83d16c4437b0.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "04/08/1971",
+      "lugarNacimiento": "LIMA, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "sentenciaPenal": false,
+        "sentenciaObliga": false
+      },
+      "resumen": {
+        "educacionMaxima": "undefined - undefined",
+        "ingresoTotal": 0,
+        "bienes": 0
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241032,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 255155,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 202343,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Federico Villarreal",
+            "carreraUni": "BACHILLER EN CIENCIAS",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2001",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 202344,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Federico Villarreal",
+            "carreraUni": "INGENIERO ALIMENTARIO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2021",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 273657,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "MUNICIPALIDAD DIST DE CODO DEL POZUZO",
+          "ocupacionProfesion": "Gerente de Desarrollo Social y Servicios Públicos",
+          "rucTrabajo": "20227391155",
+          "direccionTrabajo": "JR. HUAMPAL NRO. S/N C.P. CODO DEL POZUZO (FRENTE A LA PLAZA) HUANUCO - PUERTO INCA",
+          "anioTrabajoDesde": "2024",
+          "anioTrabajoHasta": "2024",
+          "ubigeoTrabajo": "090803",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "HUANUCO",
+          "trabajoProvincia": "PUERTO INCA",
+          "trabajoDistrito": "CODO DEL POZUZO",
+          "idHojaVida": 255155,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 273658,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 2,
+          "centroTrabajo": "MUNICIPALIDAD PROVINCIAL DE CORONEL PORTILLO",
+          "ocupacionProfesion": "Servicio de levantamiento de información sobre el Tratamiento del Agua y Disposición Sanitaria",
+          "rucTrabajo": "20227391155",
+          "direccionTrabajo": "Jr. Huampal Nro. S/n - Frente a la Plaza",
+          "anioTrabajoDesde": "2023",
+          "anioTrabajoHasta": "2023",
+          "ubigeoTrabajo": "250101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "UCAYALI",
+          "trabajoProvincia": "CORONEL PORTILLO",
+          "trabajoDistrito": "CALLERIA",
+          "idHojaVida": 255155,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 273663,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 3,
+          "centroTrabajo": "EMPRESA MUNICIPAL DE AGUA POTABLE Y ALCANTARILLADO DE CORONEL PORTILLO S",
+          "ocupacionProfesion": "Jefatura y Asistente en Control de Calidad",
+          "rucTrabajo": "20128985841",
+          "direccionTrabajo": "JR. JULIO C. ARANA NRO. 433 URBANA UCAYALI - CORONEL PORTILLO - CALLERIA",
+          "anioTrabajoDesde": "2002",
+          "anioTrabajoHasta": "2022",
+          "ubigeoTrabajo": "250101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "UCAYALI",
+          "trabajoProvincia": "CORONEL PORTILLO",
+          "trabajoDistrito": "CALLERIA",
+          "idHojaVida": 255155,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "21 años de trabajo en calidad de permanente"
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 214101,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 25000,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 255155,
+            "idEstado": 1,
+            "totalIngresos": 25000
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 265121,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "#########",
+            "comentario": "Jr. Andalucía M.13, L 12. A-H. La Paz de Yarinacocha",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P19033564",
+            "fichaTomoSunarp": null,
+            "autovaluo": 13994,
+            "idHojaVida": 255155,
+            "idEstado": 1,
+            "flValor": "60000"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 215014,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "NY34929",
+            "valor": 0,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": ".",
+            "comentario": null,
+            "idHojaVida": 255155,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 215015,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 2,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "U27267 ",
+            "valor": 0,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": ".",
+            "comentario": null,
+            "idHojaVida": 255155,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 215016,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 3,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "B7E149 ",
+            "valor": 40000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "Camioneta Rural",
+            "comentario": null,
+            "idHojaVida": 255155,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 215017,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 4,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "82151U ",
+            "valor": 0,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": ".",
+            "comentario": null,
+            "idHojaVida": 255155,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 215018,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 5,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "24494U ",
+            "valor": 0,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": ".",
+            "comentario": null,
+            "idHojaVida": 255155,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 215023,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 6,
+            "vehiculo": "Motocicleta",
+            "marca": null,
+            "placa": "7524-9U",
+            "valor": 15000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "Motocicleta",
+            "comentario": null,
+            "idHojaVida": 255155,
             "idEstado": 1
           }
         ],
