@@ -104,6 +104,9 @@ const EXPLICACION_DELITOS = {
 
 const EXPLICACION_CIVILES = {
     "FAMILIA / ALIMENTARIA": "no cumplir con pagos de pensión de alimentos, obligación económica destinada al cuidado y bienestar de sus hijos/as",
+    "AUMENTO DE ALIMENTOS": "demanda para incrementar el monto de la pensión de alimentos actual",
+    "FILIACIÓN EXTRAMATRIMONIAL": "proceso legal para el reconocimiento de paternidad/maternidad y asignación de pensión",
+    "FILIACIÓN": "proceso de reconocimiento de vínculo familiar y obligación alimentaria",
     "LABORAL": "no pagar deudas laborales a sus trabajadores",
     "CIVIL": "incumplimiento inexcusable de deudas",
     "CONTRACTUAL": "no respetar sus compromisos o contratos",
@@ -115,9 +118,12 @@ const JudicialAlert = ({
     sentenciaPenalDetalle = [],
     sentenciaObliga,
     sentenciaObligaDetalle = [],
+    congresistaActual = false,
+    exCongresista = false,
+    cargosAnteriores = [],
     sexo = 'MASCULINO'
 }) => {
-    if (!sentenciaPenal && !sentenciaObliga) return null;
+    if (!sentenciaPenal && !sentenciaObliga && !congresistaActual && !exCongresista) return null;
 
     const esFemenino = sexo === 'FEMENINO';
 
@@ -150,6 +156,17 @@ const JudicialAlert = ({
                     explicacion = EXPLICACION_DELITOS["PECULADO"];
                 } else if (upperC.includes("AGRESIONES") || upperC.includes("AGREDIR") || upperC.includes("MUJERES") || upperC.includes("MUJES")) {
                     explicacion = EXPLICACION_DELITOS["AGRESIONES EN CONTRA DE LAS MUJERES O INTEGRANTES DEL GRUPO FAMILIAR"];
+                }
+            } else if (!esPenal && !explicacion) {
+                const upperC = corregido.toUpperCase();
+                if (upperC.includes("AUMENTO") && (upperC.includes("ALIMENT") || upperC.includes("PENSION"))) {
+                    explicacion = EXPLICACION_CIVILES["AUMENTO DE ALIMENTOS"];
+                } else if (upperC.includes("FILIACI") || upperC.includes("RECONOCIMIENTO") || upperC.includes("PARTIDA")) {
+                    explicacion = upperC.includes("EXTRAMATRIMONIAL")
+                        ? EXPLICACION_CIVILES["FILIACIÓN EXTRAMATRIMONIAL"]
+                        : EXPLICACION_CIVILES["FILIACIÓN"];
+                } else if (upperC.includes("ALIMENT")) {
+                    explicacion = EXPLICACION_CIVILES["FAMILIA / ALIMENTARIA"];
                 }
             }
 
@@ -209,8 +226,82 @@ const JudicialAlert = ({
     const tituloPenal = esFemenino ? "SENTENCIADA PENALMENTE POR:" : "SENTENCIADO PENALMENTE POR:";
     const tituloCivil = esFemenino ? "SENTENCIADA EN DEMANDAS CIVILES POR:" : "SENTENCIADO EN DEMANDAS CIVILES POR:";
 
+    const congressTheme = {
+        bg: 'bg-red-50',
+        border: 'border-red-600',
+        text: 'text-red-800',
+        bullet: 'text-red-600',
+        icon: 'text-red-600'
+    };
+
+    const exCongressTheme = {
+        bg: 'bg-slate-50',
+        border: 'border-slate-400',
+        text: 'text-slate-700',
+        bullet: 'text-slate-500',
+        icon: 'text-slate-500'
+    };
+
+    const tituloCongress = esFemenino ? "CONGRESISTA ACTUAL:" : "CONGRESISTA ACTUAL:";
+    const tituloExCongress = esFemenino ? "EX CONGRESISTA:" : "EX CONGRESISTA:";
+
+    // Extraer periodos de cargos de congresista
+    const periodosCongress = (cargosAnteriores || [])
+        .filter(c => c.toUpperCase().includes("CONGRESISTA"))
+        .map(c => {
+            const match = c.match(/\((\d{4}-\d{4})\)/);
+            return match ? match[1] : c;
+        });
+
+    const periodoActual = periodosCongress.find(p => p.includes("2021-2025") || p.includes("2021-2026")) || "2021-2026";
+    const periodosPasados = periodosCongress.filter(p => p !== periodoActual);
+
     return (
         <div className="space-y-1.5 mt-1">
+            {congresistaActual && (
+                <div className={`${congressTheme.bg} border-l-4 ${congressTheme.border} p-2 rounded-r-md shadow-sm`}>
+                    <div className="flex flex-col gap-1">
+                        <div className="flex items-center gap-2">
+                            <div className="w-3 flex justify-center shrink-0">
+                                <AlertTriangle className={congressTheme.icon} />
+                            </div>
+                            <span className={`text-[8.5px] font-bold ${congressTheme.text} uppercase leading-none`}>
+                                {tituloCongress}
+                            </span>
+                        </div>
+                        <div className="flex items-start gap-2">
+                            <div className="w-3 flex justify-center shrink-0 mt-[1px]">
+                                <span className={`text-[10px] ${congressTheme.bullet} font-bold leading-none`}>•</span>
+                            </div>
+                            <span className="text-[10px] font-medium text-gray-700 leading-tight">
+                                Actualmente se desempeña como {esFemenino ? 'congresista' : 'congresista'} de la República (Periodo {periodoActual}).
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            )}
+            {exCongresista && !congresistaActual && (
+                <div className={`${exCongressTheme.bg} border-l-4 ${exCongressTheme.border} p-2 rounded-r-md shadow-sm`}>
+                    <div className="flex flex-col gap-1">
+                        <div className="flex items-center gap-2">
+                            <div className="w-3 flex justify-center shrink-0">
+                                <AlertTriangle className={exCongressTheme.icon} />
+                            </div>
+                            <span className={`text-[8.5px] font-bold ${exCongressTheme.text} uppercase leading-none`}>
+                                {tituloExCongress}
+                            </span>
+                        </div>
+                        <div className="flex items-start gap-2">
+                            <div className="w-3 flex justify-center shrink-0 mt-[1px]">
+                                <span className={`text-[10px] ${exCongressTheme.bullet} font-bold leading-none`}>•</span>
+                            </div>
+                            <span className="text-[10px] font-medium text-gray-700 leading-tight">
+                                Ha ocupado el cargo de congresista en periodos anteriores{periodosPasados.length > 0 ? `: ${periodosPasados.join(', ')}` : ''}.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            )}
             {sentenciaPenal && renderSegment(tituloPenal, sentenciaPenalDetalle, EXPLICACION_DELITOS, penalTheme, true)}
             {sentenciaObliga && renderSegment(tituloCivil, sentenciaObligaDetalle, EXPLICACION_CIVILES, civilTheme, false)}
         </div>

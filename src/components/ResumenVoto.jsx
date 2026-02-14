@@ -217,6 +217,9 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
               sentenciaPenalDetalle={seleccion.flags?.sentenciaPenalDetalle}
               sentenciaObliga={seleccion.flags?.sentenciaObliga}
               sentenciaObligaDetalle={seleccion.flags?.sentenciaObligaDetalle}
+              congresistaActual={seleccion.flags?.congresistaActual}
+              exCongresista={seleccion.flags?.exCongresista}
+              cargosAnteriores={seleccion.flags?.cargosAnteriores}
               sexo={seleccion.sexo}
             />
           </div>
@@ -274,6 +277,9 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
                 sentenciaPenalDetalle={c.flags?.sentenciaPenalDetalle}
                 sentenciaObliga={c.flags?.sentenciaObliga}
                 sentenciaObligaDetalle={c.flags?.sentenciaObligaDetalle}
+                congresistaActual={c.flags?.congresistaActual}
+                exCongresista={c.flags?.exCongresista}
+                cargosAnteriores={c.flags?.cargosAnteriores}
                 sexo={c.sexo}
               />
             </div>
